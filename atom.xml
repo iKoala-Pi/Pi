@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>iKoala</title>
   
-  
+  <subtitle>考拉成长</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.ikoala.app/"/>
@@ -10,7 +10,7 @@
   <id>http://www.ikoala.app/</id>
   
   <author>
-    <name>John Doe</name>
+    <name>胡宾</name>
     
   </author>
   
