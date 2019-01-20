@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.ikoala.app/"/>
-  <updated>2019-01-06T10:09:59.215Z</updated>
+  <updated>2018-12-31T15:44:39.309Z</updated>
   <id>http://www.ikoala.app/</id>
   
   <author>
@@ -15,20 +15,6 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>hello-world</title>
-    <link href="http://www.ikoala.app/2019/01/06/hello-world-1/"/>
-    <id>http://www.ikoala.app/2019/01/06/hello-world-1/</id>
-    <published>2019-01-06T10:09:59.000Z</published>
-    <updated>2019-01-06T10:09:59.215Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-    
-  </entry>
   
   <entry>
     <title>024_Men_Idv_Prs_2018 年度总结 II</title>
@@ -56,39 +42,11 @@
   </entry>
   
   <entry>
-    <title>post name</title>
-    <link href="http://www.ikoala.app/2018/12/31/post-name/"/>
-    <id>http://www.ikoala.app/2018/12/31/post-name/</id>
-    <published>2018-12-31T04:43:11.000Z</published>
-    <updated>2018-12-31T04:43:11.543Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>hello Hexo</title>
-    <link href="http://www.ikoala.app/2018/12/31/hello-hexo/"/>
-    <id>http://www.ikoala.app/2018/12/31/hello-hexo/</id>
-    <published>2018-12-31T03:22:13.000Z</published>
-    <updated>2018-12-31T03:22:13.939Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="http://www.ikoala.app/2018/12/31/hello-world/"/>
-    <id>http://www.ikoala.app/2018/12/31/hello-world/</id>
-    <published>2018-12-31T02:53:47.007Z</published>
-    <updated>2018-12-31T02:53:47.007Z</updated>
+    <title>023_Men_Idv_Prs_2018 年度总结 I</title>
+    <link href="http://www.ikoala.app/2018/12/25/023-men-idv-prs-2018-nian-du-zong-jie-i-20181225/"/>
+    <id>http://www.ikoala.app/2018/12/25/023-men-idv-prs-2018-nian-du-zong-jie-i-20181225/</id>
+    <published>2018-12-25T07:02:00.000Z</published>
+    <updated>2018-12-26T08:28:45.948Z</updated>
     
     <summary type="html">
     
@@ -96,7 +54,88 @@
       
         
         
-          &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a
+          &lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;The annual summary I of 2018&lt;/em&gt;[20]&lt;br&gt;@20181225 by 胡宾&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>022_Men_Idv_Fut_抬头看趋势与低头看自己</title>
+    <link href="http://www.ikoala.app/2018/12/12/022-men-idv-fut-tai-tou-kan-qu-shi-yu-di-tou-kan-zi-ji-20181130/"/>
+    <id>http://www.ikoala.app/2018/12/12/022-men-idv-fut-tai-tou-kan-qu-shi-yu-di-tou-kan-zi-ji-20181130/</id>
+    <published>2018-12-12T07:30:00.000Z</published>
+    <updated>2018-12-15T04:51:10.622Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;blockquote&gt;
+&lt;p&gt; &lt;em&gt;Not only look up at the sky but also see your inner being!&lt;/em&gt;[20]&lt;br&gt;@20181130 by 胡宾&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;img
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>021_Men_Idv_Pas_寻找那个叫做自己的人</title>
+    <link href="http://www.ikoala.app/2018/12/12/021-men-idv-pas-xun-zhao-na-ge-jiao-zuo-zi-ji-de-ren-20181111/"/>
+    <id>http://www.ikoala.app/2018/12/12/021-men-idv-pas-xun-zhao-na-ge-jiao-zuo-zi-ji-de-ren-20181111/</id>
+    <published>2018-12-12T07:30:00.000Z</published>
+    <updated>2018-12-13T06:27:45.126Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;blockquote&gt;
+&lt;p&gt; &lt;em&gt;Try to find yourself!&lt;/em&gt;[20]&lt;br&gt; @20181111 by 胡宾&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;img
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>020_Men_Idv_Prs_30岁时该想点啥？</title>
+    <link href="http://www.ikoala.app/2018/12/12/020-men-idv-prs-30-sui-shi-gai-xiang-dian-sha-20181029/"/>
+    <id>http://www.ikoala.app/2018/12/12/020-men-idv-prs-30-sui-shi-gai-xiang-dian-sha-20181029/</id>
+    <published>2018-12-12T07:30:00.000Z</published>
+    <updated>2018-12-15T04:50:52.900Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;What should you think  when u r 30?&lt;/em&gt;[20]&lt;br&gt;@20181029 by 胡宾&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;img
         
       
     
