@@ -574,31 +574,34 @@ The annual summary I of 2018
     </div>
 
     
-        <link rel="stylesheet" href="/libs/gitalk/gitalk.css">
-<link rel="stylesheet" href="/css/my-gitalk.css">
 
-<div class="card gitalk-card" data-aos="fade-up">
-    <div id="gitalk-container" class="card-content"></div>
+    
+
+    
+        <div class="disqus-card card" data-aos="fade-up">
+    <div id="disqus_thread" class="card-content">
+        <noscript>Please enable JavaScript to view the
+            <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+        </noscript>
+    </div>
 </div>
 
-<script src="/libs/gitalk/gitalk.min.js"></script>
-<script>
-    let gitalk = new Gitalk({
-        clientID: '',
-        clientSecret: '',
-        repo: '',
-        owner: '',
-        admin: null,
-        id: '2018-12-25T15-02-00',
-        distractionFreeMode: false  // Facebook-like distraction free mode
-    });
+<script type="text/javascript">
+    disqus_config = function () {
+        this.page.url = 'http://www.ikoala.app/2018/12/25/023-men-idv-prs-2018-nian-du-zong-jie-i-20181225/';
+        this.page.identifier = '/2018/12/25/023-men-idv-prs-2018-nian-du-zong-jie-i-20181225/';
+        this.page.title = '023_Men_Idv_Prs_2018 年度总结 I';
+    };
+    let disqus_shortname = 'guest';
 
-    gitalk.render('gitalk-container');
+    (function () { // DON'T EDIT BELOW THIS LINE
+        let d = document, s = d.createElement('script');
+        // 如：s.src = 'https://blinkfox.disqus.com/embed.js';
+        s.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
 </script>
-    
-
-    
-
     
 
     
