@@ -404,8 +404,8 @@ To the one who was once confused.
 <p>那么我碰到了谁，得到了什么答案，采取了哪些行动，有什么效果，咱们下回分解。</p>
 <hr>
 <h1 id="ChangeLog"><a href="#ChangeLog" class="headerlink" title="ChangeLog"></a>ChangeLog</h1><ul>
-<li>重新整理发布于<strong>考拉派</strong>官网@20190131 by 胡宾</li>
-<li>首次发布于<strong>考拉派</strong>官微@20180415 by 胡宾</li>
+<li>更发于<strong>考拉派</strong>官网@20190131 by 胡宾</li>
+<li>首发于<strong>考拉派</strong>官微@20180415 by 胡宾</li>
 </ul>
 
             </div>
@@ -552,34 +552,31 @@ To the one who was once confused.
     </div>
 
     
+        <link rel="stylesheet" href="/libs/gitalk/gitalk.css">
+<link rel="stylesheet" href="/css/my-gitalk.css">
 
-    
-
-    
-        <div class="disqus-card card" data-aos="fade-up">
-    <div id="disqus_thread" class="card-content">
-        <noscript>Please enable JavaScript to view the
-            <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
-        </noscript>
-    </div>
+<div class="card gitalk-card" data-aos="fade-up">
+    <div id="gitalk-container" class="card-content"></div>
 </div>
 
-<script type="text/javascript">
-    disqus_config = function () {
-        this.page.url = 'http://www.ikoala.app/2018/04/15/009-men-idv-prs-zhi-ceng-jing-mi-mang-bu-an-de-zi-ji-20180415/';
-        this.page.identifier = '/2018/04/15/009-men-idv-prs-zhi-ceng-jing-mi-mang-bu-an-de-zi-ji-20180415/';
-        this.page.title = '009_Men_Idv_Prs_致曾经迷茫不安的自己';
-    };
-    let disqus_shortname = '';
+<script src="/libs/gitalk/gitalk.min.js"></script>
+<script>
+    let gitalk = new Gitalk({
+        clientID: '',
+        clientSecret: '',
+        repo: '',
+        owner: '',
+        admin: null,
+        id: '2018-04-15T15-30-00',
+        distractionFreeMode: false  // Facebook-like distraction free mode
+    });
 
-    (function () { // DON'T EDIT BELOW THIS LINE
-        let d = document, s = d.createElement('script');
-        // 如：s.src = 'https://blinkfox.disqus.com/embed.js';
-        s.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-    })();
+    gitalk.render('gitalk-container');
 </script>
+    
+
+    
+
     
 
     
