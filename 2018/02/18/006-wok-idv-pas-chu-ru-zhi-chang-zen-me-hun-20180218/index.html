@@ -1,9 +1,8 @@
 <!DOCTYPE HTML>
 <html lang="zh-CN">
-<head>
-    
 
-<head><meta name="generator" content="Hexo 3.8.0">
+
+<head><meta name="generator" content="Hexo 3.9.0">
     <meta charset="utf-8">
     <meta name="keywords" content="006_Wok_Idv_Pas_初入职场怎么混？, 观世界 做自己 博观约取 厚积薄发">
     <meta name="description" content="
@@ -32,11 +31,13 @@ How do newcomers in the workplace do ?
     <link rel="stylesheet" type="text/css" href="/libs/lightGallery/css/lightgallery.min.css">
     <link rel="stylesheet" type="text/css" href="/css/matery.css">
     <link rel="stylesheet" type="text/css" href="/css/my.css">
+    <style type="text/css">
+        
+    </style>
 
     <script src="/libs/jquery/jquery-2.2.0.min.js"></script>
 <link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"></head>
 
-</head>
 
 <body>
 
@@ -113,7 +114,7 @@ How do newcomers in the workplace do ?
     
     <li>
         <a id="toggleSearch" class="waves-effect waves-light">
-            <i id="searchIcon" class="mdi-action-search"></i>
+            <i id="searchIcon" class="mdi-action-search" title="搜索"></i>
         </a>
     </li>
 
@@ -239,38 +240,17 @@ How do newcomers in the workplace do ?
     
     <link rel="stylesheet" href="/libs/tocbot/tocbot.css">
 <style>
-    #articleContent h1,
-    #articleContent h2,
-    #articleContent h3,
-    #articleContent h4,
-    #articleContent h5,
-    #articleContent h6 {
-        padding-top: 76px;
-        margin-top: -76px;
-    }
-
-    #articleContent h1 {
-        line-height: 3.5rem;
-    }
-
-    #articleContent h2 {
-        line-height: 3.2rem;
-    }
-
-    #articleContent h3 {
-        line-height: 2.8rem;
-    }
-
-    #articleContent h4 {
-        line-height: 2.5rem;
-    }
-
-    #articleContent h5 {
-        line-height: 2.2rem;
-    }
-
-    #articleContent h6 {
-        line-height: 1.9rem;
+    #articleContent h1::before,
+    #articleContent h2::before,
+    #articleContent h3::before,
+    #articleContent h4::before,
+    #articleContent h5::before,
+    #articleContent h6::before {
+        display: block;
+        content: " ";
+        height: 100px;
+        margin-top: -100px;
+        visibility: hidden;
     }
 
     #articleContent :focus {
@@ -332,57 +312,81 @@ How do newcomers in the workplace do ?
 <div id="artDetail">
     <div class="card">
         <div class="card-content article-info">
-            
-            <div class="article-tag">
-                
-                <a href="/tags/职场/" target="_blank">
-                    <span class="chip bg-color">职场</span>
-                </a>
-                
-                <a href="/tags/千里马-伯乐/" target="_blank">
-                    <span class="chip bg-color">千里马 伯乐</span>
-                </a>
-                
-                <a href="/tags/劳资争议/" target="_blank">
-                    <span class="chip bg-color">劳资争议</span>
-                </a>
-                
-                <a href="/tags/A-S-K-公式/" target="_blank">
-                    <span class="chip bg-color">A.S.K.公式</span>
-                </a>
-                
+            <div class="row tag-cate">
+                <div class="col s7">
+                    
+                    <div class="article-tag">
+                        
+                            <a href="/tags/职场/" target="_blank">
+                                <span class="chip bg-color">职场</span>
+                            </a>
+                        
+                            <a href="/tags/千里马-伯乐/" target="_blank">
+                                <span class="chip bg-color">千里马 伯乐</span>
+                            </a>
+                        
+                            <a href="/tags/劳资争议/" target="_blank">
+                                <span class="chip bg-color">劳资争议</span>
+                            </a>
+                        
+                            <a href="/tags/A-S-K-公式/" target="_blank">
+                                <span class="chip bg-color">A.S.K.公式</span>
+                            </a>
+                        
+                    </div>
+                    
+                </div>
+                <div class="col s5 right-align">
+                    
+                    <div class="post-cate">
+                        <i class="fa fa-bookmark fa-fw icon-category"></i>
+                        
+                            <a href="/categories/胡宾-Robin/" class="post-category" target="_blank">
+                                胡宾 Robin
+                            </a>
+                        
+                    </div>
+                    
+                </div>
             </div>
-            
-            <div class="post-info">
-                
-                <span class="post-cate">
-                <!--<span class="post-cate" style="margin-right: 0px">-->
-                    <i class="fa fa-bookmark fa-fw icon-category"></i>
-                    
-                    <a href="/categories/胡宾-Robin/" class="post-category" target="_blank">
-                        胡宾 Robin
-                    </a>
-                    
-                </span>
-                
 
-                <span class="post-date">
-                    <i class="fa fa-clock-o fa-fw"></i>2018-02-18
-                </span>
+            <div class="post-info">
+                <div class="post-date info-break-policy">
+                    <i class="fa fa-calendar-minus-o fa-fw"></i>发布日期:&nbsp;&nbsp;
+                    2018-02-18
+                </div>
+
+                
+                    
+                    <div class="info-break-policy">
+                        <i class="fa fa-file-word-o fa-fw"></i>文章字数:&nbsp;&nbsp;
+                        1.7k
+                    </div>
+                    
+
+                    
+                    <div class="info-break-policy">
+                        <i class="fa fa-clock-o fa-fw"></i>阅读时长:&nbsp;&nbsp;
+                        5 分
+                    </div>
+                    
+                
 				
 				
-                    <span id="busuanzi_container_page_pv" class="post-read">
-                    <i class="fa fa-eye fa-fw"></i>阅读 <span id="busuanzi_value_page_pv"></span>
+                    <div id="busuanzi_container_page_pv" class="info-break-policy">
+                        <i class="fa fa-eye fa-fw"></i>阅读次数:&nbsp;&nbsp;
+                        <span id="busuanzi_value_page_pv"></span>
+                    </div>
 				
-            </span></div>
+            </div>
         </div>
-        <hr>
+        <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
                 <blockquote>
 <p><em>How do newcomers in the workplace do ?</em></p>
 </blockquote>
-<p><img src="https://res.cloudinary.com/ikoala/image/upload/v1548661768/BlogPic_Cldi_KOLA/thinking-hack_career.jpg" alt=""></p>
+<p><img src="https://res.cloudinary.com/ikoala/image/upload/v1548661768/BlogPic_Cldi_KOLA/thinking-hack_career.jpg" alt></p>
 <hr>
 <p>[TOC]</p>
 <h1 id="回顾几个概念"><a href="#回顾几个概念" class="headerlink" title="回顾几个概念"></a>回顾几个概念</h1><p>上次关于工作的话题，聊到了几个基本概念：产业、行业、企业,有朋友可能觉得，了解这些似乎没啥大用，且听下面部分：</p>
@@ -390,26 +394,26 @@ How do newcomers in the workplace do ?
 <p>别急，老规矩，先上一首歌</p>
 </blockquote>
 <p><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=509745574&auto=0&height=66"></iframe></p>
-<h1 id="初入职场几大症状："><a href="#初入职场几大症状：" class="headerlink" title="初入职场几大症状："></a>初入职场几大症状：</h1><p>经过了高考“独木桥”，好不容易，熬完4年毕业了，找工作又是一大关，经各种渠道各种投简历，终于入职了，马上可能就遭遇以下状况：<br><img src="https://res.cloudinary.com/ikoala/image/upload/v1548661766/BlogPic_Cldi_KOLA/swift_horse_career.jpg" alt=""><br>通常指最初1-3年：    </p>
+<h1 id="初入职场几大症状："><a href="#初入职场几大症状：" class="headerlink" title="初入职场几大症状："></a>初入职场几大症状：</h1><p>经过了高考“独木桥”，好不容易，熬完4年毕业了，找工作又是一大关，经各种渠道各种投简历，终于入职了，马上可能就遭遇以下状况：<br><img src="https://res.cloudinary.com/ikoala/image/upload/v1548661766/BlogPic_Cldi_KOLA/swift_horse_career.jpg" alt><br>通常指最初1-3年：    </p>
 <ol>
 <li>甭管啥，先干着，说不定就有好机会了【等机会自动出现型】</li>
 <li>我就拿这么些工资，我就干这么多活儿，不加薪打死也不多干【不加薪不多干型】</li>
 <li>考虑那么多是老板的事儿，我做好这一摊儿就行了【只想当大头兵型】</li>
 <li>心想：感觉在这里不受重视，才能被埋没无法发挥【自认为怀才不遇型】</li>
 </ol>
-<h2 id="企业开出的药方："><a href="#企业开出的药方：" class="headerlink" title="企业开出的药方："></a>企业开出的药方：</h2><p><img src="https://res.cloudinary.com/ikoala/image/upload/v1548661767/BlogPic_Cldi_KOLA/visioning_people_cartoon.jpg" alt=""> </p>
+<h2 id="企业开出的药方："><a href="#企业开出的药方：" class="headerlink" title="企业开出的药方："></a>企业开出的药方：</h2><p><img src="https://res.cloudinary.com/ikoala/image/upload/v1548661767/BlogPic_Cldi_KOLA/visioning_people_cartoon.jpg" alt> </p>
 <ul>
 <li>各位新入职的同学们，咱们公司历史悠久，实力雄厚，鼓励创新，能充分发挥你们的才能！</li>
 <li>只要你是人才，公司肯定会重用，你们看，某某事业部总经理就是通过竞聘上去的，你们要努力啊！</li>
 <li>你们要有主人翁精神，把公司当做家，尽职尽责，公司是不会亏待你们的！</li>
 <li>公司的机制是公平透明的，只要你能力达到，公司一定会考虑重用的！</li>
 </ul>
-<h3 id="争议点"><a href="#争议点" class="headerlink" title="争议点"></a>争议点</h3><p>相信以上的内容，大家也是耳熟能详的，劳资双方基本会集中在一个争议点上：<br><strong>资方认为</strong>，没有达到公司要求的水平，如何谈考虑升职/加薪？<br><strong>劳方认为</strong>，不升职/加薪，如何更投入的工作，更多的付出？<br>这样就陷入了先有鸡还是先有蛋的死结！<br><img src="https://res.cloudinary.com/ikoala/image/upload/v1548661755/BlogPic_Cldi_KOLA/chicken_egg_cartoon_fun.jpg" alt=""></p>
+<h3 id="争议点"><a href="#争议点" class="headerlink" title="争议点"></a>争议点</h3><p>相信以上的内容，大家也是耳熟能详的，劳资双方基本会集中在一个争议点上：<br><strong>资方认为</strong>，没有达到公司要求的水平，如何谈考虑升职/加薪？<br><strong>劳方认为</strong>，不升职/加薪，如何更投入的工作，更多的付出？<br>这样就陷入了先有鸡还是先有蛋的死结！<br><img src="https://res.cloudinary.com/ikoala/image/upload/v1548661755/BlogPic_Cldi_KOLA/chicken_egg_cartoon_fun.jpg" alt></p>
 <h3 id="靠谱的做法"><a href="#靠谱的做法" class="headerlink" title="靠谱的做法"></a>靠谱的做法</h3><p>对于BAT或是欧美外企，发展的很成熟，职位上升的通道标准基本都是公开的（这个标准靠公司自己基本是搞不出来的，一般需要外部咨询公司定制化开发），会在固定的时间去评估，是否能升职/加薪。</p>
 <blockquote>
 <p>那么对于在大量没有这样的标准，或者有也是非公开透明的公司，该怎么办呢？    </p>
 </blockquote>
-<h1 id="我的建议"><a href="#我的建议" class="headerlink" title="我的建议"></a>我的建议</h1><p><img src="https://res.cloudinary.com/ikoala/image/upload/v1548661762/BlogPic_Cldi_KOLA/path_target_cartoon.jpg" alt=""><br>这里只探讨积极正向的解决方案：    </p>
+<h1 id="我的建议"><a href="#我的建议" class="headerlink" title="我的建议"></a>我的建议</h1><p><img src="https://res.cloudinary.com/ikoala/image/upload/v1548661762/BlogPic_Cldi_KOLA/path_target_cartoon.jpg" alt><br>这里只探讨积极正向的解决方案：    </p>
 <ol>
 <li>根据自己的专业找对口的行业，然后向行业内的前几名公司努力靠近，比如学财务的，努力向四大靠近；学通信的向华为靠近等等。</li>
 <li>对自己的专业不太满意，想方设法学习提升，向BAT靠近（这三家都是巨无霸，各种职位都需要）。以上2种方案看似谁都能想到，不过我要表达的是，知名公司优秀的人相对较多，能极大<strong>开阔视野</strong>，说不定就能遇到<strong>能点拨你的人</strong>，对职业生涯产生极大助推，不要只是去名企镀镀金，然后去找一份更好的工作。</li>
@@ -421,7 +425,7 @@ How do newcomers in the workplace do ?
 <li>技能是关于“怎么做”的知识；比如office技能，通常我们会说，技能熟练不熟练。一般分为：<strong>硬技能与软技能</strong>，比如，编代码就属于硬技能-相对好衡量，能看得见，容易感受到；沟通、倾听、说服属于软技能-相对不好衡量，涉及到人的态度、动机等领域。</li>
 <li>能力是完成一定活动的本领，是一种力量，这个就比较综合了，是利用知识，技能等达成目的/目标才能显示出来的，能力一般会用等级来划分，初级、中级、高级；比如，解决问题的能力，这个就需要长时间的积累了，不是一天两天的事。</li>
 </ul>
-<h3 id="A-S-K-公式"><a href="#A-S-K-公式" class="headerlink" title="A.S.K.公式"></a>A.S.K.公式</h3><p><img src="https://res.cloudinary.com/ikoala/image/upload/v1548661765/BlogPic_Cldi_KOLA/zoom_Superman_film.jpg" alt=""><br>   <strong>知识（靠学习）+技能（靠训练）=能力（靠时间）</strong></p>
+<h3 id="A-S-K-公式"><a href="#A-S-K-公式" class="headerlink" title="A.S.K.公式"></a>A.S.K.公式</h3><p><img src="https://res.cloudinary.com/ikoala/image/upload/v1548661765/BlogPic_Cldi_KOLA/zoom_Superman_film.jpg" alt><br>   <strong>知识（靠学习）+技能（靠训练）=能力（靠时间）</strong></p>
 <h3 id="从招聘需求反向分析"><a href="#从招聘需求反向分析" class="headerlink" title="从招聘需求反向分析"></a>从招聘需求反向分析</h3><p>下面，我们拿一个在招聘网站看到的职位任职要求来练练手，分析出所需的知识与技能。</p>
 <blockquote>
 <p>   <em>某职位任职资格：</em></p>
@@ -450,7 +454,7 @@ How do newcomers in the workplace do ?
 </ul>
 
             </div>
-            <hr>
+            <hr/>
 
             
             <style>
@@ -550,7 +554,7 @@ How do newcomers in the workplace do ?
                         <img src="/medias/reward/wechat.png" class="reward-img" alt="微信打赏二维码">
                     </div>
                     <div id="alipay">
-                        <img src="/medias/reward/alipay.png" class="reward-img" alt="支付宝打赏二维码">
+                        <img src="/medias/reward/alipay.jpg" class="reward-img" alt="支付宝打赏二维码">
                     </div>
                 </div>
             </div>
@@ -583,7 +587,9 @@ How do newcomers in the workplace do ?
 
             <div class="reprint">
                 <p>
-                    <span class="reprint-tip">转载请注明: </span>
+                    <span class="reprint-tip">
+                        <i class="fa fa-exclamation-circle"></i>&nbsp;&nbsp;转载请注明:
+                    </span>
                     <a href="http://www.ikoala.app" class="b-link-green">iKoala</a>
                     <i class="fa fa-angle-right fa-lg fa-fw text-color"></i>
                     <a href="/2018/02/18/006-wok-idv-pas-chu-ru-zhi-chang-zen-me-hun-20180218/" class="b-link-green">006_Wok_Idv_Pas_初入职场怎么混？</a>
@@ -633,7 +639,8 @@ How do newcomers in the workplace do ?
     <div class="row article-row">
         
         <div class="article col s12 m6" data-aos="fade-up">
-            <div class="article-badge left-badge text-color">上一篇</div>
+            <div class="article-badge left-badge text-color">
+                <i class="fa fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
                 <a href="/2018/03/05/007-lrn-idv-prs-xue-xi-zhe-hui-shi-er-zhi-yi-da-bei-jing-20180305/">
                     <div class="card-image">
@@ -705,7 +712,9 @@ To talk about the learning I
         
         
         <div class="article col s12 m6" data-aos="fade-up">
-            <div class="article-badge right-badge text-color">下一篇</div>
+            <div class="article-badge right-badge text-color">
+                下一篇&nbsp;<i class="fa fa-chevron-right"></i>
+            </div>
             <div class="card">
                 <a href="/2018/02/07/005-men-soc-fut-ta-men-huan-you-meng-xiang-ma-20180207/">
                     <div class="card-image">
@@ -828,10 +837,8 @@ Do they still have dream？
     </div>
     <div class="col l3 hide-on-med-and-down">
         <div class="toc-widget">
-            <div class="toc-title">目录</div>
-            <div id="toc-content">
-
-            </div>
+            <div class="toc-title"><i class="fa fa-list-alt"></i>&nbsp;&nbsp;目录</div>
+            <div id="toc-content"></div>
         </div>
     </div>
 </div>
@@ -842,7 +849,9 @@ Do they still have dream？
         tocbot.init({
             tocSelector: '#toc-content',
             contentSelector: '#articleContent',
-            headingSelector: 'h1, h2, h3, h4'
+            headingsOffset: -($(window).height() * 0.4 - 45),
+            // headingsOffset: -205,
+            headingSelector: 'h2, h3, h4'
         });
 
         // modify the toc link href to support Chinese.
@@ -854,7 +863,7 @@ Do they still have dream？
 
         // modify the heading title id to support Chinese.
         i = 0;
-        $('#articleContent').children('h1, h2, h3, h4').each(function () {
+        $('#articleContent').children('h2, h3, h4').each(function () {
             $(this).attr('id', tocHeading + (++i));
         });
 
@@ -885,15 +894,26 @@ Do they still have dream？
             <a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank">hexo-theme-matery</a>主题搭建.
 
             
+                &nbsp;<i class="fa fa-area-chart"></i>&nbsp;站点总字数:&nbsp;
+                <span class="white-color">48.3k</span>
+            
+
+            
 			
                 <br>
+                
                 <span id="busuanzi_container_site_pv">
-                    本站总访问量 <span id="busuanzi_value_site_pv" style="color: #fff;"></span> 次,&nbsp;
+                    <i class="fa fa-heart-o"></i>
+                    本站总访问量 <span id="busuanzi_value_site_pv" class="white-color"></span>
                 </span>
-				<span id="busuanzi_container_site_uv">
-                    访客数 <span id="busuanzi_value_site_uv" style="color: #fff;"></span> 人.
+                
+                
+                <span id="busuanzi_container_site_uv">
+                    <i class="fa fa-users"></i>
+                    次,&nbsp;访客数 <span id="busuanzi_value_site_uv" class="white-color"></span> 人.
                 </span>
-			
+                
+            
         </div>
         <div class="col s12 m4 l4 social-link social-statis"><a href="mailto:robin.hoo2019@ikoala.app" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
     <i class="fa fa-envelope-open"></i>
@@ -916,8 +936,9 @@ Do they still have dream？
 <div id="searchModal" class="modal">
     <div class="modal-content">
         <div class="search-header">
-            <span class="title">搜索</span>
-            <input type="search" id="searchInput" name="s" placeholder="请输入搜索的关键字" class="search-input" autofocus>
+            <span class="title"><i class="fa fa-search"></i>&nbsp;&nbsp;搜索</span>
+            <input type="search" id="searchInput" name="s" placeholder="请输入搜索的关键字"
+                   class="search-input" autofocus="">
         </div>
         <div id="searchResult"></div>
     </div>

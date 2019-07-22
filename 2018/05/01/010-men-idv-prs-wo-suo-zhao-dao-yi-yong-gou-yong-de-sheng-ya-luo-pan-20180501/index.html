@@ -1,9 +1,8 @@
 <!DOCTYPE HTML>
 <html lang="zh-CN">
-<head>
-    
 
-<head><meta name="generator" content="Hexo 3.8.0">
+
+<head><meta name="generator" content="Hexo 3.9.0">
     <meta charset="utf-8">
     <meta name="keywords" content="010_Men_Idv_Prs_我所找到易用够用的生涯罗盘, 观世界 做自己 博观约取 厚积薄发">
     <meta name="description" content="
@@ -35,11 +34,13 @@ You need a career compass!
     <link rel="stylesheet" type="text/css" href="/libs/lightGallery/css/lightgallery.min.css">
     <link rel="stylesheet" type="text/css" href="/css/matery.css">
     <link rel="stylesheet" type="text/css" href="/css/my.css">
+    <style type="text/css">
+        
+    </style>
 
     <script src="/libs/jquery/jquery-2.2.0.min.js"></script>
 <link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"></head>
 
-</head>
 
 <body>
 
@@ -116,7 +117,7 @@ You need a career compass!
     
     <li>
         <a id="toggleSearch" class="waves-effect waves-light">
-            <i id="searchIcon" class="mdi-action-search"></i>
+            <i id="searchIcon" class="mdi-action-search" title="搜索"></i>
         </a>
     </li>
 
@@ -242,38 +243,17 @@ You need a career compass!
     
     <link rel="stylesheet" href="/libs/tocbot/tocbot.css">
 <style>
-    #articleContent h1,
-    #articleContent h2,
-    #articleContent h3,
-    #articleContent h4,
-    #articleContent h5,
-    #articleContent h6 {
-        padding-top: 76px;
-        margin-top: -76px;
-    }
-
-    #articleContent h1 {
-        line-height: 3.5rem;
-    }
-
-    #articleContent h2 {
-        line-height: 3.2rem;
-    }
-
-    #articleContent h3 {
-        line-height: 2.8rem;
-    }
-
-    #articleContent h4 {
-        line-height: 2.5rem;
-    }
-
-    #articleContent h5 {
-        line-height: 2.2rem;
-    }
-
-    #articleContent h6 {
-        line-height: 1.9rem;
+    #articleContent h1::before,
+    #articleContent h2::before,
+    #articleContent h3::before,
+    #articleContent h4::before,
+    #articleContent h5::before,
+    #articleContent h6::before {
+        display: block;
+        content: " ";
+        height: 100px;
+        margin-top: -100px;
+        visibility: hidden;
     }
 
     #articleContent :focus {
@@ -335,56 +315,80 @@ You need a career compass!
 <div id="artDetail">
     <div class="card">
         <div class="card-content article-info">
-            
-            <div class="article-tag">
-                
-                <a href="/tags/生涯罗盘/" target="_blank">
-                    <span class="chip bg-color">生涯罗盘</span>
-                </a>
-                
-                <a href="/tags/生涯彩虹图/" target="_blank">
-                    <span class="chip bg-color">生涯彩虹图</span>
-                </a>
-                
-                <a href="/tags/人事隐喻/" target="_blank">
-                    <span class="chip bg-color">人事隐喻</span>
-                </a>
-                
+            <div class="row tag-cate">
+                <div class="col s7">
+                    
+                    <div class="article-tag">
+                        
+                            <a href="/tags/生涯罗盘/" target="_blank">
+                                <span class="chip bg-color">生涯罗盘</span>
+                            </a>
+                        
+                            <a href="/tags/生涯彩虹图/" target="_blank">
+                                <span class="chip bg-color">生涯彩虹图</span>
+                            </a>
+                        
+                            <a href="/tags/人事隐喻/" target="_blank">
+                                <span class="chip bg-color">人事隐喻</span>
+                            </a>
+                        
+                    </div>
+                    
+                </div>
+                <div class="col s5 right-align">
+                    
+                    <div class="post-cate">
+                        <i class="fa fa-bookmark fa-fw icon-category"></i>
+                        
+                            <a href="/categories/胡宾-Robin/" class="post-category" target="_blank">
+                                胡宾 Robin
+                            </a>
+                        
+                    </div>
+                    
+                </div>
             </div>
-            
-            <div class="post-info">
-                
-                <span class="post-cate">
-                <!--<span class="post-cate" style="margin-right: 0px">-->
-                    <i class="fa fa-bookmark fa-fw icon-category"></i>
-                    
-                    <a href="/categories/胡宾-Robin/" class="post-category" target="_blank">
-                        胡宾 Robin
-                    </a>
-                    
-                </span>
-                
 
-                <span class="post-date">
-                    <i class="fa fa-clock-o fa-fw"></i>2018-05-01
-                </span>
+            <div class="post-info">
+                <div class="post-date info-break-policy">
+                    <i class="fa fa-calendar-minus-o fa-fw"></i>发布日期:&nbsp;&nbsp;
+                    2018-05-01
+                </div>
+
+                
+                    
+                    <div class="info-break-policy">
+                        <i class="fa fa-file-word-o fa-fw"></i>文章字数:&nbsp;&nbsp;
+                        1k
+                    </div>
+                    
+
+                    
+                    <div class="info-break-policy">
+                        <i class="fa fa-clock-o fa-fw"></i>阅读时长:&nbsp;&nbsp;
+                        3 分
+                    </div>
+                    
+                
 				
 				
-                    <span id="busuanzi_container_page_pv" class="post-read">
-                    <i class="fa fa-eye fa-fw"></i>阅读 <span id="busuanzi_value_page_pv"></span>
+                    <div id="busuanzi_container_page_pv" class="info-break-policy">
+                        <i class="fa fa-eye fa-fw"></i>阅读次数:&nbsp;&nbsp;
+                        <span id="busuanzi_value_page_pv"></span>
+                    </div>
 				
-            </span></div>
+            </div>
         </div>
-        <hr>
+        <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
                 <blockquote>
 <p><em>You need a career compass!</em></p>
 </blockquote>
-<p><img src="https://res.cloudinary.com/ikoala/image/upload/v1548661758/BlogPic_Cldi_KOLA/classical-compass_navi.jpg" alt="">    </p>
+<p><img src="https://res.cloudinary.com/ikoala/image/upload/v1548661758/BlogPic_Cldi_KOLA/classical-compass_navi.jpg" alt>    </p>
 <hr>
 <p>[TOC]</p>
-<h1 id="一张图引发的思考"><a href="#一张图引发的思考" class="headerlink" title="一张图引发的思考"></a>一张图引发的思考</h1><p>最近在工作过程中，接触到一个生涯彩虹图，如下：<br><img src="https://res.cloudinary.com/ikoala/image/upload/v1548661754/BlogPic_Cldi_KOLA/rainbow-chart_career.jpg" alt=""></p>
+<h1 id="一张图引发的思考"><a href="#一张图引发的思考" class="headerlink" title="一张图引发的思考"></a>一张图引发的思考</h1><p>最近在工作过程中，接触到一个生涯彩虹图，如下：<br><img src="https://res.cloudinary.com/ikoala/image/upload/v1548661754/BlogPic_Cldi_KOLA/rainbow-chart_career.jpg" alt></p>
 <blockquote>
 <p>老规矩，先来一首歌：    </p>
 </blockquote>
@@ -404,15 +408,15 @@ You need a career compass!
 </ol>
 <h3 id="思考的成果"><a href="#思考的成果" class="headerlink" title="思考的成果"></a>思考的成果</h3><p>我就以上面提到的维度1与2为核心构建系统框架（我称之为<strong>考拉生涯罗盘</strong>），维度3可不    必表现出来。市面上常见的5大类形式（有图有真相，都是原创）。    </p>
 <ol>
-<li>矩阵式（基础式），也可以称为九宫格：<br><img src="https://res.cloudinary.com/ikoala/image/upload/v1548661754/BlogPic_Cldi_KOLA/career-matrix-chart_KOLA.jpg" alt=""><br>在矩阵中的具体内容，可根据每个人的具体情况侧重点不同；具体内容之间并非完全独    立，其内在有联动关系，比如学习一个东西，肯定对工作，生活有一定影响。<br>三个维度的要素都用了三位字母简写，便于以后将形成的经验检索，比如经验编号：Lrn_Tem_Fut_20180808,就知道这个内容是关于团队未来学习的。<br>注：由于诸多原因，很多软件系统对英文与数字的检索优于汉字。        </li>
-<li>矩阵式加上时间衍生出魔方式：<br><img src="https://res.cloudinary.com/ikoala/image/upload/v1548661754/BlogPic_Cldi_KOLA/career-cube-chart_KOLA.jpg" alt=""> </li>
-<li>饼图式:<br><img src="https://res.cloudinary.com/ikoala/image/upload/v1548661753/BlogPic_Cldi_KOLA/career-pie-chart_KOLA.jpg" alt=""><br>像Pizza，能吃多少就看个人能力了。    </li>
-<li>圈层式：<br><img src="https://res.cloudinary.com/ikoala/image/upload/v1548661753/BlogPic_Cldi_KOLA/career-circles-chart_KOLA.jpg" alt=""><br>饼图式的变形。    </li>
-<li>加上时间衍生出螺旋上升式：<br><img src="https://res.cloudinary.com/ikoala/image/upload/v1548661755/BlogPic_Cldi_KOLA/career_spiral-up_chart_KOLA.jpg" alt=""><br>圈层式的变形。    </li>
-<li>加上时间衍生出三轮滚动式：<br><img src="https://res.cloudinary.com/ikoala/image/upload/v1548661755/BlogPic_Cldi_KOLA/career_step-wheels_chart_KOLA.jpg" alt=""><br>加了时间的饼图式/圈层式。        </li>
-<li>金字塔式：<br><img src="https://res.cloudinary.com/ikoala/image/upload/v1548661754/BlogPic_Cldi_KOLA/career-pyramid-chart_KOLA.jpg" alt=""><br>这个就很好理解了。            </li>
-<li>树状式：<br><img src="https://res.cloudinary.com/ikoala/image/upload/v1548661754/BlogPic_Cldi_KOLA/career-tree-chart_KOLA.jpg" alt=""><br>果实代表要做的事情。</li>
-<li>高空降落式：<br><img src="https://res.cloudinary.com/ikoala/image/upload/v1548661754/BlogPic_Cldi_KOLA/career-landing-chart_KOLA.jpg" alt=""><br>高度代表视野，事情逐步清晰细化。</li>
+<li>矩阵式（基础式），也可以称为九宫格：<br><img src="https://res.cloudinary.com/ikoala/image/upload/v1548661754/BlogPic_Cldi_KOLA/career-matrix-chart_KOLA.jpg" alt><br>在矩阵中的具体内容，可根据每个人的具体情况侧重点不同；具体内容之间并非完全独    立，其内在有联动关系，比如学习一个东西，肯定对工作，生活有一定影响。<br>三个维度的要素都用了三位字母简写，便于以后将形成的经验检索，比如经验编号：Lrn_Tem_Fut_20180808,就知道这个内容是关于团队未来学习的。<br>注：由于诸多原因，很多软件系统对英文与数字的检索优于汉字。        </li>
+<li>矩阵式加上时间衍生出魔方式：<br><img src="https://res.cloudinary.com/ikoala/image/upload/v1548661754/BlogPic_Cldi_KOLA/career-cube-chart_KOLA.jpg" alt> </li>
+<li>饼图式:<br><img src="https://res.cloudinary.com/ikoala/image/upload/v1548661753/BlogPic_Cldi_KOLA/career-pie-chart_KOLA.jpg" alt><br>像Pizza，能吃多少就看个人能力了。    </li>
+<li>圈层式：<br><img src="https://res.cloudinary.com/ikoala/image/upload/v1548661753/BlogPic_Cldi_KOLA/career-circles-chart_KOLA.jpg" alt><br>饼图式的变形。    </li>
+<li>加上时间衍生出螺旋上升式：<br><img src="https://res.cloudinary.com/ikoala/image/upload/v1548661755/BlogPic_Cldi_KOLA/career_spiral-up_chart_KOLA.jpg" alt><br>圈层式的变形。    </li>
+<li>加上时间衍生出三轮滚动式：<br><img src="https://res.cloudinary.com/ikoala/image/upload/v1548661755/BlogPic_Cldi_KOLA/career_step-wheels_chart_KOLA.jpg" alt><br>加了时间的饼图式/圈层式。        </li>
+<li>金字塔式：<br><img src="https://res.cloudinary.com/ikoala/image/upload/v1548661754/BlogPic_Cldi_KOLA/career-pyramid-chart_KOLA.jpg" alt><br>这个就很好理解了。            </li>
+<li>树状式：<br><img src="https://res.cloudinary.com/ikoala/image/upload/v1548661754/BlogPic_Cldi_KOLA/career-tree-chart_KOLA.jpg" alt><br>果实代表要做的事情。</li>
+<li>高空降落式：<br><img src="https://res.cloudinary.com/ikoala/image/upload/v1548661754/BlogPic_Cldi_KOLA/career-landing-chart_KOLA.jpg" alt><br>高度代表视野，事情逐步清晰细化。</li>
 </ol>
 <p>以上内容是经过触发，基础架构大概10分钟之内形成的，肯定有不完善的地方，希望看到的读者能一起交流。</p>
 <p>本次内容完结。</p>
@@ -423,7 +427,7 @@ You need a career compass!
 </ul>
 
             </div>
-            <hr>
+            <hr/>
 
             
             <style>
@@ -523,7 +527,7 @@ You need a career compass!
                         <img src="/medias/reward/wechat.png" class="reward-img" alt="微信打赏二维码">
                     </div>
                     <div id="alipay">
-                        <img src="/medias/reward/alipay.png" class="reward-img" alt="支付宝打赏二维码">
+                        <img src="/medias/reward/alipay.jpg" class="reward-img" alt="支付宝打赏二维码">
                     </div>
                 </div>
             </div>
@@ -556,7 +560,9 @@ You need a career compass!
 
             <div class="reprint">
                 <p>
-                    <span class="reprint-tip">转载请注明: </span>
+                    <span class="reprint-tip">
+                        <i class="fa fa-exclamation-circle"></i>&nbsp;&nbsp;转载请注明:
+                    </span>
                     <a href="http://www.ikoala.app" class="b-link-green">iKoala</a>
                     <i class="fa fa-angle-right fa-lg fa-fw text-color"></i>
                     <a href="/2018/05/01/010-men-idv-prs-wo-suo-zhao-dao-yi-yong-gou-yong-de-sheng-ya-luo-pan-20180501/" class="b-link-green">010_Men_Idv_Prs_我所找到易用够用的生涯罗盘</a>
@@ -606,7 +612,8 @@ You need a career compass!
     <div class="row article-row">
         
         <div class="article col s12 m6" data-aos="fade-up">
-            <div class="article-badge left-badge text-color">上一篇</div>
+            <div class="article-badge left-badge text-color">
+                <i class="fa fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
                 <a href="/2018/05/27/011-wok-idv-pas-chu-ru-zhi-chang-tou-san-nian-shun-ji-wen-chuan-di-zhen-shi-zhou-nian-20180527/">
                     <div class="card-image">
@@ -680,7 +687,9 @@ The first 3 years in workplace.
         
         
         <div class="article col s12 m6" data-aos="fade-up">
-            <div class="article-badge right-badge text-color">下一篇</div>
+            <div class="article-badge right-badge text-color">
+                下一篇&nbsp;<i class="fa fa-chevron-right"></i>
+            </div>
             <div class="card">
                 <a href="/2018/04/15/009-men-idv-prs-zhi-ceng-jing-mi-mang-bu-an-de-zi-ji-20180415/">
                     <div class="card-image">
@@ -783,10 +792,8 @@ To the one who was once confused.
     </div>
     <div class="col l3 hide-on-med-and-down">
         <div class="toc-widget">
-            <div class="toc-title">目录</div>
-            <div id="toc-content">
-
-            </div>
+            <div class="toc-title"><i class="fa fa-list-alt"></i>&nbsp;&nbsp;目录</div>
+            <div id="toc-content"></div>
         </div>
     </div>
 </div>
@@ -797,7 +804,9 @@ To the one who was once confused.
         tocbot.init({
             tocSelector: '#toc-content',
             contentSelector: '#articleContent',
-            headingSelector: 'h1, h2, h3, h4'
+            headingsOffset: -($(window).height() * 0.4 - 45),
+            // headingsOffset: -205,
+            headingSelector: 'h2, h3, h4'
         });
 
         // modify the toc link href to support Chinese.
@@ -809,7 +818,7 @@ To the one who was once confused.
 
         // modify the heading title id to support Chinese.
         i = 0;
-        $('#articleContent').children('h1, h2, h3, h4').each(function () {
+        $('#articleContent').children('h2, h3, h4').each(function () {
             $(this).attr('id', tocHeading + (++i));
         });
 
@@ -840,15 +849,26 @@ To the one who was once confused.
             <a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank">hexo-theme-matery</a>主题搭建.
 
             
+                &nbsp;<i class="fa fa-area-chart"></i>&nbsp;站点总字数:&nbsp;
+                <span class="white-color">48.3k</span>
+            
+
+            
 			
                 <br>
+                
                 <span id="busuanzi_container_site_pv">
-                    本站总访问量 <span id="busuanzi_value_site_pv" style="color: #fff;"></span> 次,&nbsp;
+                    <i class="fa fa-heart-o"></i>
+                    本站总访问量 <span id="busuanzi_value_site_pv" class="white-color"></span>
                 </span>
-				<span id="busuanzi_container_site_uv">
-                    访客数 <span id="busuanzi_value_site_uv" style="color: #fff;"></span> 人.
+                
+                
+                <span id="busuanzi_container_site_uv">
+                    <i class="fa fa-users"></i>
+                    次,&nbsp;访客数 <span id="busuanzi_value_site_uv" class="white-color"></span> 人.
                 </span>
-			
+                
+            
         </div>
         <div class="col s12 m4 l4 social-link social-statis"><a href="mailto:robin.hoo2019@ikoala.app" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
     <i class="fa fa-envelope-open"></i>
@@ -871,8 +891,9 @@ To the one who was once confused.
 <div id="searchModal" class="modal">
     <div class="modal-content">
         <div class="search-header">
-            <span class="title">搜索</span>
-            <input type="search" id="searchInput" name="s" placeholder="请输入搜索的关键字" class="search-input" autofocus>
+            <span class="title"><i class="fa fa-search"></i>&nbsp;&nbsp;搜索</span>
+            <input type="search" id="searchInput" name="s" placeholder="请输入搜索的关键字"
+                   class="search-input" autofocus="">
         </div>
         <div id="searchResult"></div>
     </div>

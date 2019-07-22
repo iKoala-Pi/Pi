@@ -1,9 +1,8 @@
 <!DOCTYPE HTML>
 <html lang="zh-CN">
-<head>
-    
 
-<head><meta name="generator" content="Hexo 3.8.0">
+
+<head><meta name="generator" content="Hexo 3.9.0">
     <meta charset="utf-8">
     <meta name="keywords" content="009_Men_Idv_Prs_致曾经迷茫不安的自己, 观世界 做自己 博观约取 厚积薄发">
     <meta name="description" content="
@@ -30,11 +29,13 @@ To the one who was once confused.
     <link rel="stylesheet" type="text/css" href="/libs/lightGallery/css/lightgallery.min.css">
     <link rel="stylesheet" type="text/css" href="/css/matery.css">
     <link rel="stylesheet" type="text/css" href="/css/my.css">
+    <style type="text/css">
+        
+    </style>
 
     <script src="/libs/jquery/jquery-2.2.0.min.js"></script>
 <link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"></head>
 
-</head>
 
 <body>
 
@@ -111,7 +112,7 @@ To the one who was once confused.
     
     <li>
         <a id="toggleSearch" class="waves-effect waves-light">
-            <i id="searchIcon" class="mdi-action-search"></i>
+            <i id="searchIcon" class="mdi-action-search" title="搜索"></i>
         </a>
     </li>
 
@@ -237,38 +238,17 @@ To the one who was once confused.
     
     <link rel="stylesheet" href="/libs/tocbot/tocbot.css">
 <style>
-    #articleContent h1,
-    #articleContent h2,
-    #articleContent h3,
-    #articleContent h4,
-    #articleContent h5,
-    #articleContent h6 {
-        padding-top: 76px;
-        margin-top: -76px;
-    }
-
-    #articleContent h1 {
-        line-height: 3.5rem;
-    }
-
-    #articleContent h2 {
-        line-height: 3.2rem;
-    }
-
-    #articleContent h3 {
-        line-height: 2.8rem;
-    }
-
-    #articleContent h4 {
-        line-height: 2.5rem;
-    }
-
-    #articleContent h5 {
-        line-height: 2.2rem;
-    }
-
-    #articleContent h6 {
-        line-height: 1.9rem;
+    #articleContent h1::before,
+    #articleContent h2::before,
+    #articleContent h3::before,
+    #articleContent h4::before,
+    #articleContent h5::before,
+    #articleContent h6::before {
+        display: block;
+        content: " ";
+        height: 100px;
+        margin-top: -100px;
+        visibility: hidden;
     }
 
     #articleContent :focus {
@@ -330,57 +310,81 @@ To the one who was once confused.
 <div id="artDetail">
     <div class="card">
         <div class="card-content article-info">
-            
-            <div class="article-tag">
-                
-                <a href="/tags/毕业三年/" target="_blank">
-                    <span class="chip bg-color">毕业三年</span>
-                </a>
-                
-                <a href="/tags/被管理/" target="_blank">
-                    <span class="chip bg-color">被管理</span>
-                </a>
-                
-                <a href="/tags/工作为了啥/" target="_blank">
-                    <span class="chip bg-color">工作为了啥</span>
-                </a>
-                
-                <a href="/tags/过什么样生活/" target="_blank">
-                    <span class="chip bg-color">过什么样生活</span>
-                </a>
-                
+            <div class="row tag-cate">
+                <div class="col s7">
+                    
+                    <div class="article-tag">
+                        
+                            <a href="/tags/毕业三年/" target="_blank">
+                                <span class="chip bg-color">毕业三年</span>
+                            </a>
+                        
+                            <a href="/tags/被管理/" target="_blank">
+                                <span class="chip bg-color">被管理</span>
+                            </a>
+                        
+                            <a href="/tags/工作为了啥/" target="_blank">
+                                <span class="chip bg-color">工作为了啥</span>
+                            </a>
+                        
+                            <a href="/tags/过什么样生活/" target="_blank">
+                                <span class="chip bg-color">过什么样生活</span>
+                            </a>
+                        
+                    </div>
+                    
+                </div>
+                <div class="col s5 right-align">
+                    
+                    <div class="post-cate">
+                        <i class="fa fa-bookmark fa-fw icon-category"></i>
+                        
+                            <a href="/categories/胡宾-Robin/" class="post-category" target="_blank">
+                                胡宾 Robin
+                            </a>
+                        
+                    </div>
+                    
+                </div>
             </div>
-            
-            <div class="post-info">
-                
-                <span class="post-cate">
-                <!--<span class="post-cate" style="margin-right: 0px">-->
-                    <i class="fa fa-bookmark fa-fw icon-category"></i>
-                    
-                    <a href="/categories/胡宾-Robin/" class="post-category" target="_blank">
-                        胡宾 Robin
-                    </a>
-                    
-                </span>
-                
 
-                <span class="post-date">
-                    <i class="fa fa-clock-o fa-fw"></i>2018-04-15
-                </span>
+            <div class="post-info">
+                <div class="post-date info-break-policy">
+                    <i class="fa fa-calendar-minus-o fa-fw"></i>发布日期:&nbsp;&nbsp;
+                    2018-04-15
+                </div>
+
+                
+                    
+                    <div class="info-break-policy">
+                        <i class="fa fa-file-word-o fa-fw"></i>文章字数:&nbsp;&nbsp;
+                        1.5k
+                    </div>
+                    
+
+                    
+                    <div class="info-break-policy">
+                        <i class="fa fa-clock-o fa-fw"></i>阅读时长:&nbsp;&nbsp;
+                        5 分
+                    </div>
+                    
+                
 				
 				
-                    <span id="busuanzi_container_page_pv" class="post-read">
-                    <i class="fa fa-eye fa-fw"></i>阅读 <span id="busuanzi_value_page_pv"></span>
+                    <div id="busuanzi_container_page_pv" class="info-break-policy">
+                        <i class="fa fa-eye fa-fw"></i>阅读次数:&nbsp;&nbsp;
+                        <span id="busuanzi_value_page_pv"></span>
+                    </div>
 				
-            </span></div>
+            </div>
         </div>
-        <hr>
+        <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
                 <blockquote>
 <p><em>To the one who was once confused.</em></p>
 </blockquote>
-<p><img src="https://res.cloudinary.com/ikoala/image/upload/v1548661752/BlogPic_Cldi_KOLA/direction_confusing_career.jpg" alt=""></p>
+<p><img src="https://res.cloudinary.com/ikoala/image/upload/v1548661752/BlogPic_Cldi_KOLA/direction_confusing_career.jpg" alt></p>
 <hr>
 <p>[TOC]</p>
 <h1 id="过去-当下-未来的关系"><a href="#过去-当下-未来的关系" class="headerlink" title="过去-当下-未来的关系"></a>过去-当下-未来的关系</h1><p>在前篇有关生活的文章《生活是最好的老师》，列举了一些我们必须要面对的东西，然而那是从当下的视角看待的，我们也经常谈到未来，可我们往往会忽略一个事情就是：当下是过去的未来，当下是未来的过去，简单说就是过去-当下-未来这三者是动态转化的；当下很多失控的事情原因之一是由过去没有思考导致的，当下不思考很多东西又导致未来很多事情失控，路子就越来越坎坷了。    </p>
@@ -394,13 +398,13 @@ To the one who was once confused.
 <ol>
 <li>上大学为了什么？<br>回溯到高中三年（包含初中），都在花大量时间补习数学物理，因为“学好数理化，走遍天下都不怕”，到高考前数学物理的补习成效有限，英语等较为优势的科目由于投入时间有限，也沦于一般，权衡利弊后（实际上也别无选择了），就报了当时很火热的专业-通信工程，因为当时这个专业的本科毕业生薪资就能拿到3k-5k，谁能扛得住这么大的诱惑！<br>注：2000年左右的3k相当于现在的6-7k不止。（这个数据查不到确切证据，如有专家看到请指正）</li>
 </ol>
-<p><img src="https://res.cloudinary.com/ikoala/image/upload/v1548661755/BlogPic_Cldi_KOLA/cash_dollars_fin.jpg" alt=""><br><img src="https://res.cloudinary.com/ikoala/image/upload/v1548661764/BlogPic_Cldi_KOLA/gaokao_Single-plank-bridge_edu.jpg" alt=""></p>
+<p><img src="https://res.cloudinary.com/ikoala/image/upload/v1548661755/BlogPic_Cldi_KOLA/cash_dollars_fin.jpg" alt><br><img src="https://res.cloudinary.com/ikoala/image/upload/v1548661764/BlogPic_Cldi_KOLA/gaokao_Single-plank-bridge_edu.jpg" alt></p>
 <ol start="2">
-<li>想过什么样的生活？<br>毕业刚上班，父母就说，要开始攒钱买房了，不然房价会一直涨，以后更难买，买不到房子，找老婆谁会跟你？<br>我知道父母是为了我好，可这是我真的想要的生活吗？这就是生活的全部吗？<br><img src="https://res.cloudinary.com/ikoala/image/upload/v1548661768/BlogPic_Cldi_KOLA/wantness_cartoon_business.jpg" alt=""></li>
-<li>工作为了啥？<br>虽然心里不是很认同工作-攒钱-买房-娶老婆的观点，但也找不到反驳的理由，看看周边的同学，同事几乎全是类似的想法，于是这个观点，实际上就成了工作的<strong>终极目标</strong>：上大学为了找个好工作，好工作为了多挣钱，多挣钱为了买房娶老婆。工作只是这个链条的一个节点而已。<br><img src="https://res.cloudinary.com/ikoala/image/upload/v1548661766/BlogPic_Cldi_KOLA/want-to-work_cartoon_fun.jpg" alt="">   </li>
+<li>想过什么样的生活？<br>毕业刚上班，父母就说，要开始攒钱买房了，不然房价会一直涨，以后更难买，买不到房子，找老婆谁会跟你？<br>我知道父母是为了我好，可这是我真的想要的生活吗？这就是生活的全部吗？<br><img src="https://res.cloudinary.com/ikoala/image/upload/v1548661768/BlogPic_Cldi_KOLA/wantness_cartoon_business.jpg" alt></li>
+<li>工作为了啥？<br>虽然心里不是很认同工作-攒钱-买房-娶老婆的观点，但也找不到反驳的理由，看看周边的同学，同事几乎全是类似的想法，于是这个观点，实际上就成了工作的<strong>终极目标</strong>：上大学为了找个好工作，好工作为了多挣钱，多挣钱为了买房娶老婆。工作只是这个链条的一个节点而已。<br><img src="https://res.cloudinary.com/ikoala/image/upload/v1548661766/BlogPic_Cldi_KOLA/want-to-work_cartoon_fun.jpg" alt>   </li>
 <li><p>为啥没有主动去学习提升？即便自己没有优渥的家庭条件与名校光环。<br>大学毕业后，终于“解脱了”，不用再学习考试了，那种苦逼的场景一阵阵浮现脑海，避之唯恐不及，从初中到大学的10年间，<strong>学习=考试=痛苦</strong>，我推测读者中不少人都受到过这个公式的蹂躏，我们都明白学习肯定会给自己带来好处，但落实到行动上就不那么顺畅了，也许就是这个公式在作怪。<br>看在工作能力强了，能多挣钱的份儿上，就不能去学习提升吗？<br>可当时认为：工作只是糊口的手段，公司组织的培训与岗位实践已经足够了，不需要再给公司投入更多的精力了。<br>再说并不是很满意从事的工作，内心也不是真正喜欢这个职业。</p>
 </li>
-<li><p>制定了一些计划，为啥行动上容易放弃？<br>在刚毕业那几年，也曾经买了一堆考雅思的参考书，一是为了自己残存的一点兴趣，二是觉得学点东西，对未来的焦虑感会有所减轻，在这样的心态下，常常会给自己一些理由不坚持，比如最近太忙了，但不忙的时候也不怎么去看书，慢慢动力就减弱了，直到放弃，放弃之后焦虑又回来，陷入恶性循环。<br><img src="https://res.cloudinary.com/ikoala/image/upload/v1548661767/BlogPic_Cldi_KOLA/why_giving-up_treatment_cartoon_fun.jpg" alt=""><br>以上5大问题的空白或限制性答案，自己的“人生理想”也就基本停留在：工作轻松、薪水高、假期多这个层面。<br>假如你对自己的未来也有迷茫，不妨先从以上5个问题开始思考，来寻找答案它们基本上可认为是人生的“顶层设计”。</p>
+<li><p>制定了一些计划，为啥行动上容易放弃？<br>在刚毕业那几年，也曾经买了一堆考雅思的参考书，一是为了自己残存的一点兴趣，二是觉得学点东西，对未来的焦虑感会有所减轻，在这样的心态下，常常会给自己一些理由不坚持，比如最近太忙了，但不忙的时候也不怎么去看书，慢慢动力就减弱了，直到放弃，放弃之后焦虑又回来，陷入恶性循环。<br><img src="https://res.cloudinary.com/ikoala/image/upload/v1548661767/BlogPic_Cldi_KOLA/why_giving-up_treatment_cartoon_fun.jpg" alt><br>以上5大问题的空白或限制性答案，自己的“人生理想”也就基本停留在：工作轻松、薪水高、假期多这个层面。<br>假如你对自己的未来也有迷茫，不妨先从以上5个问题开始思考，来寻找答案它们基本上可认为是人生的“顶层设计”。</p>
 </li>
 </ol>
 <h2 id="链条被打破"><a href="#链条被打破" class="headerlink" title="链条被打破"></a>链条被打破</h2><p>直到2010年夏初，我拿到了国内top2大型通信设备商常驻欧洲某国的offer，曾经的<strong>“人生理想”</strong>突然实现，内心却仍旧是价值感、意义感缺失， 这样的困境促使我真正开始寻找这些问题的答案，也迎来了人生中第一次深度审视自身的机会。</p>
@@ -412,7 +416,7 @@ To the one who was once confused.
 </ul>
 
             </div>
-            <hr>
+            <hr/>
 
             
             <style>
@@ -512,7 +516,7 @@ To the one who was once confused.
                         <img src="/medias/reward/wechat.png" class="reward-img" alt="微信打赏二维码">
                     </div>
                     <div id="alipay">
-                        <img src="/medias/reward/alipay.png" class="reward-img" alt="支付宝打赏二维码">
+                        <img src="/medias/reward/alipay.jpg" class="reward-img" alt="支付宝打赏二维码">
                     </div>
                 </div>
             </div>
@@ -545,7 +549,9 @@ To the one who was once confused.
 
             <div class="reprint">
                 <p>
-                    <span class="reprint-tip">转载请注明: </span>
+                    <span class="reprint-tip">
+                        <i class="fa fa-exclamation-circle"></i>&nbsp;&nbsp;转载请注明:
+                    </span>
                     <a href="http://www.ikoala.app" class="b-link-green">iKoala</a>
                     <i class="fa fa-angle-right fa-lg fa-fw text-color"></i>
                     <a href="/2018/04/15/009-men-idv-prs-zhi-ceng-jing-mi-mang-bu-an-de-zi-ji-20180415/" class="b-link-green">009_Men_Idv_Prs_致曾经迷茫不安的自己</a>
@@ -595,7 +601,8 @@ To the one who was once confused.
     <div class="row article-row">
         
         <div class="article col s12 m6" data-aos="fade-up">
-            <div class="article-badge left-badge text-color">上一篇</div>
+            <div class="article-badge left-badge text-color">
+                <i class="fa fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
                 <a href="/2018/05/01/010-men-idv-prs-wo-suo-zhao-dao-yi-yong-gou-yong-de-sheng-ya-luo-pan-20180501/">
                     <div class="card-image">
@@ -656,7 +663,9 @@ You need a career compass!
         
         
         <div class="article col s12 m6" data-aos="fade-up">
-            <div class="article-badge right-badge text-color">下一篇</div>
+            <div class="article-badge right-badge text-color">
+                下一篇&nbsp;<i class="fa fa-chevron-right"></i>
+            </div>
             <div class="card">
                 <a href="/2018/04/06/008-men-idv-prs-zhong-tu-xiao-qi-20180406/">
                     <div class="card-image">
@@ -762,10 +771,8 @@ Stop for a moment.
     </div>
     <div class="col l3 hide-on-med-and-down">
         <div class="toc-widget">
-            <div class="toc-title">目录</div>
-            <div id="toc-content">
-
-            </div>
+            <div class="toc-title"><i class="fa fa-list-alt"></i>&nbsp;&nbsp;目录</div>
+            <div id="toc-content"></div>
         </div>
     </div>
 </div>
@@ -776,7 +783,9 @@ Stop for a moment.
         tocbot.init({
             tocSelector: '#toc-content',
             contentSelector: '#articleContent',
-            headingSelector: 'h1, h2, h3, h4'
+            headingsOffset: -($(window).height() * 0.4 - 45),
+            // headingsOffset: -205,
+            headingSelector: 'h2, h3, h4'
         });
 
         // modify the toc link href to support Chinese.
@@ -788,7 +797,7 @@ Stop for a moment.
 
         // modify the heading title id to support Chinese.
         i = 0;
-        $('#articleContent').children('h1, h2, h3, h4').each(function () {
+        $('#articleContent').children('h2, h3, h4').each(function () {
             $(this).attr('id', tocHeading + (++i));
         });
 
@@ -819,15 +828,26 @@ Stop for a moment.
             <a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank">hexo-theme-matery</a>主题搭建.
 
             
+                &nbsp;<i class="fa fa-area-chart"></i>&nbsp;站点总字数:&nbsp;
+                <span class="white-color">48.3k</span>
+            
+
+            
 			
                 <br>
+                
                 <span id="busuanzi_container_site_pv">
-                    本站总访问量 <span id="busuanzi_value_site_pv" style="color: #fff;"></span> 次,&nbsp;
+                    <i class="fa fa-heart-o"></i>
+                    本站总访问量 <span id="busuanzi_value_site_pv" class="white-color"></span>
                 </span>
-				<span id="busuanzi_container_site_uv">
-                    访客数 <span id="busuanzi_value_site_uv" style="color: #fff;"></span> 人.
+                
+                
+                <span id="busuanzi_container_site_uv">
+                    <i class="fa fa-users"></i>
+                    次,&nbsp;访客数 <span id="busuanzi_value_site_uv" class="white-color"></span> 人.
                 </span>
-			
+                
+            
         </div>
         <div class="col s12 m4 l4 social-link social-statis"><a href="mailto:robin.hoo2019@ikoala.app" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
     <i class="fa fa-envelope-open"></i>
@@ -850,8 +870,9 @@ Stop for a moment.
 <div id="searchModal" class="modal">
     <div class="modal-content">
         <div class="search-header">
-            <span class="title">搜索</span>
-            <input type="search" id="searchInput" name="s" placeholder="请输入搜索的关键字" class="search-input" autofocus>
+            <span class="title"><i class="fa fa-search"></i>&nbsp;&nbsp;搜索</span>
+            <input type="search" id="searchInput" name="s" placeholder="请输入搜索的关键字"
+                   class="search-input" autofocus="">
         </div>
         <div id="searchResult"></div>
     </div>

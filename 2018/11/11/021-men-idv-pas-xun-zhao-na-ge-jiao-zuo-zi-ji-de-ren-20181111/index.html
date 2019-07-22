@@ -1,9 +1,8 @@
 <!DOCTYPE HTML>
 <html lang="zh-CN">
-<head>
-    
 
-<head><meta name="generator" content="Hexo 3.8.0">
+
+<head><meta name="generator" content="Hexo 3.9.0">
     <meta charset="utf-8">
     <meta name="keywords" content="021_Men_Idv_Pas_寻找那个叫做自己的人, 观世界 做自己 博观约取 厚积薄发">
     <meta name="description" content="
@@ -30,11 +29,13 @@
     <link rel="stylesheet" type="text/css" href="/libs/lightGallery/css/lightgallery.min.css">
     <link rel="stylesheet" type="text/css" href="/css/matery.css">
     <link rel="stylesheet" type="text/css" href="/css/my.css">
+    <style type="text/css">
+        
+    </style>
 
     <script src="/libs/jquery/jquery-2.2.0.min.js"></script>
 <link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"></head>
 
-</head>
 
 <body>
 
@@ -111,7 +112,7 @@
     
     <li>
         <a id="toggleSearch" class="waves-effect waves-light">
-            <i id="searchIcon" class="mdi-action-search"></i>
+            <i id="searchIcon" class="mdi-action-search" title="搜索"></i>
         </a>
     </li>
 
@@ -237,38 +238,17 @@
     
     <link rel="stylesheet" href="/libs/tocbot/tocbot.css">
 <style>
-    #articleContent h1,
-    #articleContent h2,
-    #articleContent h3,
-    #articleContent h4,
-    #articleContent h5,
-    #articleContent h6 {
-        padding-top: 76px;
-        margin-top: -76px;
-    }
-
-    #articleContent h1 {
-        line-height: 3.5rem;
-    }
-
-    #articleContent h2 {
-        line-height: 3.2rem;
-    }
-
-    #articleContent h3 {
-        line-height: 2.8rem;
-    }
-
-    #articleContent h4 {
-        line-height: 2.5rem;
-    }
-
-    #articleContent h5 {
-        line-height: 2.2rem;
-    }
-
-    #articleContent h6 {
-        line-height: 1.9rem;
+    #articleContent h1::before,
+    #articleContent h2::before,
+    #articleContent h3::before,
+    #articleContent h4::before,
+    #articleContent h5::before,
+    #articleContent h6::before {
+        display: block;
+        content: " ";
+        height: 100px;
+        margin-top: -100px;
+        visibility: hidden;
     }
 
     #articleContent :focus {
@@ -330,65 +310,89 @@
 <div id="artDetail">
     <div class="card">
         <div class="card-content article-info">
-            
-            <div class="article-tag">
-                
-                <a href="/tags/人类曾经始祖-LUCY/" target="_blank">
-                    <span class="chip bg-color">人类曾经始祖 LUCY</span>
-                </a>
-                
-                <a href="/tags/非洲/" target="_blank">
-                    <span class="chip bg-color">非洲</span>
-                </a>
-                
-                <a href="/tags/俄塞俄比亚/" target="_blank">
-                    <span class="chip bg-color">俄塞俄比亚</span>
-                </a>
-                
-                <a href="/tags/查理曼/" target="_blank">
-                    <span class="chip bg-color">查理曼</span>
-                </a>
-                
-                <a href="/tags/生命曲线图/" target="_blank">
-                    <span class="chip bg-color">生命曲线图</span>
-                </a>
-                
-                <a href="/tags/经典三问/" target="_blank">
-                    <span class="chip bg-color">经典三问</span>
-                </a>
-                
+            <div class="row tag-cate">
+                <div class="col s7">
+                    
+                    <div class="article-tag">
+                        
+                            <a href="/tags/人类曾经始祖-LUCY/" target="_blank">
+                                <span class="chip bg-color">人类曾经始祖 LUCY</span>
+                            </a>
+                        
+                            <a href="/tags/非洲/" target="_blank">
+                                <span class="chip bg-color">非洲</span>
+                            </a>
+                        
+                            <a href="/tags/俄塞俄比亚/" target="_blank">
+                                <span class="chip bg-color">俄塞俄比亚</span>
+                            </a>
+                        
+                            <a href="/tags/查理曼/" target="_blank">
+                                <span class="chip bg-color">查理曼</span>
+                            </a>
+                        
+                            <a href="/tags/生命曲线图/" target="_blank">
+                                <span class="chip bg-color">生命曲线图</span>
+                            </a>
+                        
+                            <a href="/tags/经典三问/" target="_blank">
+                                <span class="chip bg-color">经典三问</span>
+                            </a>
+                        
+                    </div>
+                    
+                </div>
+                <div class="col s5 right-align">
+                    
+                    <div class="post-cate">
+                        <i class="fa fa-bookmark fa-fw icon-category"></i>
+                        
+                            <a href="/categories/胡宾-Robin/" class="post-category" target="_blank">
+                                胡宾 Robin
+                            </a>
+                        
+                    </div>
+                    
+                </div>
             </div>
-            
-            <div class="post-info">
-                
-                <span class="post-cate">
-                <!--<span class="post-cate" style="margin-right: 0px">-->
-                    <i class="fa fa-bookmark fa-fw icon-category"></i>
-                    
-                    <a href="/categories/胡宾-Robin/" class="post-category" target="_blank">
-                        胡宾 Robin
-                    </a>
-                    
-                </span>
-                
 
-                <span class="post-date">
-                    <i class="fa fa-clock-o fa-fw"></i>2018-11-11
-                </span>
+            <div class="post-info">
+                <div class="post-date info-break-policy">
+                    <i class="fa fa-calendar-minus-o fa-fw"></i>发布日期:&nbsp;&nbsp;
+                    2018-11-11
+                </div>
+
+                
+                    
+                    <div class="info-break-policy">
+                        <i class="fa fa-file-word-o fa-fw"></i>文章字数:&nbsp;&nbsp;
+                        1.2k
+                    </div>
+                    
+
+                    
+                    <div class="info-break-policy">
+                        <i class="fa fa-clock-o fa-fw"></i>阅读时长:&nbsp;&nbsp;
+                        4 分
+                    </div>
+                    
+                
 				
 				
-                    <span id="busuanzi_container_page_pv" class="post-read">
-                    <i class="fa fa-eye fa-fw"></i>阅读 <span id="busuanzi_value_page_pv"></span>
+                    <div id="busuanzi_container_page_pv" class="info-break-policy">
+                        <i class="fa fa-eye fa-fw"></i>阅读次数:&nbsp;&nbsp;
+                        <span id="busuanzi_value_page_pv"></span>
+                    </div>
 				
-            </span></div>
+            </div>
         </div>
-        <hr>
+        <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
                 <blockquote>
 <p> <em>Try to find yourself!</em></p>
 </blockquote>
-<p><img src="https://res.cloudinary.com/ikoala/image/upload/v1548660823/BlogPic_Cldi_KOLA/Plato_hole_metaphor.jpg" alt=""></p>
+<p><img src="https://res.cloudinary.com/ikoala/image/upload/v1548660823/BlogPic_Cldi_KOLA/Plato_hole_metaphor.jpg" alt></p>
 <hr>
 <p>[TOC]</p>
 <h1 id="偶遇人类曾经始祖-LUCY"><a href="#偶遇人类曾经始祖-LUCY" class="headerlink" title="偶遇人类曾经始祖 LUCY"></a>偶遇人类曾经始祖 LUCY</h1><p>去年年底（2017），因公出差去了趟非洲，也是我第一次踏上非洲大陆，第一站是在古老的埃塞俄比亚，在亚的斯亚贝巴停留3天，工作间隙，我去参观了一座博物馆，因为是计划之外的，没有提前了解博物馆里面的陈列，却意外瞻仰了曾被称为人类最早祖先的露西遗骨（Lucy），距今约320万年。面对如此久远的人类祖先，脑子里不由得就冒出来那三个经典问题：<br><strong>我是谁？从哪里来？到哪里去？</strong></p>
@@ -397,12 +401,12 @@
 </blockquote>
 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=5255089&auto=0&height=66"></iframe>
 
-<p>还没来得及思考这些问题，突然来了一群当地小学生，看得出他们是在完成老师布置的作业，一路嘻嘻哈哈，天真烂漫，安静的展览厅立刻活跃了起来，看到我是中国人的模样，立刻围观并尾随，还用一个个单词凑起来的英语，问我，Where…. are  you… from……..China？因当地有很多中国的援建公司，他们对中国人很友好。我肯定回答后，孩子们爽朗的笑着说，China    China。。。，还围着我想问更多，可词汇量达不到，看着孩子们的天真我想起了自己小学学英语的情境。<br><img src="https://res.cloudinary.com/ikoala/image/upload/v1548660825/BlogPic_Cldi_KOLA/museum_pupils_Ethiopia_Robin.jpg" alt=""><br><img src="https://res.cloudinary.com/ikoala/image/upload/v1548660824/BlogPic_Cldi_KOLA/museum_girles_Ethiopia_Robin.jpg" alt=""></p>
-<h2 id="回到我的小学"><a href="#回到我的小学" class="headerlink" title="回到我的小学"></a>回到我的小学</h2><p>记得自己学英语是小学五年级，那是村镇级小学，当时觉得很意外，竟然能学外语，刚开始还挺兴奋的，可是没学几课就畏难了，am，is，are 都是“是”的意思，一下子给整懵了，甚至同学间嬉笑怒骂时用的是“you is a pig”这样很洋范儿的句子，却根本不知道哪里错了。。。大约学到了第二册，突然有一天觉得英语单词不难记了，背一个记住一个，句子也不难懂了，考试成绩直线上升。很像俗话说的“开窍了”！从我后来的经历看，或许就是那一霎那的感觉种下了一颗种子，引领我支撑我走到了遥远的欧洲。<br>看看90年代初，用过的英语课本：<br><img src="https://res.cloudinary.com/ikoala/image/upload/v1548660816/BlogPic_Cldi_KOLA/english-book-1990s_China_edu.jpg" alt=""></p>
+<p>还没来得及思考这些问题，突然来了一群当地小学生，看得出他们是在完成老师布置的作业，一路嘻嘻哈哈，天真烂漫，安静的展览厅立刻活跃了起来，看到我是中国人的模样，立刻围观并尾随，还用一个个单词凑起来的英语，问我，Where…. are  you… from……..China？因当地有很多中国的援建公司，他们对中国人很友好。我肯定回答后，孩子们爽朗的笑着说，China    China。。。，还围着我想问更多，可词汇量达不到，看着孩子们的天真我想起了自己小学学英语的情境。<br><img src="https://res.cloudinary.com/ikoala/image/upload/v1548660825/BlogPic_Cldi_KOLA/museum_pupils_Ethiopia_Robin.jpg" alt><br><img src="https://res.cloudinary.com/ikoala/image/upload/v1548660824/BlogPic_Cldi_KOLA/museum_girles_Ethiopia_Robin.jpg" alt></p>
+<h2 id="回到我的小学"><a href="#回到我的小学" class="headerlink" title="回到我的小学"></a>回到我的小学</h2><p>记得自己学英语是小学五年级，那是村镇级小学，当时觉得很意外，竟然能学外语，刚开始还挺兴奋的，可是没学几课就畏难了，am，is，are 都是“是”的意思，一下子给整懵了，甚至同学间嬉笑怒骂时用的是“you is a pig”这样很洋范儿的句子，却根本不知道哪里错了。。。大约学到了第二册，突然有一天觉得英语单词不难记了，背一个记住一个，句子也不难懂了，考试成绩直线上升。很像俗话说的“开窍了”！从我后来的经历看，或许就是那一霎那的感觉种下了一颗种子，引领我支撑我走到了遥远的欧洲。<br>看看90年代初，用过的英语课本：<br><img src="https://res.cloudinary.com/ikoala/image/upload/v1548660816/BlogPic_Cldi_KOLA/english-book-1990s_China_edu.jpg" alt></p>
 <blockquote>
 <p>查理大帝（查理曼）曾说过：学会第二种语言，就拥有了第二个灵魂。</p>
 </blockquote>
-<p><img src="https://res.cloudinary.com/ikoala/image/upload/v1548660816/BlogPic_Cldi_KOLA/Charlemagne_portrait_Europe_history.jpg" alt=""><br><img src="https://res.cloudinary.com/ikoala/image/upload/v1548660815/BlogPic_Cldi_KOLA/Charlemagne_poker_game.jpg" alt=""></p>
+<p><img src="https://res.cloudinary.com/ikoala/image/upload/v1548660816/BlogPic_Cldi_KOLA/Charlemagne_portrait_Europe_history.jpg" alt><br><img src="https://res.cloudinary.com/ikoala/image/upload/v1548660815/BlogPic_Cldi_KOLA/Charlemagne_poker_game.jpg" alt></p>
 <blockquote>
 <p>不学英语能探索自我吗？当然可以！<br>下面介绍一个有意思的工具来探索自我。</p>
 </blockquote>
@@ -418,7 +422,7 @@
 </blockquote>
 </li>
 </ol>
-<p><img src="https://res.cloudinary.com/ikoala/image/upload/v1548660826/BlogPic_Cldi_KOLA/life-curve_sample_Robin.jpg" alt=""><br><strong>注意事项：</strong></p>
+<p><img src="https://res.cloudinary.com/ikoala/image/upload/v1548660826/BlogPic_Cldi_KOLA/life-curve_sample_Robin.jpg" alt><br><strong>注意事项：</strong></p>
 <ol>
 <li>过往经历中如有重大心理创伤，若想直面，请在专业心理咨询师协助下进行，否则请回避。<strong>【免责声明】</strong></li>
 <li>核心词汇通常是普世的、正向的；若出现负向的，请考虑形成的原因，是否仅有负向的一面。</li>
@@ -433,7 +437,7 @@
 <li>上面二者构成循环</li>
 </ol>
 <p>这个有意思的工具也极有可能引发探索哲学三问：我是谁？从哪里来？到哪里去？<br>也可以理解为人生观，世界观的探索。</p>
-<p>据说，这三个问题的流行源自法国画家，<em>保罗·高更</em>的名画<strong>《“Where do we come from? What are we? Where are we going?”》(1897-98)</strong><br><img src="https://res.cloudinary.com/ikoala/image/upload/v1548660815/BlogPic_Cldi_KOLA/3-classical_questiones_canvas_art.jpg" alt=""></p>
+<p>据说，这三个问题的流行源自法国画家，<em>保罗·高更</em>的名画<strong>《“Where do we come from? What are we? Where are we going?”》(1897-98)</strong><br><img src="https://res.cloudinary.com/ikoala/image/upload/v1548660815/BlogPic_Cldi_KOLA/3-classical_questiones_canvas_art.jpg" alt></p>
 <p>欣赏完名画，别忘了尝试下生命曲线图，发现自己的更多面。<br>本篇完结。</p>
 <hr>
 <h1 id="ChangeLog"><a href="#ChangeLog" class="headerlink" title="ChangeLog"></a>ChangeLog</h1><ul>
@@ -442,7 +446,7 @@
 </ul>
 
             </div>
-            <hr>
+            <hr/>
 
             
             <style>
@@ -542,7 +546,7 @@
                         <img src="/medias/reward/wechat.png" class="reward-img" alt="微信打赏二维码">
                     </div>
                     <div id="alipay">
-                        <img src="/medias/reward/alipay.png" class="reward-img" alt="支付宝打赏二维码">
+                        <img src="/medias/reward/alipay.jpg" class="reward-img" alt="支付宝打赏二维码">
                     </div>
                 </div>
             </div>
@@ -575,7 +579,9 @@
 
             <div class="reprint">
                 <p>
-                    <span class="reprint-tip">转载请注明: </span>
+                    <span class="reprint-tip">
+                        <i class="fa fa-exclamation-circle"></i>&nbsp;&nbsp;转载请注明:
+                    </span>
                     <a href="http://www.ikoala.app" class="b-link-green">iKoala</a>
                     <i class="fa fa-angle-right fa-lg fa-fw text-color"></i>
                     <a href="/2018/11/11/021-men-idv-pas-xun-zhao-na-ge-jiao-zuo-zi-ji-de-ren-20181111/" class="b-link-green">021_Men_Idv_Pas_寻找那个叫做自己的人</a>
@@ -625,7 +631,8 @@
     <div class="row article-row">
         
         <div class="article col s12 m6" data-aos="fade-up">
-            <div class="article-badge left-badge text-color">上一篇</div>
+            <div class="article-badge left-badge text-color">
+                <i class="fa fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
                 <a href="/2018/11/30/022-men-idv-fut-tai-tou-kan-qu-shi-yu-di-tou-kan-zi-ji-20181130/">
                     <div class="card-image">
@@ -689,7 +696,9 @@
         
         
         <div class="article col s12 m6" data-aos="fade-up">
-            <div class="article-badge right-badge text-color">下一篇</div>
+            <div class="article-badge right-badge text-color">
+                下一篇&nbsp;<i class="fa fa-chevron-right"></i>
+            </div>
             <div class="card">
                 <a href="/2018/10/29/020-men-idv-prs-30-sui-shi-gai-xiang-dian-sha-20181029/">
                     <div class="card-image">
@@ -796,10 +805,8 @@ What should you think  when u r 30?
     </div>
     <div class="col l3 hide-on-med-and-down">
         <div class="toc-widget">
-            <div class="toc-title">目录</div>
-            <div id="toc-content">
-
-            </div>
+            <div class="toc-title"><i class="fa fa-list-alt"></i>&nbsp;&nbsp;目录</div>
+            <div id="toc-content"></div>
         </div>
     </div>
 </div>
@@ -810,7 +817,9 @@ What should you think  when u r 30?
         tocbot.init({
             tocSelector: '#toc-content',
             contentSelector: '#articleContent',
-            headingSelector: 'h1, h2, h3, h4'
+            headingsOffset: -($(window).height() * 0.4 - 45),
+            // headingsOffset: -205,
+            headingSelector: 'h2, h3, h4'
         });
 
         // modify the toc link href to support Chinese.
@@ -822,7 +831,7 @@ What should you think  when u r 30?
 
         // modify the heading title id to support Chinese.
         i = 0;
-        $('#articleContent').children('h1, h2, h3, h4').each(function () {
+        $('#articleContent').children('h2, h3, h4').each(function () {
             $(this).attr('id', tocHeading + (++i));
         });
 
@@ -853,15 +862,26 @@ What should you think  when u r 30?
             <a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank">hexo-theme-matery</a>主题搭建.
 
             
+                &nbsp;<i class="fa fa-area-chart"></i>&nbsp;站点总字数:&nbsp;
+                <span class="white-color">48.3k</span>
+            
+
+            
 			
                 <br>
+                
                 <span id="busuanzi_container_site_pv">
-                    本站总访问量 <span id="busuanzi_value_site_pv" style="color: #fff;"></span> 次,&nbsp;
+                    <i class="fa fa-heart-o"></i>
+                    本站总访问量 <span id="busuanzi_value_site_pv" class="white-color"></span>
                 </span>
-				<span id="busuanzi_container_site_uv">
-                    访客数 <span id="busuanzi_value_site_uv" style="color: #fff;"></span> 人.
+                
+                
+                <span id="busuanzi_container_site_uv">
+                    <i class="fa fa-users"></i>
+                    次,&nbsp;访客数 <span id="busuanzi_value_site_uv" class="white-color"></span> 人.
                 </span>
-			
+                
+            
         </div>
         <div class="col s12 m4 l4 social-link social-statis"><a href="mailto:robin.hoo2019@ikoala.app" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
     <i class="fa fa-envelope-open"></i>
@@ -884,8 +904,9 @@ What should you think  when u r 30?
 <div id="searchModal" class="modal">
     <div class="modal-content">
         <div class="search-header">
-            <span class="title">搜索</span>
-            <input type="search" id="searchInput" name="s" placeholder="请输入搜索的关键字" class="search-input" autofocus>
+            <span class="title"><i class="fa fa-search"></i>&nbsp;&nbsp;搜索</span>
+            <input type="search" id="searchInput" name="s" placeholder="请输入搜索的关键字"
+                   class="search-input" autofocus="">
         </div>
         <div id="searchResult"></div>
     </div>

@@ -1,9 +1,8 @@
 <!DOCTYPE HTML>
 <html lang="zh-CN">
-<head>
-    
 
-<head><meta name="generator" content="Hexo 3.8.0">
+
+<head><meta name="generator" content="Hexo 3.9.0">
     <meta charset="utf-8">
     <meta name="keywords" content="016_Lrn_Soc_Prs_学习这回事儿之五（人本主义）, 观世界 做自己 博观约取 厚积薄发">
     <meta name="description" content="
@@ -34,11 +33,13 @@ D">
     <link rel="stylesheet" type="text/css" href="/libs/lightGallery/css/lightgallery.min.css">
     <link rel="stylesheet" type="text/css" href="/css/matery.css">
     <link rel="stylesheet" type="text/css" href="/css/my.css">
+    <style type="text/css">
+        
+    </style>
 
     <script src="/libs/jquery/jquery-2.2.0.min.js"></script>
 <link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"></head>
 
-</head>
 
 <body>
 
@@ -115,7 +116,7 @@ D">
     
     <li>
         <a id="toggleSearch" class="waves-effect waves-light">
-            <i id="searchIcon" class="mdi-action-search"></i>
+            <i id="searchIcon" class="mdi-action-search" title="搜索"></i>
         </a>
     </li>
 
@@ -241,38 +242,17 @@ D">
     
     <link rel="stylesheet" href="/libs/tocbot/tocbot.css">
 <style>
-    #articleContent h1,
-    #articleContent h2,
-    #articleContent h3,
-    #articleContent h4,
-    #articleContent h5,
-    #articleContent h6 {
-        padding-top: 76px;
-        margin-top: -76px;
-    }
-
-    #articleContent h1 {
-        line-height: 3.5rem;
-    }
-
-    #articleContent h2 {
-        line-height: 3.2rem;
-    }
-
-    #articleContent h3 {
-        line-height: 2.8rem;
-    }
-
-    #articleContent h4 {
-        line-height: 2.5rem;
-    }
-
-    #articleContent h5 {
-        line-height: 2.2rem;
-    }
-
-    #articleContent h6 {
-        line-height: 1.9rem;
+    #articleContent h1::before,
+    #articleContent h2::before,
+    #articleContent h3::before,
+    #articleContent h4::before,
+    #articleContent h5::before,
+    #articleContent h6::before {
+        display: block;
+        content: " ";
+        height: 100px;
+        margin-top: -100px;
+        visibility: hidden;
     }
 
     #articleContent :focus {
@@ -334,69 +314,93 @@ D">
 <div id="artDetail">
     <div class="card">
         <div class="card-content article-info">
-            
-            <div class="article-tag">
-                
-                <a href="/tags/学习/" target="_blank">
-                    <span class="chip bg-color">学习</span>
-                </a>
-                
-                <a href="/tags/人本主义/" target="_blank">
-                    <span class="chip bg-color">人本主义</span>
-                </a>
-                
-                <a href="/tags/马斯洛/" target="_blank">
-                    <span class="chip bg-color">马斯洛</span>
-                </a>
-                
-                <a href="/tags/需要层次说/" target="_blank">
-                    <span class="chip bg-color">需要层次说</span>
-                </a>
-                
-                <a href="/tags/罗杰斯/" target="_blank">
-                    <span class="chip bg-color">罗杰斯</span>
-                </a>
-                
-                <a href="/tags/学习者为中心/" target="_blank">
-                    <span class="chip bg-color">学习者为中心</span>
-                </a>
-                
-                <a href="/tags/全人教育/" target="_blank">
-                    <span class="chip bg-color">全人教育</span>
-                </a>
-                
+            <div class="row tag-cate">
+                <div class="col s7">
+                    
+                    <div class="article-tag">
+                        
+                            <a href="/tags/学习/" target="_blank">
+                                <span class="chip bg-color">学习</span>
+                            </a>
+                        
+                            <a href="/tags/人本主义/" target="_blank">
+                                <span class="chip bg-color">人本主义</span>
+                            </a>
+                        
+                            <a href="/tags/马斯洛/" target="_blank">
+                                <span class="chip bg-color">马斯洛</span>
+                            </a>
+                        
+                            <a href="/tags/需要层次说/" target="_blank">
+                                <span class="chip bg-color">需要层次说</span>
+                            </a>
+                        
+                            <a href="/tags/罗杰斯/" target="_blank">
+                                <span class="chip bg-color">罗杰斯</span>
+                            </a>
+                        
+                            <a href="/tags/学习者为中心/" target="_blank">
+                                <span class="chip bg-color">学习者为中心</span>
+                            </a>
+                        
+                            <a href="/tags/全人教育/" target="_blank">
+                                <span class="chip bg-color">全人教育</span>
+                            </a>
+                        
+                    </div>
+                    
+                </div>
+                <div class="col s5 right-align">
+                    
+                    <div class="post-cate">
+                        <i class="fa fa-bookmark fa-fw icon-category"></i>
+                        
+                            <a href="/categories/胡宾-Robin/" class="post-category" target="_blank">
+                                胡宾 Robin
+                            </a>
+                        
+                    </div>
+                    
+                </div>
             </div>
-            
-            <div class="post-info">
-                
-                <span class="post-cate">
-                <!--<span class="post-cate" style="margin-right: 0px">-->
-                    <i class="fa fa-bookmark fa-fw icon-category"></i>
-                    
-                    <a href="/categories/胡宾-Robin/" class="post-category" target="_blank">
-                        胡宾 Robin
-                    </a>
-                    
-                </span>
-                
 
-                <span class="post-date">
-                    <i class="fa fa-clock-o fa-fw"></i>2018-08-04
-                </span>
+            <div class="post-info">
+                <div class="post-date info-break-policy">
+                    <i class="fa fa-calendar-minus-o fa-fw"></i>发布日期:&nbsp;&nbsp;
+                    2018-08-04
+                </div>
+
+                
+                    
+                    <div class="info-break-policy">
+                        <i class="fa fa-file-word-o fa-fw"></i>文章字数:&nbsp;&nbsp;
+                        878
+                    </div>
+                    
+
+                    
+                    <div class="info-break-policy">
+                        <i class="fa fa-clock-o fa-fw"></i>阅读时长:&nbsp;&nbsp;
+                        3 分
+                    </div>
+                    
+                
 				
 				
-                    <span id="busuanzi_container_page_pv" class="post-read">
-                    <i class="fa fa-eye fa-fw"></i>阅读 <span id="busuanzi_value_page_pv"></span>
+                    <div id="busuanzi_container_page_pv" class="info-break-policy">
+                        <i class="fa fa-eye fa-fw"></i>阅读次数:&nbsp;&nbsp;
+                        <span id="busuanzi_value_page_pv"></span>
+                    </div>
 				
-            </span></div>
+            </div>
         </div>
-        <hr>
+        <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
                 <blockquote>
 <p><em>The introduction of Humanism.</em></p>
 </blockquote>
-<p><img src="https://res.cloudinary.com/ikoala/image/upload/v1548662516/BlogPic_Cldi_KOLA/wifi-battery_hirearchy_needs_fun.jpg" alt=""></p>
+<p><img src="https://res.cloudinary.com/ikoala/image/upload/v1548662516/BlogPic_Cldi_KOLA/wifi-battery_hirearchy_needs_fun.jpg" alt></p>
 <hr>
 <p>[TOC]</p>
 <h1 id="信息时代的底层焦虑"><a href="#信息时代的底层焦虑" class="headerlink" title="信息时代的底层焦虑"></a>信息时代的底层焦虑</h1><p> 经常有人开玩笑，没有WiFi与电池，简直无法生存，手机没电时，整个人都不好了…</p>
@@ -406,11 +410,11 @@ D">
 <p><a href="http://music.163.com/#/m/song?id=4278477" target="_blank" rel="noopener">Dreamcatcher</a></p>
 <h1 id="人本主义的兴起"><a href="#人本主义的兴起" class="headerlink" title="人本主义的兴起"></a>人本主义的兴起</h1><p>人本主义学习理论是20世纪五六十年代在美国兴起的一种心理学思潮，其主要代表人物是<em>马斯洛（A.Maslow）</em>和<em>罗杰斯（C.R.Rogers）</em>。<br>人本主义的学习与教学观深刻地影响了世界范围内的教育改革，是与程序教学运动、学科结构运动齐名的20世纪三大教学运动之一。</p>
 <h2 id="人本主义基本主张"><a href="#人本主义基本主张" class="headerlink" title="人本主义基本主张"></a>人本主义基本主张</h2><p>人本主义学习理论是建立在人本主义心理学的基础之上的。人本主义主张，心理学应当把人作为一个<strong>整体</strong>来研究，而不是将人的心理肢解为不完整的几个部分，应该研究正常的人，而且更应该关注人的高级心理活动，如热情、信念、生命、尊严等内容。</p>
-<p>人本主义的学习理论从全人教育的视角阐释了学习者整个人的成长历程，以发展人性；注重启发学习者的经验和创造潜能，引导其结合认知和经验，肯定自我，进而自我实现。<br>人本主义学习理论重点研究如何为学习者创造一个良好的环境，让其从自己的角度感知世界，发展出对世界的理解，达到自我实现的最高境界。<br><img src="https://res.cloudinary.com/ikoala/image/upload/v1548662081/BlogPic_Cldi_KOLA/Humanistic_learning_theory.jpg" alt=""><br>  人本主义介绍两位重量级人物：</p>
-<h2 id="No-1-马斯洛"><a href="#No-1-马斯洛" class="headerlink" title="No.1-马斯洛"></a>No.1-马斯洛</h2><p><img src="https://res.cloudinary.com/ikoala/image/upload/v1548662065/BlogPic_Cldi_KOLA/Abraham_H._Maslow_portrait_psy.jpg" alt=""><br>美国心理学家<em>亚伯拉罕·哈罗德·马斯洛（Abraham Harold Maslow）</em>，是比较心理学家，人本主义心理学的主要创建者之一，心理学第三势力的领导人。以需要层次理论最为著名，为一种心理健康的理论，认为首先要满足人类天生的需求，最终达成自我实现。<br>他有句名言：<strong>“当你只有铁锤时，这世界就只剩下钉子。”</strong></p>
-<h3 id="需要层次理论示意图（1970版及晚年）"><a href="#需要层次理论示意图（1970版及晚年）" class="headerlink" title="需要层次理论示意图（1970版及晚年）"></a>需要层次理论示意图（1970版及晚年）</h3><p><img src="https://res.cloudinary.com/ikoala/image/upload/v1548662077/BlogPic_Cldi_KOLA/Maslow-Hierarchy-needs_cn_model.jpg" alt=""></p>
-<p>注：在他晚年时期，受到东方智慧的影响，提出了超个人心理学，认为应以宇宙为中心，而不是个人的自我需要为中心。<br><img src="https://res.cloudinary.com/ikoala/image/upload/v1548662521/BlogPic_Cldi_KOLA/features_hirearchy_needs_theory.jpg" alt=""></p>
-<h2 id="No-2-罗杰斯"><a href="#No-2-罗杰斯" class="headerlink" title="No.2-罗杰斯"></a>No.2-罗杰斯</h2><p><img src="https://res.cloudinary.com/ikoala/image/upload/v1548662058/BlogPic_Cldi_KOLA/Carl_R._Rogers_portrait_psy.jpg" alt=""><br>美国心理学家<em>卡尔·罗杰斯（Carl Ransom Rogers）</em>，人本主义心理学的主要代表人物之一。从事心理咨询和治疗的实践与研究，并因“以当事人为中心”的心理治疗方法而驰名，提出了人焦虑的来源以及心理防御机制等概念。以<strong>“学习者为中心”</strong>、<strong>“全人”教育</strong>的理念也得到了广泛的认同。<br><img src="https://res.cloudinary.com/ikoala/image/upload/v1548662188/BlogPic_Cldi_KOLA/Rogers_learning_theory.jpg" alt=""></p>
+<p>人本主义的学习理论从全人教育的视角阐释了学习者整个人的成长历程，以发展人性；注重启发学习者的经验和创造潜能，引导其结合认知和经验，肯定自我，进而自我实现。<br>人本主义学习理论重点研究如何为学习者创造一个良好的环境，让其从自己的角度感知世界，发展出对世界的理解，达到自我实现的最高境界。<br><img src="https://res.cloudinary.com/ikoala/image/upload/v1548662081/BlogPic_Cldi_KOLA/Humanistic_learning_theory.jpg" alt><br>  人本主义介绍两位重量级人物：</p>
+<h2 id="No-1-马斯洛"><a href="#No-1-马斯洛" class="headerlink" title="No.1-马斯洛"></a>No.1-马斯洛</h2><p><img src="https://res.cloudinary.com/ikoala/image/upload/v1548662065/BlogPic_Cldi_KOLA/Abraham_H._Maslow_portrait_psy.jpg" alt><br>美国心理学家<em>亚伯拉罕·哈罗德·马斯洛（Abraham Harold Maslow）</em>，是比较心理学家，人本主义心理学的主要创建者之一，心理学第三势力的领导人。以需要层次理论最为著名，为一种心理健康的理论，认为首先要满足人类天生的需求，最终达成自我实现。<br>他有句名言：<strong>“当你只有铁锤时，这世界就只剩下钉子。”</strong></p>
+<h3 id="需要层次理论示意图（1970版及晚年）"><a href="#需要层次理论示意图（1970版及晚年）" class="headerlink" title="需要层次理论示意图（1970版及晚年）"></a>需要层次理论示意图（1970版及晚年）</h3><p><img src="https://res.cloudinary.com/ikoala/image/upload/v1548662077/BlogPic_Cldi_KOLA/Maslow-Hierarchy-needs_cn_model.jpg" alt></p>
+<p>注：在他晚年时期，受到东方智慧的影响，提出了超个人心理学，认为应以宇宙为中心，而不是个人的自我需要为中心。<br><img src="https://res.cloudinary.com/ikoala/image/upload/v1548662521/BlogPic_Cldi_KOLA/features_hirearchy_needs_theory.jpg" alt></p>
+<h2 id="No-2-罗杰斯"><a href="#No-2-罗杰斯" class="headerlink" title="No.2-罗杰斯"></a>No.2-罗杰斯</h2><p><img src="https://res.cloudinary.com/ikoala/image/upload/v1548662058/BlogPic_Cldi_KOLA/Carl_R._Rogers_portrait_psy.jpg" alt><br>美国心理学家<em>卡尔·罗杰斯（Carl Ransom Rogers）</em>，人本主义心理学的主要代表人物之一。从事心理咨询和治疗的实践与研究，并因“以当事人为中心”的心理治疗方法而驰名，提出了人焦虑的来源以及心理防御机制等概念。以<strong>“学习者为中心”</strong>、<strong>“全人”教育</strong>的理念也得到了广泛的认同。<br><img src="https://res.cloudinary.com/ikoala/image/upload/v1548662188/BlogPic_Cldi_KOLA/Rogers_learning_theory.jpg" alt></p>
 <p>  至此，关于学习理论的几大流派先介绍到这里，这些理论可能对于非教育领域的人士听起来比较艰深，从教育角度看，我们的一生有三种状态：受教，施教，二者兼有，因此了解些教育理论能帮助我们基本识别出来社会上形形色色的教育理念，不至于偏听偏信，还能去探索下如何学习，如何施教更有效。</p>
 <hr>
 <h1 id="ChangeLog"><a href="#ChangeLog" class="headerlink" title="ChangeLog"></a>ChangeLog</h1><ul>
@@ -419,7 +423,7 @@ D">
 </ul>
 
             </div>
-            <hr>
+            <hr/>
 
             
             <style>
@@ -519,7 +523,7 @@ D">
                         <img src="/medias/reward/wechat.png" class="reward-img" alt="微信打赏二维码">
                     </div>
                     <div id="alipay">
-                        <img src="/medias/reward/alipay.png" class="reward-img" alt="支付宝打赏二维码">
+                        <img src="/medias/reward/alipay.jpg" class="reward-img" alt="支付宝打赏二维码">
                     </div>
                 </div>
             </div>
@@ -552,7 +556,9 @@ D">
 
             <div class="reprint">
                 <p>
-                    <span class="reprint-tip">转载请注明: </span>
+                    <span class="reprint-tip">
+                        <i class="fa fa-exclamation-circle"></i>&nbsp;&nbsp;转载请注明:
+                    </span>
                     <a href="http://www.ikoala.app" class="b-link-green">iKoala</a>
                     <i class="fa fa-angle-right fa-lg fa-fw text-color"></i>
                     <a href="/2018/08/04/016-lrn-soc-prs-xue-xi-zhe-hui-shi-er-zhi-wu-ren-ben-zhu-yi-20180804/" class="b-link-green">016_Lrn_Soc_Prs_学习这回事儿之五（人本主义）</a>
@@ -602,7 +608,8 @@ D">
     <div class="row article-row">
         
         <div class="article col s12 m6" data-aos="fade-up">
-            <div class="article-badge left-badge text-color">上一篇</div>
+            <div class="article-badge left-badge text-color">
+                <i class="fa fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
                 <a href="/2018/08/18/017-lif-idv-prs-xin-xi-hong-liu-xia-ni-huan-neng-yang-fan-chang-you-xin-wu-pang-wu-ma-20180818/">
                     <div class="card-image">
@@ -674,7 +681,9 @@ Make your mental flow in bit torrent!
         
         
         <div class="article col s12 m6" data-aos="fade-up">
-            <div class="article-badge right-badge text-color">下一篇</div>
+            <div class="article-badge right-badge text-color">
+                下一篇&nbsp;<i class="fa fa-chevron-right"></i>
+            </div>
             <div class="card">
                 <a href="/2018/07/29/015-lrn-soc-prs-xue-xi-zhe-hui-shi-er-zhi-si-jian-gou-zhu-yi-20180729/">
                     <div class="card-image">
@@ -785,10 +794,8 @@ The introduction of Constructivism.
     </div>
     <div class="col l3 hide-on-med-and-down">
         <div class="toc-widget">
-            <div class="toc-title">目录</div>
-            <div id="toc-content">
-
-            </div>
+            <div class="toc-title"><i class="fa fa-list-alt"></i>&nbsp;&nbsp;目录</div>
+            <div id="toc-content"></div>
         </div>
     </div>
 </div>
@@ -799,7 +806,9 @@ The introduction of Constructivism.
         tocbot.init({
             tocSelector: '#toc-content',
             contentSelector: '#articleContent',
-            headingSelector: 'h1, h2, h3, h4'
+            headingsOffset: -($(window).height() * 0.4 - 45),
+            // headingsOffset: -205,
+            headingSelector: 'h2, h3, h4'
         });
 
         // modify the toc link href to support Chinese.
@@ -811,7 +820,7 @@ The introduction of Constructivism.
 
         // modify the heading title id to support Chinese.
         i = 0;
-        $('#articleContent').children('h1, h2, h3, h4').each(function () {
+        $('#articleContent').children('h2, h3, h4').each(function () {
             $(this).attr('id', tocHeading + (++i));
         });
 
@@ -842,15 +851,26 @@ The introduction of Constructivism.
             <a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank">hexo-theme-matery</a>主题搭建.
 
             
+                &nbsp;<i class="fa fa-area-chart"></i>&nbsp;站点总字数:&nbsp;
+                <span class="white-color">48.3k</span>
+            
+
+            
 			
                 <br>
+                
                 <span id="busuanzi_container_site_pv">
-                    本站总访问量 <span id="busuanzi_value_site_pv" style="color: #fff;"></span> 次,&nbsp;
+                    <i class="fa fa-heart-o"></i>
+                    本站总访问量 <span id="busuanzi_value_site_pv" class="white-color"></span>
                 </span>
-				<span id="busuanzi_container_site_uv">
-                    访客数 <span id="busuanzi_value_site_uv" style="color: #fff;"></span> 人.
+                
+                
+                <span id="busuanzi_container_site_uv">
+                    <i class="fa fa-users"></i>
+                    次,&nbsp;访客数 <span id="busuanzi_value_site_uv" class="white-color"></span> 人.
                 </span>
-			
+                
+            
         </div>
         <div class="col s12 m4 l4 social-link social-statis"><a href="mailto:robin.hoo2019@ikoala.app" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
     <i class="fa fa-envelope-open"></i>
@@ -873,8 +893,9 @@ The introduction of Constructivism.
 <div id="searchModal" class="modal">
     <div class="modal-content">
         <div class="search-header">
-            <span class="title">搜索</span>
-            <input type="search" id="searchInput" name="s" placeholder="请输入搜索的关键字" class="search-input" autofocus>
+            <span class="title"><i class="fa fa-search"></i>&nbsp;&nbsp;搜索</span>
+            <input type="search" id="searchInput" name="s" placeholder="请输入搜索的关键字"
+                   class="search-input" autofocus="">
         </div>
         <div id="searchResult"></div>
     </div>

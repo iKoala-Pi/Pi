@@ -1,9 +1,8 @@
 <!DOCTYPE HTML>
 <html lang="zh-CN">
-<head>
-    
 
-<head><meta name="generator" content="Hexo 3.8.0">
+
+<head><meta name="generator" content="Hexo 3.9.0">
     <meta charset="utf-8">
     <meta name="keywords" content="019_Lif_Idv_Pas_闲暇时间你会做什么 II？, 观世界 做自己 博观约取 厚积薄发">
     <meta name="description" content="
@@ -30,11 +29,13 @@ What do you do in your leisure time? II
     <link rel="stylesheet" type="text/css" href="/libs/lightGallery/css/lightgallery.min.css">
     <link rel="stylesheet" type="text/css" href="/css/matery.css">
     <link rel="stylesheet" type="text/css" href="/css/my.css">
+    <style type="text/css">
+        
+    </style>
 
     <script src="/libs/jquery/jquery-2.2.0.min.js"></script>
 <link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"></head>
 
-</head>
 
 <body>
 
@@ -111,7 +112,7 @@ What do you do in your leisure time? II
     
     <li>
         <a id="toggleSearch" class="waves-effect waves-light">
-            <i id="searchIcon" class="mdi-action-search"></i>
+            <i id="searchIcon" class="mdi-action-search" title="搜索"></i>
         </a>
     </li>
 
@@ -237,38 +238,17 @@ What do you do in your leisure time? II
     
     <link rel="stylesheet" href="/libs/tocbot/tocbot.css">
 <style>
-    #articleContent h1,
-    #articleContent h2,
-    #articleContent h3,
-    #articleContent h4,
-    #articleContent h5,
-    #articleContent h6 {
-        padding-top: 76px;
-        margin-top: -76px;
-    }
-
-    #articleContent h1 {
-        line-height: 3.5rem;
-    }
-
-    #articleContent h2 {
-        line-height: 3.2rem;
-    }
-
-    #articleContent h3 {
-        line-height: 2.8rem;
-    }
-
-    #articleContent h4 {
-        line-height: 2.5rem;
-    }
-
-    #articleContent h5 {
-        line-height: 2.2rem;
-    }
-
-    #articleContent h6 {
-        line-height: 1.9rem;
+    #articleContent h1::before,
+    #articleContent h2::before,
+    #articleContent h3::before,
+    #articleContent h4::before,
+    #articleContent h5::before,
+    #articleContent h6::before {
+        display: block;
+        content: " ";
+        height: 100px;
+        margin-top: -100px;
+        visibility: hidden;
     }
 
     #articleContent :focus {
@@ -330,85 +310,109 @@ What do you do in your leisure time? II
 <div id="artDetail">
     <div class="card">
         <div class="card-content article-info">
-            
-            <div class="article-tag">
-                
-                <a href="/tags/巴塞罗那/" target="_blank">
-                    <span class="chip bg-color">巴塞罗那</span>
-                </a>
-                
-                <a href="/tags/马德里/" target="_blank">
-                    <span class="chip bg-color">马德里</span>
-                </a>
-                
-                <a href="/tags/高迪/" target="_blank">
-                    <span class="chip bg-color">高迪</span>
-                </a>
-                
-                <a href="/tags/圣家族大教堂/" target="_blank">
-                    <span class="chip bg-color">圣家族大教堂</span>
-                </a>
-                
-                <a href="/tags/巴特约之家/" target="_blank">
-                    <span class="chip bg-color">巴特约之家</span>
-                </a>
-                
-                <a href="/tags/奎尔公园/" target="_blank">
-                    <span class="chip bg-color">奎尔公园</span>
-                </a>
-                
-                <a href="/tags/萨拉曼卡/" target="_blank">
-                    <span class="chip bg-color">萨拉曼卡</span>
-                </a>
-                
-                <a href="/tags/塞维利亚/" target="_blank">
-                    <span class="chip bg-color">塞维利亚</span>
-                </a>
-                
-                <a href="/tags/斗牛/" target="_blank">
-                    <span class="chip bg-color">斗牛</span>
-                </a>
-                
-                <a href="/tags/塞戈维亚/" target="_blank">
-                    <span class="chip bg-color">塞戈维亚</span>
-                </a>
-                
-                <a href="/tags/马拉加/" target="_blank">
-                    <span class="chip bg-color">马拉加</span>
-                </a>
-                
+            <div class="row tag-cate">
+                <div class="col s7">
+                    
+                    <div class="article-tag">
+                        
+                            <a href="/tags/巴塞罗那/" target="_blank">
+                                <span class="chip bg-color">巴塞罗那</span>
+                            </a>
+                        
+                            <a href="/tags/马德里/" target="_blank">
+                                <span class="chip bg-color">马德里</span>
+                            </a>
+                        
+                            <a href="/tags/高迪/" target="_blank">
+                                <span class="chip bg-color">高迪</span>
+                            </a>
+                        
+                            <a href="/tags/圣家族大教堂/" target="_blank">
+                                <span class="chip bg-color">圣家族大教堂</span>
+                            </a>
+                        
+                            <a href="/tags/巴特约之家/" target="_blank">
+                                <span class="chip bg-color">巴特约之家</span>
+                            </a>
+                        
+                            <a href="/tags/奎尔公园/" target="_blank">
+                                <span class="chip bg-color">奎尔公园</span>
+                            </a>
+                        
+                            <a href="/tags/萨拉曼卡/" target="_blank">
+                                <span class="chip bg-color">萨拉曼卡</span>
+                            </a>
+                        
+                            <a href="/tags/塞维利亚/" target="_blank">
+                                <span class="chip bg-color">塞维利亚</span>
+                            </a>
+                        
+                            <a href="/tags/斗牛/" target="_blank">
+                                <span class="chip bg-color">斗牛</span>
+                            </a>
+                        
+                            <a href="/tags/塞戈维亚/" target="_blank">
+                                <span class="chip bg-color">塞戈维亚</span>
+                            </a>
+                        
+                            <a href="/tags/马拉加/" target="_blank">
+                                <span class="chip bg-color">马拉加</span>
+                            </a>
+                        
+                    </div>
+                    
+                </div>
+                <div class="col s5 right-align">
+                    
+                    <div class="post-cate">
+                        <i class="fa fa-bookmark fa-fw icon-category"></i>
+                        
+                            <a href="/categories/胡宾-Robin/" class="post-category" target="_blank">
+                                胡宾 Robin
+                            </a>
+                        
+                    </div>
+                    
+                </div>
             </div>
-            
-            <div class="post-info">
-                
-                <span class="post-cate">
-                <!--<span class="post-cate" style="margin-right: 0px">-->
-                    <i class="fa fa-bookmark fa-fw icon-category"></i>
-                    
-                    <a href="/categories/胡宾-Robin/" class="post-category" target="_blank">
-                        胡宾 Robin
-                    </a>
-                    
-                </span>
-                
 
-                <span class="post-date">
-                    <i class="fa fa-clock-o fa-fw"></i>2018-10-07
-                </span>
+            <div class="post-info">
+                <div class="post-date info-break-policy">
+                    <i class="fa fa-calendar-minus-o fa-fw"></i>发布日期:&nbsp;&nbsp;
+                    2018-10-07
+                </div>
+
+                
+                    
+                    <div class="info-break-policy">
+                        <i class="fa fa-file-word-o fa-fw"></i>文章字数:&nbsp;&nbsp;
+                        2k
+                    </div>
+                    
+
+                    
+                    <div class="info-break-policy">
+                        <i class="fa fa-clock-o fa-fw"></i>阅读时长:&nbsp;&nbsp;
+                        6 分
+                    </div>
+                    
+                
 				
 				
-                    <span id="busuanzi_container_page_pv" class="post-read">
-                    <i class="fa fa-eye fa-fw"></i>阅读 <span id="busuanzi_value_page_pv"></span>
+                    <div id="busuanzi_container_page_pv" class="info-break-policy">
+                        <i class="fa fa-eye fa-fw"></i>阅读次数:&nbsp;&nbsp;
+                        <span id="busuanzi_value_page_pv"></span>
+                    </div>
 				
-            </span></div>
+            </div>
         </div>
-        <hr>
+        <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
                 <blockquote>
 <p><em>What do you do in your leisure time? II</em></p>
 </blockquote>
-<p><img src="https://res.cloudinary.com/ikoala/image/upload/v1548662434/BlogPic_Cldi_KOLA/chimney_Casa_Batllo_Barcelona_Robin.jpg" alt=""></p>
+<p><img src="https://res.cloudinary.com/ikoala/image/upload/v1548662434/BlogPic_Cldi_KOLA/chimney_Casa_Batllo_Barcelona_Robin.jpg" alt></p>
 <hr>
 <p>[TOC]</p>
 <h1 id="近况"><a href="#近况" class="headerlink" title="近况"></a>近况</h1><p>过去的9月是行业里的忙季，除了吃饭，睡觉，闲暇时间几乎被挤压殆尽，工作日每天工作18个小时，周末也要工作12个小时左右，强度算比较大的了，结果本应9月完成的这篇延到了现在。</p>
@@ -424,47 +428,47 @@ What do you do in your leisure time? II
 <blockquote>
 <p>马德里市标-狗熊摘草莓</p>
 </blockquote>
-<p><img src="https://res.cloudinary.com/ikoala/image/upload/v1548662428/BlogPic_Cldi_KOLA/City_landmark_Madrid_Robin.jpg" alt=""><br>囧。。。第一次知道，草莓树能长这么高！</p>
+<p><img src="https://res.cloudinary.com/ikoala/image/upload/v1548662428/BlogPic_Cldi_KOLA/City_landmark_Madrid_Robin.jpg" alt><br>囧。。。第一次知道，草莓树能长这么高！</p>
 <blockquote>
 <p>马德里街头即兴表演-弗拉明戈舞</p>
 </blockquote>
-<p><img src="https://res.cloudinary.com/ikoala/image/upload/v1548662446/BlogPic_Cldi_KOLA/flamenco_Madrid_Robin.jpg" alt=""></p>
+<p><img src="https://res.cloudinary.com/ikoala/image/upload/v1548662446/BlogPic_Cldi_KOLA/flamenco_Madrid_Robin.jpg" alt></p>
 <blockquote>
 <p>马德里市郊购物村-Las Rozas Village</p>
 </blockquote>
-<p><img src="https://res.cloudinary.com/ikoala/image/upload/v1548662458/BlogPic_Cldi_KOLA/las-rosas-villege_Madrid_Robin.jpg" alt=""></p>
+<p><img src="https://res.cloudinary.com/ikoala/image/upload/v1548662458/BlogPic_Cldi_KOLA/las-rosas-villege_Madrid_Robin.jpg" alt></p>
 <blockquote>
 <p>巴塞罗那-高迪传世之作-奇妙的巴特约之家</p>
 </blockquote>
-<p><img src="https://res.cloudinary.com/ikoala/image/upload/v1548662512/BlogPic_Cldi_KOLA/roof_Casa_Batllo_Barcelona_Robin.jpg" alt=""></p>
+<p><img src="https://res.cloudinary.com/ikoala/image/upload/v1548662512/BlogPic_Cldi_KOLA/roof_Casa_Batllo_Barcelona_Robin.jpg" alt></p>
 <blockquote>
 <p>巴塞罗那-高迪传世之作-奇异的圣家族大教堂</p>
 </blockquote>
-<p><img src="https://res.cloudinary.com/ikoala/image/upload/v1548662399/BlogPic_Cldi_KOLA/Sagrada_Familia_Barcelona_Robin.jpg" alt=""></p>
+<p><img src="https://res.cloudinary.com/ikoala/image/upload/v1548662399/BlogPic_Cldi_KOLA/Sagrada_Familia_Barcelona_Robin.jpg" alt></p>
 <blockquote>
 <p>巴塞罗那-高迪传世之作-奇幻的奎尔公园</p>
 </blockquote>
-<p><img src="https://res.cloudinary.com/ikoala/image/upload/v1548662464/BlogPic_Cldi_KOLA/mosaic-lizard_Park_Guell_Barcelona_Robin.jpg" alt=""></p>
+<p><img src="https://res.cloudinary.com/ikoala/image/upload/v1548662464/BlogPic_Cldi_KOLA/mosaic-lizard_Park_Guell_Barcelona_Robin.jpg" alt></p>
 <blockquote>
 <p>出差塞维利亚看现场斗牛</p>
 </blockquote>
-<p><img src="https://res.cloudinary.com/ikoala/image/upload/v1548662436/BlogPic_Cldi_KOLA/bullfight_Sevilla_Robin.jpg" alt=""></p>
+<p><img src="https://res.cloudinary.com/ikoala/image/upload/v1548662436/BlogPic_Cldi_KOLA/bullfight_Sevilla_Robin.jpg" alt></p>
 <blockquote>
 <p>历史悠久的萨拉曼卡大学城-马约尔广场</p>
 </blockquote>
-<p><img src="https://res.cloudinary.com/ikoala/image/upload/v1548662483/BlogPic_Cldi_KOLA/Plaza_Mayor_Salamanca_Robin.jpg" alt=""></p>
+<p><img src="https://res.cloudinary.com/ikoala/image/upload/v1548662483/BlogPic_Cldi_KOLA/Plaza_Mayor_Salamanca_Robin.jpg" alt></p>
 <blockquote>
 <p>出差著名渔港城维戈</p>
 </blockquote>
-<p><img src="https://res.cloudinary.com/ikoala/image/upload/v1548662438/BlogPic_Cldi_KOLA/shore_Vigo_Robin.jpg" alt=""></p>
+<p><img src="https://res.cloudinary.com/ikoala/image/upload/v1548662438/BlogPic_Cldi_KOLA/shore_Vigo_Robin.jpg" alt></p>
 <blockquote>
 <p>塞戈维亚-屹立2000年不倒的古罗马水渠</p>
 </blockquote>
-<p><img src="https://res.cloudinary.com/ikoala/image/upload/v1548662398/BlogPic_Cldi_KOLA/Rome-Aqueduct_Segovia_Robin.jpg" alt=""></p>
+<p><img src="https://res.cloudinary.com/ikoala/image/upload/v1548662398/BlogPic_Cldi_KOLA/Rome-Aqueduct_Segovia_Robin.jpg" alt></p>
 <blockquote>
 <p>毕加索的老家-著名的马拉加海滩</p>
 </blockquote>
-<p><img src="https://res.cloudinary.com/ikoala/image/upload/v1548662468/BlogPic_Cldi_KOLA/beach_Malaga_Robin.jpg" alt=""></p>
+<p><img src="https://res.cloudinary.com/ikoala/image/upload/v1548662468/BlogPic_Cldi_KOLA/beach_Malaga_Robin.jpg" alt></p>
 <h2 id="新鲜过后"><a href="#新鲜过后" class="headerlink" title="新鲜过后"></a>新鲜过后</h2><p>新鲜劲儿过后，习惯了这里的生活，发现没有想象中的开心，也说不上来哪里不开心，时间一长，内心开始出现一个声音：这就是我想要的吗？如果答案是肯定的，得到之后还要什么？如果答案否定，那想要的到底是什么？这些问题困扰着我，可能因为环境舒适，并没有刻意去寻找问题的答案。</p>
 <h3 id="无法绕开的问题"><a href="#无法绕开的问题" class="headerlink" title="无法绕开的问题"></a>无法绕开的问题</h3><p>直到2011年底，我住的公寓住进一位HR男同事，偶然聊起这个话题，却有了意外收获，他的3个问题，直击要害，触发了一系列深入的思考，我将这个过程还原出来：<br>他问我：</p>
 <ol>
@@ -510,7 +514,7 @@ What do you do in your leisure time? II
 </ul>
 
             </div>
-            <hr>
+            <hr/>
 
             
             <style>
@@ -610,7 +614,7 @@ What do you do in your leisure time? II
                         <img src="/medias/reward/wechat.png" class="reward-img" alt="微信打赏二维码">
                     </div>
                     <div id="alipay">
-                        <img src="/medias/reward/alipay.png" class="reward-img" alt="支付宝打赏二维码">
+                        <img src="/medias/reward/alipay.jpg" class="reward-img" alt="支付宝打赏二维码">
                     </div>
                 </div>
             </div>
@@ -643,7 +647,9 @@ What do you do in your leisure time? II
 
             <div class="reprint">
                 <p>
-                    <span class="reprint-tip">转载请注明: </span>
+                    <span class="reprint-tip">
+                        <i class="fa fa-exclamation-circle"></i>&nbsp;&nbsp;转载请注明:
+                    </span>
                     <a href="http://www.ikoala.app" class="b-link-green">iKoala</a>
                     <i class="fa fa-angle-right fa-lg fa-fw text-color"></i>
                     <a href="/2018/10/07/019-lif-idv-pas-xian-xia-shi-jian-ni-hui-zuo-shi-me-ii-20181007/" class="b-link-green">019_Lif_Idv_Pas_闲暇时间你会做什么 II？</a>
@@ -693,7 +699,8 @@ What do you do in your leisure time? II
     <div class="row article-row">
         
         <div class="article col s12 m6" data-aos="fade-up">
-            <div class="article-badge left-badge text-color">上一篇</div>
+            <div class="article-badge left-badge text-color">
+                <i class="fa fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
                 <a href="/2018/10/29/020-men-idv-prs-30-sui-shi-gai-xiang-dian-sha-20181029/">
                     <div class="card-image">
@@ -757,7 +764,9 @@ What should you think  when u r 30?
         
         
         <div class="article col s12 m6" data-aos="fade-up">
-            <div class="article-badge right-badge text-color">下一篇</div>
+            <div class="article-badge right-badge text-color">
+                下一篇&nbsp;<i class="fa fa-chevron-right"></i>
+            </div>
             <div class="card">
                 <a href="/2018/09/09/018-lif-idv-prs-xian-xia-shi-jian-ni-hui-zuo-shi-me-20180909/">
                     <div class="card-image">
@@ -873,10 +882,8 @@ What do you do in your leisure time?
     </div>
     <div class="col l3 hide-on-med-and-down">
         <div class="toc-widget">
-            <div class="toc-title">目录</div>
-            <div id="toc-content">
-
-            </div>
+            <div class="toc-title"><i class="fa fa-list-alt"></i>&nbsp;&nbsp;目录</div>
+            <div id="toc-content"></div>
         </div>
     </div>
 </div>
@@ -887,7 +894,9 @@ What do you do in your leisure time?
         tocbot.init({
             tocSelector: '#toc-content',
             contentSelector: '#articleContent',
-            headingSelector: 'h1, h2, h3, h4'
+            headingsOffset: -($(window).height() * 0.4 - 45),
+            // headingsOffset: -205,
+            headingSelector: 'h2, h3, h4'
         });
 
         // modify the toc link href to support Chinese.
@@ -899,7 +908,7 @@ What do you do in your leisure time?
 
         // modify the heading title id to support Chinese.
         i = 0;
-        $('#articleContent').children('h1, h2, h3, h4').each(function () {
+        $('#articleContent').children('h2, h3, h4').each(function () {
             $(this).attr('id', tocHeading + (++i));
         });
 
@@ -930,15 +939,26 @@ What do you do in your leisure time?
             <a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank">hexo-theme-matery</a>主题搭建.
 
             
+                &nbsp;<i class="fa fa-area-chart"></i>&nbsp;站点总字数:&nbsp;
+                <span class="white-color">48.3k</span>
+            
+
+            
 			
                 <br>
+                
                 <span id="busuanzi_container_site_pv">
-                    本站总访问量 <span id="busuanzi_value_site_pv" style="color: #fff;"></span> 次,&nbsp;
+                    <i class="fa fa-heart-o"></i>
+                    本站总访问量 <span id="busuanzi_value_site_pv" class="white-color"></span>
                 </span>
-				<span id="busuanzi_container_site_uv">
-                    访客数 <span id="busuanzi_value_site_uv" style="color: #fff;"></span> 人.
+                
+                
+                <span id="busuanzi_container_site_uv">
+                    <i class="fa fa-users"></i>
+                    次,&nbsp;访客数 <span id="busuanzi_value_site_uv" class="white-color"></span> 人.
                 </span>
-			
+                
+            
         </div>
         <div class="col s12 m4 l4 social-link social-statis"><a href="mailto:robin.hoo2019@ikoala.app" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
     <i class="fa fa-envelope-open"></i>
@@ -961,8 +981,9 @@ What do you do in your leisure time?
 <div id="searchModal" class="modal">
     <div class="modal-content">
         <div class="search-header">
-            <span class="title">搜索</span>
-            <input type="search" id="searchInput" name="s" placeholder="请输入搜索的关键字" class="search-input" autofocus>
+            <span class="title"><i class="fa fa-search"></i>&nbsp;&nbsp;搜索</span>
+            <input type="search" id="searchInput" name="s" placeholder="请输入搜索的关键字"
+                   class="search-input" autofocus="">
         </div>
         <div id="searchResult"></div>
     </div>

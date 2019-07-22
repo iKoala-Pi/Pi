@@ -1,9 +1,8 @@
 <!DOCTYPE HTML>
 <html lang="zh-CN">
-<head>
-    
 
-<head><meta name="generator" content="Hexo 3.8.0">
+
+<head><meta name="generator" content="Hexo 3.9.0">
     <meta charset="utf-8">
     <meta name="keywords" content="026_Lrn_Soc_Prs_都是学习，怎么就不一样了？（一）, 观世界 做自己 博观约取 厚积薄发">
     <meta name="description" content="
@@ -30,11 +29,13 @@ The difference between school learning and vocational learning
     <link rel="stylesheet" type="text/css" href="/libs/lightGallery/css/lightgallery.min.css">
     <link rel="stylesheet" type="text/css" href="/css/matery.css">
     <link rel="stylesheet" type="text/css" href="/css/my.css">
+    <style type="text/css">
+        
+    </style>
 
     <script src="/libs/jquery/jquery-2.2.0.min.js"></script>
 <link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"></head>
 
-</head>
 
 <body>
 
@@ -111,7 +112,7 @@ The difference between school learning and vocational learning
     
     <li>
         <a id="toggleSearch" class="waves-effect waves-light">
-            <i id="searchIcon" class="mdi-action-search"></i>
+            <i id="searchIcon" class="mdi-action-search" title="搜索"></i>
         </a>
     </li>
 
@@ -237,38 +238,17 @@ The difference between school learning and vocational learning
     
     <link rel="stylesheet" href="/libs/tocbot/tocbot.css">
 <style>
-    #articleContent h1,
-    #articleContent h2,
-    #articleContent h3,
-    #articleContent h4,
-    #articleContent h5,
-    #articleContent h6 {
-        padding-top: 76px;
-        margin-top: -76px;
-    }
-
-    #articleContent h1 {
-        line-height: 3.5rem;
-    }
-
-    #articleContent h2 {
-        line-height: 3.2rem;
-    }
-
-    #articleContent h3 {
-        line-height: 2.8rem;
-    }
-
-    #articleContent h4 {
-        line-height: 2.5rem;
-    }
-
-    #articleContent h5 {
-        line-height: 2.2rem;
-    }
-
-    #articleContent h6 {
-        line-height: 1.9rem;
+    #articleContent h1::before,
+    #articleContent h2::before,
+    #articleContent h3::before,
+    #articleContent h4::before,
+    #articleContent h5::before,
+    #articleContent h6::before {
+        display: block;
+        content: " ";
+        height: 100px;
+        margin-top: -100px;
+        visibility: hidden;
     }
 
     #articleContent :focus {
@@ -330,69 +310,93 @@ The difference between school learning and vocational learning
 <div id="artDetail">
     <div class="card">
         <div class="card-content article-info">
-            
-            <div class="article-tag">
-                
-                <a href="/tags/学历教育/" target="_blank">
-                    <span class="chip bg-color">学历教育</span>
-                </a>
-                
-                <a href="/tags/职场教育/" target="_blank">
-                    <span class="chip bg-color">职场教育</span>
-                </a>
-                
-                <a href="/tags/学习核心要素/" target="_blank">
-                    <span class="chip bg-color">学习核心要素</span>
-                </a>
-                
-                <a href="/tags/记忆类型/" target="_blank">
-                    <span class="chip bg-color">记忆类型</span>
-                </a>
-                
-                <a href="/tags/工作记忆/" target="_blank">
-                    <span class="chip bg-color">工作记忆</span>
-                </a>
-                
-                <a href="/tags/元认知/" target="_blank">
-                    <span class="chip bg-color">元认知</span>
-                </a>
-                
-                <a href="/tags/学习动机/" target="_blank">
-                    <span class="chip bg-color">学习动机</span>
-                </a>
-                
+            <div class="row tag-cate">
+                <div class="col s7">
+                    
+                    <div class="article-tag">
+                        
+                            <a href="/tags/学历教育/" target="_blank">
+                                <span class="chip bg-color">学历教育</span>
+                            </a>
+                        
+                            <a href="/tags/职场教育/" target="_blank">
+                                <span class="chip bg-color">职场教育</span>
+                            </a>
+                        
+                            <a href="/tags/学习核心要素/" target="_blank">
+                                <span class="chip bg-color">学习核心要素</span>
+                            </a>
+                        
+                            <a href="/tags/记忆类型/" target="_blank">
+                                <span class="chip bg-color">记忆类型</span>
+                            </a>
+                        
+                            <a href="/tags/工作记忆/" target="_blank">
+                                <span class="chip bg-color">工作记忆</span>
+                            </a>
+                        
+                            <a href="/tags/元认知/" target="_blank">
+                                <span class="chip bg-color">元认知</span>
+                            </a>
+                        
+                            <a href="/tags/学习动机/" target="_blank">
+                                <span class="chip bg-color">学习动机</span>
+                            </a>
+                        
+                    </div>
+                    
+                </div>
+                <div class="col s5 right-align">
+                    
+                    <div class="post-cate">
+                        <i class="fa fa-bookmark fa-fw icon-category"></i>
+                        
+                            <a href="/categories/胡宾-Robin/" class="post-category" target="_blank">
+                                胡宾 Robin
+                            </a>
+                        
+                    </div>
+                    
+                </div>
             </div>
-            
-            <div class="post-info">
-                
-                <span class="post-cate">
-                <!--<span class="post-cate" style="margin-right: 0px">-->
-                    <i class="fa fa-bookmark fa-fw icon-category"></i>
-                    
-                    <a href="/categories/胡宾-Robin/" class="post-category" target="_blank">
-                        胡宾 Robin
-                    </a>
-                    
-                </span>
-                
 
-                <span class="post-date">
-                    <i class="fa fa-clock-o fa-fw"></i>2019-02-28
-                </span>
+            <div class="post-info">
+                <div class="post-date info-break-policy">
+                    <i class="fa fa-calendar-minus-o fa-fw"></i>发布日期:&nbsp;&nbsp;
+                    2019-02-28
+                </div>
+
+                
+                    
+                    <div class="info-break-policy">
+                        <i class="fa fa-file-word-o fa-fw"></i>文章字数:&nbsp;&nbsp;
+                        1.7k
+                    </div>
+                    
+
+                    
+                    <div class="info-break-policy">
+                        <i class="fa fa-clock-o fa-fw"></i>阅读时长:&nbsp;&nbsp;
+                        5 分
+                    </div>
+                    
+                
 				
 				
-                    <span id="busuanzi_container_page_pv" class="post-read">
-                    <i class="fa fa-eye fa-fw"></i>阅读 <span id="busuanzi_value_page_pv"></span>
+                    <div id="busuanzi_container_page_pv" class="info-break-policy">
+                        <i class="fa fa-eye fa-fw"></i>阅读次数:&nbsp;&nbsp;
+                        <span id="busuanzi_value_page_pv"></span>
+                    </div>
 				
-            </span></div>
+            </div>
         </div>
-        <hr>
+        <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
                 <blockquote>
 <p><em>The difference between school learning and vocational learning</em></p>
 </blockquote>
-<p><img src="https://res.cloudinary.com/ikoala/image/upload/v1551367125/BlogPic_Cldi_KOLA/learning-curve_cartoon.jpg" alt=""></p>
+<p><img src="https://res.cloudinary.com/ikoala/image/upload/v1551367125/BlogPic_Cldi_KOLA/learning-curve_cartoon.jpg" alt></p>
 <hr>
 <p>[TOC]</p>
 <h1 id="导语"><a href="#导语" class="headerlink" title="导语"></a>导语</h1><p>新年似乎过得很快，正月十五一过，通常意味着新年已经过完了，相信大家经过一周的<code>节后综合症</code>，应该可以投入工作状态了。<br>生活又回到了节前的样子，西二期照旧是人山人海，似乎一切都没有改变，除了又大一岁。</p>
@@ -403,12 +407,12 @@ The difference between school learning and vocational learning
 <p>前面写了五篇文章，从较为宏观的，在底层先把大范围划定，不至于听到认知范围以外的概念，会先入为主的认为某某理念好的陷阱中。比如，用教小孩子的方式给成年人培训显然是不合适的。</p>
 <h1 id="当前热门理念"><a href="#当前热门理念" class="headerlink" title="当前热门理念"></a>当前热门理念</h1><p>当前无论是学历教育，比如K12,还是企业培训，都经常提一个理念，就是<code>以学习者为中心</code>，这个理念在前述文章中已提及了，不是啥新鲜概念。实际操作中，以笔者观察，这个理念经常被转换为：让学习者高兴、舒服为中心，表现形式为，做了不少游戏，讲了不少笑话；尴尬的是，学习者高兴了，但学习内容并未因此转化多少。</p>
 <p>也有走另一个极端的，以美好的未来价值，减轻当前学习的痛苦，这种可能更常见，学是学到东西了，可一提学习，脑子里全是痛苦的记忆，也难怪<code>学习是反人性的</code>这样的观点流传开来。</p>
-<p>接下来会从3个篇章，从学习的一般性过程：<code>学习--教学--评估</code>，来进一步解析学校中的学习与进入职场后的学习有何不同，其价值是：<br>1.让正好处于准备进入或刚刚进入职场的读者，提早开始准备适应<br>2.进入职场多年，却没有认真考虑过学习方式的朋友，不妨对照一下，或许能有启发<br>3.看清原理，或许能从当下流行的各种分散你注意力的APP中有所解脱<br><img src="https://res.cloudinary.com/ikoala/image/upload/v1551345652/BlogPic_Cldi_KOLA/3-core-element_learning.jpg" alt=""></p>
+<p>接下来会从3个篇章，从学习的一般性过程：<code>学习--教学--评估</code>，来进一步解析学校中的学习与进入职场后的学习有何不同，其价值是：<br>1.让正好处于准备进入或刚刚进入职场的读者，提早开始准备适应<br>2.进入职场多年，却没有认真考虑过学习方式的朋友，不妨对照一下，或许能有启发<br>3.看清原理，或许能从当下流行的各种分散你注意力的APP中有所解脱<br><img src="https://res.cloudinary.com/ikoala/image/upload/v1551345652/BlogPic_Cldi_KOLA/3-core-element_learning.jpg" alt></p>
 <blockquote>
 <p>本篇先来看<code>学习</code>的基础原理</p>
 </blockquote>
 <h2 id="简单易懂的学习模型"><a href="#简单易懂的学习模型" class="headerlink" title="简单易懂的学习模型"></a>简单易懂的学习模型</h2><p>在前面 <code>认知主义</code>的篇章中，曾介绍过<em>加涅</em>的信息加工学习理论（模型），其实在业界还有一位美国著名的教育心理学家<code>理查德·梅耶(Richard E. Mayer)</code>针对当代多媒体盛行的环境，提出了一个被广泛认同的理论，即Mayer多媒体学习的认知理论（模型）：</p>
-<p><img src="https://res.cloudinary.com/ikoala/image/upload/v1551324253/BlogPic_Cldi_KOLA/Mayer-MMLC_theory.jpg" alt=""></p>
+<p><img src="https://res.cloudinary.com/ikoala/image/upload/v1551324253/BlogPic_Cldi_KOLA/Mayer-MMLC_theory.jpg" alt></p>
 <p>我们用3*3的方法进行基本解读：</p>
 <h3 id="三种记忆"><a href="#三种记忆" class="headerlink" title="三种记忆"></a>三种记忆</h3><p>1.<strong>感觉记忆</strong>：保留时长小于0.25秒， 存储容量近乎无限<br>2.<strong>工作记忆</strong>：保留时长小于30秒，存储容量3-7个记忆单位<br>3.<strong>长期记忆</strong>：保留时长几天至几年，存储容量近乎无限</p>
 <h3 id="三条原理"><a href="#三条原理" class="headerlink" title="三条原理"></a>三条原理</h3><p>1.<strong>双重通道原理</strong>：言语通道（语词–耳朵–声音–言语模型）；<br>图示通道（图像–眼睛–图像–图像模型）<br>2.<strong>容量有限原理</strong>：即<code>工作记忆</code>容量有限，只能选择一小部分语词或图像进行加工<br>3.<strong>主动加工原理</strong>：整个过程都是学习者主动加工进行的，并结合原有知识主动整合</p>
@@ -428,7 +432,7 @@ The difference between school learning and vocational learning
 </blockquote>
 <h2 id="学校中学习"><a href="#学校中学习" class="headerlink" title="学校中学习"></a>学校中学习</h2><h3 id="偏被动"><a href="#偏被动" class="headerlink" title="偏被动"></a>偏被动</h3><p>这里主要指的是小学到大学的学习，大部分学生在动机方面是偏被动的。比如为了某种<strong>面子</strong>而学习。</p>
 <h3 id="分数牵引"><a href="#分数牵引" class="headerlink" title="分数牵引"></a>分数牵引</h3><p>但在元认知层面就不好说了，优秀的教师会注意帮助学生发现自己适宜的学习方法，多数情况下，师生一齐为了分数，采用行为主义的强化类方法。比如，题海战术。</p>
-<h2 id="职场中学习"><a href="#职场中学习" class="headerlink" title="职场中学习"></a>职场中学习</h2><h3 id="问题导向"><a href="#问题导向" class="headerlink" title="问题导向"></a>问题导向</h3><p>学习者有比较明确的学习动机，而且以解决问题为导向，会隐约意识到哪种学习方式更有效，比如有人安静的看书，知识吸收效率高，有人通过群体式学习吸收效率高。<br>有理论认为群体式学习是源于人类早期的生存模式–必须依靠群体互帮互助，不断总结经验，族群才得以延续，因此这种模式被深深的烙入人类大脑。<br><img src="https://res.cloudinary.com/ikoala/image/upload/v1551368302/BlogPic_Cldi_KOLA/making-tool_ancient_humans.jpg" alt=""></p>
+<h2 id="职场中学习"><a href="#职场中学习" class="headerlink" title="职场中学习"></a>职场中学习</h2><h3 id="问题导向"><a href="#问题导向" class="headerlink" title="问题导向"></a>问题导向</h3><p>学习者有比较明确的学习动机，而且以解决问题为导向，会隐约意识到哪种学习方式更有效，比如有人安静的看书，知识吸收效率高，有人通过群体式学习吸收效率高。<br>有理论认为群体式学习是源于人类早期的生存模式–必须依靠群体互帮互助，不断总结经验，族群才得以延续，因此这种模式被深深的烙入人类大脑。<br><img src="https://res.cloudinary.com/ikoala/image/upload/v1551368302/BlogPic_Cldi_KOLA/making-tool_ancient_humans.jpg" alt></p>
 <h3 id="设计牵引"><a href="#设计牵引" class="headerlink" title="设计牵引"></a>设计牵引</h3><p>成年人有自己的评判标准，学习的课题需要被特别设计，才能引起注意。</p>
 <p>本篇先提到如何学，是源点，很多内容型商业公司，都会深入研究，然后针对性构建策略，换个说法就是<code>教学</code>，下篇继续。</p>
 <hr>
@@ -438,7 +442,7 @@ The difference between school learning and vocational learning
 </ul>
 
             </div>
-            <hr>
+            <hr/>
 
             
             <style>
@@ -538,7 +542,7 @@ The difference between school learning and vocational learning
                         <img src="/medias/reward/wechat.png" class="reward-img" alt="微信打赏二维码">
                     </div>
                     <div id="alipay">
-                        <img src="/medias/reward/alipay.png" class="reward-img" alt="支付宝打赏二维码">
+                        <img src="/medias/reward/alipay.jpg" class="reward-img" alt="支付宝打赏二维码">
                     </div>
                 </div>
             </div>
@@ -571,7 +575,9 @@ The difference between school learning and vocational learning
 
             <div class="reprint">
                 <p>
-                    <span class="reprint-tip">转载请注明: </span>
+                    <span class="reprint-tip">
+                        <i class="fa fa-exclamation-circle"></i>&nbsp;&nbsp;转载请注明:
+                    </span>
                     <a href="http://www.ikoala.app" class="b-link-green">iKoala</a>
                     <i class="fa fa-angle-right fa-lg fa-fw text-color"></i>
                     <a href="/2019/02/28/026-lrn-soc-prs-du-shi-xue-xi-zen-me-jiu-bu-yi-yang-liao-yi-20190228/" class="b-link-green">026_Lrn_Soc_Prs_都是学习，怎么就不一样了？（一）</a>
@@ -620,8 +626,10 @@ The difference between school learning and vocational learning
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
-            <div class="article-badge left-badge text-color">本篇</div>
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
+            <div class="article-badge left-badge text-color">
+                <i class="fa fa-dot-circle-o"></i>&nbsp;本篇
+            </div>
             <div class="card">
                 <a href="/2019/02/28/026-lrn-soc-prs-du-shi-xue-xi-zen-me-jiu-bu-yi-yang-liao-yi-20190228/">
                     <div class="card-image">
@@ -694,12 +702,14 @@ The difference between school learning and vocational learning
         
         
         <div class="article col s12 m6" data-aos="fade-up">
-            <div class="article-badge right-badge text-color">下一篇</div>
+            <div class="article-badge right-badge text-color">
+                下一篇&nbsp;<i class="fa fa-chevron-right"></i>
+            </div>
             <div class="card">
                 <a href="/2019/01/31/025-wok-soc-prs-han-dong-you-lai-liao-20190131/">
                     <div class="card-image">
                         
-                        <img src="https://res.cloudinary.com/ikoala/image/upload/v1548949454/BlogPic_Cldi_KOLA/lay-off_job.png" class="responsive-img" alt="025_Wok_Soc_Prs_" 寒冬"又来了?"="">
+                        <img src="https://res.cloudinary.com/ikoala/image/upload/v1548949454/BlogPic_Cldi_KOLA/lay-off_job.png" class="responsive-img" alt="025_Wok_Soc_Prs_"寒冬"又来了?">
                         
                         <span class="card-title">025_Wok_Soc_Prs_"寒冬"又来了?</span>
                     </div>
@@ -805,10 +815,8 @@ The “winter” came back?
     </div>
     <div class="col l3 hide-on-med-and-down">
         <div class="toc-widget">
-            <div class="toc-title">目录</div>
-            <div id="toc-content">
-
-            </div>
+            <div class="toc-title"><i class="fa fa-list-alt"></i>&nbsp;&nbsp;目录</div>
+            <div id="toc-content"></div>
         </div>
     </div>
 </div>
@@ -819,7 +827,9 @@ The “winter” came back?
         tocbot.init({
             tocSelector: '#toc-content',
             contentSelector: '#articleContent',
-            headingSelector: 'h1, h2, h3, h4'
+            headingsOffset: -($(window).height() * 0.4 - 45),
+            // headingsOffset: -205,
+            headingSelector: 'h2, h3, h4'
         });
 
         // modify the toc link href to support Chinese.
@@ -831,7 +841,7 @@ The “winter” came back?
 
         // modify the heading title id to support Chinese.
         i = 0;
-        $('#articleContent').children('h1, h2, h3, h4').each(function () {
+        $('#articleContent').children('h2, h3, h4').each(function () {
             $(this).attr('id', tocHeading + (++i));
         });
 
@@ -862,15 +872,26 @@ The “winter” came back?
             <a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank">hexo-theme-matery</a>主题搭建.
 
             
+                &nbsp;<i class="fa fa-area-chart"></i>&nbsp;站点总字数:&nbsp;
+                <span class="white-color">48.3k</span>
+            
+
+            
 			
                 <br>
+                
                 <span id="busuanzi_container_site_pv">
-                    本站总访问量 <span id="busuanzi_value_site_pv" style="color: #fff;"></span> 次,&nbsp;
+                    <i class="fa fa-heart-o"></i>
+                    本站总访问量 <span id="busuanzi_value_site_pv" class="white-color"></span>
                 </span>
-				<span id="busuanzi_container_site_uv">
-                    访客数 <span id="busuanzi_value_site_uv" style="color: #fff;"></span> 人.
+                
+                
+                <span id="busuanzi_container_site_uv">
+                    <i class="fa fa-users"></i>
+                    次,&nbsp;访客数 <span id="busuanzi_value_site_uv" class="white-color"></span> 人.
                 </span>
-			
+                
+            
         </div>
         <div class="col s12 m4 l4 social-link social-statis"><a href="mailto:robin.hoo2019@ikoala.app" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
     <i class="fa fa-envelope-open"></i>
@@ -893,8 +914,9 @@ The “winter” came back?
 <div id="searchModal" class="modal">
     <div class="modal-content">
         <div class="search-header">
-            <span class="title">搜索</span>
-            <input type="search" id="searchInput" name="s" placeholder="请输入搜索的关键字" class="search-input" autofocus>
+            <span class="title"><i class="fa fa-search"></i>&nbsp;&nbsp;搜索</span>
+            <input type="search" id="searchInput" name="s" placeholder="请输入搜索的关键字"
+                   class="search-input" autofocus="">
         </div>
         <div id="searchResult"></div>
     </div>

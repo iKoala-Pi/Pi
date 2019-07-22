@@ -1,9 +1,8 @@
 <!DOCTYPE HTML>
 <html lang="zh-CN">
-<head>
-    
 
-<head><meta name="generator" content="Hexo 3.8.0">
+
+<head><meta name="generator" content="Hexo 3.9.0">
     <meta charset="utf-8">
     <meta name="keywords" content="015_Lrn_Soc_Prs_学习这回事儿之四（建构主义）, 观世界 做自己 博观约取 厚积薄发">
     <meta name="description" content="
@@ -30,11 +29,13 @@ The introduction of Constructivism.
     <link rel="stylesheet" type="text/css" href="/libs/lightGallery/css/lightgallery.min.css">
     <link rel="stylesheet" type="text/css" href="/css/matery.css">
     <link rel="stylesheet" type="text/css" href="/css/my.css">
+    <style type="text/css">
+        
+    </style>
 
     <script src="/libs/jquery/jquery-2.2.0.min.js"></script>
 <link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"></head>
 
-</head>
 
 <body>
 
@@ -111,7 +112,7 @@ The introduction of Constructivism.
     
     <li>
         <a id="toggleSearch" class="waves-effect waves-light">
-            <i id="searchIcon" class="mdi-action-search"></i>
+            <i id="searchIcon" class="mdi-action-search" title="搜索"></i>
         </a>
     </li>
 
@@ -237,38 +238,17 @@ The introduction of Constructivism.
     
     <link rel="stylesheet" href="/libs/tocbot/tocbot.css">
 <style>
-    #articleContent h1,
-    #articleContent h2,
-    #articleContent h3,
-    #articleContent h4,
-    #articleContent h5,
-    #articleContent h6 {
-        padding-top: 76px;
-        margin-top: -76px;
-    }
-
-    #articleContent h1 {
-        line-height: 3.5rem;
-    }
-
-    #articleContent h2 {
-        line-height: 3.2rem;
-    }
-
-    #articleContent h3 {
-        line-height: 2.8rem;
-    }
-
-    #articleContent h4 {
-        line-height: 2.5rem;
-    }
-
-    #articleContent h5 {
-        line-height: 2.2rem;
-    }
-
-    #articleContent h6 {
-        line-height: 1.9rem;
+    #articleContent h1::before,
+    #articleContent h2::before,
+    #articleContent h3::before,
+    #articleContent h4::before,
+    #articleContent h5::before,
+    #articleContent h6::before {
+        display: block;
+        content: " ";
+        height: 100px;
+        margin-top: -100px;
+        visibility: hidden;
     }
 
     #articleContent :focus {
@@ -330,65 +310,89 @@ The introduction of Constructivism.
 <div id="artDetail">
     <div class="card">
         <div class="card-content article-info">
-            
-            <div class="article-tag">
-                
-                <a href="/tags/学习/" target="_blank">
-                    <span class="chip bg-color">学习</span>
-                </a>
-                
-                <a href="/tags/建构主义/" target="_blank">
-                    <span class="chip bg-color">建构主义</span>
-                </a>
-                
-                <a href="/tags/鱼牛童话/" target="_blank">
-                    <span class="chip bg-color">鱼牛童话</span>
-                </a>
-                
-                <a href="/tags/最近发展区/" target="_blank">
-                    <span class="chip bg-color">最近发展区</span>
-                </a>
-                
-                <a href="/tags/供给理论/" target="_blank">
-                    <span class="chip bg-color">供给理论</span>
-                </a>
-                
-                <a href="/tags/认知弹性/" target="_blank">
-                    <span class="chip bg-color">认知弹性</span>
-                </a>
-                
+            <div class="row tag-cate">
+                <div class="col s7">
+                    
+                    <div class="article-tag">
+                        
+                            <a href="/tags/学习/" target="_blank">
+                                <span class="chip bg-color">学习</span>
+                            </a>
+                        
+                            <a href="/tags/建构主义/" target="_blank">
+                                <span class="chip bg-color">建构主义</span>
+                            </a>
+                        
+                            <a href="/tags/鱼牛童话/" target="_blank">
+                                <span class="chip bg-color">鱼牛童话</span>
+                            </a>
+                        
+                            <a href="/tags/最近发展区/" target="_blank">
+                                <span class="chip bg-color">最近发展区</span>
+                            </a>
+                        
+                            <a href="/tags/供给理论/" target="_blank">
+                                <span class="chip bg-color">供给理论</span>
+                            </a>
+                        
+                            <a href="/tags/认知弹性/" target="_blank">
+                                <span class="chip bg-color">认知弹性</span>
+                            </a>
+                        
+                    </div>
+                    
+                </div>
+                <div class="col s5 right-align">
+                    
+                    <div class="post-cate">
+                        <i class="fa fa-bookmark fa-fw icon-category"></i>
+                        
+                            <a href="/categories/胡宾-Robin/" class="post-category" target="_blank">
+                                胡宾 Robin
+                            </a>
+                        
+                    </div>
+                    
+                </div>
             </div>
-            
-            <div class="post-info">
-                
-                <span class="post-cate">
-                <!--<span class="post-cate" style="margin-right: 0px">-->
-                    <i class="fa fa-bookmark fa-fw icon-category"></i>
-                    
-                    <a href="/categories/胡宾-Robin/" class="post-category" target="_blank">
-                        胡宾 Robin
-                    </a>
-                    
-                </span>
-                
 
-                <span class="post-date">
-                    <i class="fa fa-clock-o fa-fw"></i>2018-07-29
-                </span>
+            <div class="post-info">
+                <div class="post-date info-break-policy">
+                    <i class="fa fa-calendar-minus-o fa-fw"></i>发布日期:&nbsp;&nbsp;
+                    2018-07-29
+                </div>
+
+                
+                    
+                    <div class="info-break-policy">
+                        <i class="fa fa-file-word-o fa-fw"></i>文章字数:&nbsp;&nbsp;
+                        1.4k
+                    </div>
+                    
+
+                    
+                    <div class="info-break-policy">
+                        <i class="fa fa-clock-o fa-fw"></i>阅读时长:&nbsp;&nbsp;
+                        4 分
+                    </div>
+                    
+                
 				
 				
-                    <span id="busuanzi_container_page_pv" class="post-read">
-                    <i class="fa fa-eye fa-fw"></i>阅读 <span id="busuanzi_value_page_pv"></span>
+                    <div id="busuanzi_container_page_pv" class="info-break-policy">
+                        <i class="fa fa-eye fa-fw"></i>阅读次数:&nbsp;&nbsp;
+                        <span id="busuanzi_value_page_pv"></span>
+                    </div>
 				
-            </span></div>
+            </div>
         </div>
-        <hr>
+        <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
                 <blockquote>
 <p><em>The introduction of Constructivism.</em></p>
 </blockquote>
-<p><img src="https://res.cloudinary.com/ikoala/image/upload/v1548662075/BlogPic_Cldi_KOLA/fish-cow_cartoon_psy.jpg" alt=""></p>
+<p><img src="https://res.cloudinary.com/ikoala/image/upload/v1548662075/BlogPic_Cldi_KOLA/fish-cow_cartoon_psy.jpg" alt></p>
 <hr>
 <p>[TOC]</p>
 <h1 id="鱼牛童话"><a href="#鱼牛童话" class="headerlink" title="鱼牛童话"></a>鱼牛童话</h1><p>提到建构主义，一则欧洲童话经常被引用。说的是在一个小池塘里住着鱼和青蛙，它们是一对好朋友。它们听说外面的世界好精彩，都想出去看看。鱼由于自己不能离开水而生活，只好让青蛙一个人走了。<br>一天，青蛙回来了，鱼迫不急待地向它询问外面的情况。<br>青蛙告诉鱼：“外面有很多新奇有趣的东西。比如说牛吧，这真是一种奇怪的动物，它的身体很大，头上长着两个犄角，吃青草为生，身上有着黑白相间的斑点，长着四只粗壮的腿，还有大大的乳房”。鱼惊叫道：“哇，好怪哟！”<br>同时鱼脑海里即刻勾画出它心目中的“牛”的形象：一个大大的鱼身子，头上长着两个犄角，嘴里吃着青草…</p>
@@ -397,20 +401,20 @@ The introduction of Constructivism.
 <p>先附曲一首，再开启本篇旅行：</p>
 </blockquote>
 <p><a href="http://music.163.com/#/m/song?id=4278298" target="_blank" rel="noopener">Song from a Secret Garden</a></p>
-<h2 id="建构主义基本内容"><a href="#建构主义基本内容" class="headerlink" title="建构主义基本内容"></a>建构主义基本内容</h2><p>建构主义认为个体的认知发展与学习过程密切相关，因此利用建构主义可以比较好地说明人类学习过程的认知规律，即能较好地说明学习如何发生、意义如何建构、概念如何形成，以及理想的学习环境应包含哪些主要因素等等。通过下表简要介绍：<br><img src="https://res.cloudinary.com/ikoala/image/upload/v1548662072/BlogPic_Cldi_KOLA/main-content_Constructivism_theory.jpg" alt=""><br><img src="https://res.cloudinary.com/ikoala/image/upload/v1548662069/BlogPic_Cldi_KOLA/main-content_II_Constructivism_theory.jpg" alt=""></p>
-<h2 id="建构主义的发展"><a href="#建构主义的发展" class="headerlink" title="建构主义的发展"></a>建构主义的发展</h2><p>这部分主要从知识观、学习观、教学观来简要介绍及由此引出较成熟的几种教学模式，如下表：<br><img src="https://res.cloudinary.com/ikoala/image/upload/v1548662070/BlogPic_Cldi_KOLA/development-profile_Constructivism_theory.jpg" alt=""></p>
-<p><img src="https://res.cloudinary.com/ikoala/image/upload/v1548662082/BlogPic_Cldi_KOLA/mature-instructional-patterns_Constructivism_theory.jpg" alt=""></p>
-<h2 id="建构主义不同取向"><a href="#建构主义不同取向" class="headerlink" title="建构主义不同取向"></a>建构主义不同取向</h2><p>有学者认为，建构主义本身并不是一种学习理论流派，而是一种理论思潮，并且目前正处在发展过程中，尚未达成一致意见，存在着不同的取向。对教育实践具有一定影响的主要有以下四种理论：<br><img src="https://res.cloudinary.com/ikoala/image/upload/v1548662081/BlogPic_Cldi_KOLA/orientations_Constructivism_theory.jpg" alt=""></p>
+<h2 id="建构主义基本内容"><a href="#建构主义基本内容" class="headerlink" title="建构主义基本内容"></a>建构主义基本内容</h2><p>建构主义认为个体的认知发展与学习过程密切相关，因此利用建构主义可以比较好地说明人类学习过程的认知规律，即能较好地说明学习如何发生、意义如何建构、概念如何形成，以及理想的学习环境应包含哪些主要因素等等。通过下表简要介绍：<br><img src="https://res.cloudinary.com/ikoala/image/upload/v1548662072/BlogPic_Cldi_KOLA/main-content_Constructivism_theory.jpg" alt><br><img src="https://res.cloudinary.com/ikoala/image/upload/v1548662069/BlogPic_Cldi_KOLA/main-content_II_Constructivism_theory.jpg" alt></p>
+<h2 id="建构主义的发展"><a href="#建构主义的发展" class="headerlink" title="建构主义的发展"></a>建构主义的发展</h2><p>这部分主要从知识观、学习观、教学观来简要介绍及由此引出较成熟的几种教学模式，如下表：<br><img src="https://res.cloudinary.com/ikoala/image/upload/v1548662070/BlogPic_Cldi_KOLA/development-profile_Constructivism_theory.jpg" alt></p>
+<p><img src="https://res.cloudinary.com/ikoala/image/upload/v1548662082/BlogPic_Cldi_KOLA/mature-instructional-patterns_Constructivism_theory.jpg" alt></p>
+<h2 id="建构主义不同取向"><a href="#建构主义不同取向" class="headerlink" title="建构主义不同取向"></a>建构主义不同取向</h2><p>有学者认为，建构主义本身并不是一种学习理论流派，而是一种理论思潮，并且目前正处在发展过程中，尚未达成一致意见，存在着不同的取向。对教育实践具有一定影响的主要有以下四种理论：<br><img src="https://res.cloudinary.com/ikoala/image/upload/v1548662081/BlogPic_Cldi_KOLA/orientations_Constructivism_theory.jpg" alt></p>
 <h1 id="教学模式理论奠基者"><a href="#教学模式理论奠基者" class="headerlink" title="教学模式理论奠基者"></a>教学模式理论奠基者</h1><p>本部分的人物介绍是以前面提到的几种教学模式理论的来源或奠基者进行介绍：</p>
-<h2 id="No-1-维果茨基"><a href="#No-1-维果茨基" class="headerlink" title="No.1-维果茨基"></a>No.1-维果茨基</h2><p><img src="https://res.cloudinary.com/ikoala/image/upload/v1548662187/BlogPic_Cldi_KOLA/Lev_Vygotsky_portrait_psy.jpg" alt=""><br>苏联心理学家<em>利维·维果茨基（Lev Vygotsky）</em>，认为社会环境对学习有关键性的作用，认为社会因素与个人因素的整合促成了学习。他的重要理论之一是：</p>
-<h2 id="最近发展区"><a href="#最近发展区" class="headerlink" title="最近发展区"></a>最近发展区</h2><p><img src="https://res.cloudinary.com/ikoala/image/upload/v1548662207/BlogPic_Cldi_KOLA/proximal-developmental-zone_theory.jpg" alt=""><br>　该理论的基本观点是：在确定发展与教学的可能关系时，要使教育对学生的发展起主导和促进作用，就必须确立学生发展的两种水平。<br>一是其已经达到的发展水平，表现为学生能够独立解决问题的智力水平；二是他可能达到的发展水平，但要借成人的帮助，在集体活动中，通过摹仿，才能达到解决问题的水平。<br>他将学生在指导下借助成人的帮助所能达到解决问题的水平与在独立活动中所达到的解决问题的水平之间的差异称之为<strong>“最近发展区”</strong>。</p>
-<h2 id="No-2-詹姆斯·吉布森"><a href="#No-2-詹姆斯·吉布森" class="headerlink" title="No.2-詹姆斯·吉布森"></a>No.2-詹姆斯·吉布森</h2><p><img src="https://res.cloudinary.com/ikoala/image/upload/v1548662083/BlogPic_Cldi_KOLA/James_J._Gibson_portrait_psy.jpg" alt=""><br>美国心理学家<em>詹姆斯·杰尔姆·吉布森（James Jerome Gibson）</em>，被认为是20世纪视知觉领域最重要的心理学家之一。他反对行为主义与认知主义，主张直接知觉。他的著名<strong>“供给理论”</strong>认为，环境的不同特征支持着各种特殊有机体的活动，同样，不同类型的教材也支持着不同类型的学习活动。<br>抛锚式教学的两条重要设计原则，即来自于“供给理论”：</p>
+<h2 id="No-1-维果茨基"><a href="#No-1-维果茨基" class="headerlink" title="No.1-维果茨基"></a>No.1-维果茨基</h2><p><img src="https://res.cloudinary.com/ikoala/image/upload/v1548662187/BlogPic_Cldi_KOLA/Lev_Vygotsky_portrait_psy.jpg" alt><br>苏联心理学家<em>利维·维果茨基（Lev Vygotsky）</em>，认为社会环境对学习有关键性的作用，认为社会因素与个人因素的整合促成了学习。他的重要理论之一是：</p>
+<h2 id="最近发展区"><a href="#最近发展区" class="headerlink" title="最近发展区"></a>最近发展区</h2><p><img src="https://res.cloudinary.com/ikoala/image/upload/v1548662207/BlogPic_Cldi_KOLA/proximal-developmental-zone_theory.jpg" alt><br>　该理论的基本观点是：在确定发展与教学的可能关系时，要使教育对学生的发展起主导和促进作用，就必须确立学生发展的两种水平。<br>一是其已经达到的发展水平，表现为学生能够独立解决问题的智力水平；二是他可能达到的发展水平，但要借成人的帮助，在集体活动中，通过摹仿，才能达到解决问题的水平。<br>他将学生在指导下借助成人的帮助所能达到解决问题的水平与在独立活动中所达到的解决问题的水平之间的差异称之为<strong>“最近发展区”</strong>。</p>
+<h2 id="No-2-詹姆斯·吉布森"><a href="#No-2-詹姆斯·吉布森" class="headerlink" title="No.2-詹姆斯·吉布森"></a>No.2-詹姆斯·吉布森</h2><p><img src="https://res.cloudinary.com/ikoala/image/upload/v1548662083/BlogPic_Cldi_KOLA/James_J._Gibson_portrait_psy.jpg" alt><br>美国心理学家<em>詹姆斯·杰尔姆·吉布森（James Jerome Gibson）</em>，被认为是20世纪视知觉领域最重要的心理学家之一。他反对行为主义与认知主义，主张直接知觉。他的著名<strong>“供给理论”</strong>认为，环境的不同特征支持着各种特殊有机体的活动，同样，不同类型的教材也支持着不同类型的学习活动。<br>抛锚式教学的两条重要设计原则，即来自于“供给理论”：</p>
 <ol>
 <li>学习与教学活动应围绕某一“锚”来设计，所谓“锚”应该是某种类型的个杂研究或问题情境地。</li>
 <li>课程的设计应允许学习者对教学内容进行探索。</li>
 </ol>
 <p>抛锚式教学模式依据以上原则，由温特比尔特认知和技术小组（CTGV）在约翰·布朗斯福特（John Bransford）的领导下开发。只是该理论主要强调以技术学为基础的学习。布朗斯福特是理论的主要代表人物，对抛锚式教学的理论和研究作出了贡献。</p>
-<h2 id="No-3-斯皮罗"><a href="#No-3-斯皮罗" class="headerlink" title="No.3-斯皮罗"></a>No.3-斯皮罗</h2><p><img src="https://res.cloudinary.com/ikoala/image/upload/v1548662209/BlogPic_Cldi_KOLA/Rand_J._Sprio_portrait_psy.jpg" alt=""><br>美国教育心理学家兰德·斯皮罗（Rand J.Sprio），他的<strong>“认知弹性理论”</strong>关于学习技术的新模式常被称作<strong>“21世纪技能”</strong>。<br><img src="https://res.cloudinary.com/ikoala/image/upload/v1548662069/BlogPic_Cldi_KOLA/Cognitive-flexibility_theory.jpg" alt=""></p>
+<h2 id="No-3-斯皮罗"><a href="#No-3-斯皮罗" class="headerlink" title="No.3-斯皮罗"></a>No.3-斯皮罗</h2><p><img src="https://res.cloudinary.com/ikoala/image/upload/v1548662209/BlogPic_Cldi_KOLA/Rand_J._Sprio_portrait_psy.jpg" alt><br>美国教育心理学家兰德·斯皮罗（Rand J.Sprio），他的<strong>“认知弹性理论”</strong>关于学习技术的新模式常被称作<strong>“21世纪技能”</strong>。<br><img src="https://res.cloudinary.com/ikoala/image/upload/v1548662069/BlogPic_Cldi_KOLA/Cognitive-flexibility_theory.jpg" alt></p>
 <p>好了，本篇就到这里，下次介绍人本主义。</p>
 <hr>
 <h1 id="ChangeLog"><a href="#ChangeLog" class="headerlink" title="ChangeLog"></a>ChangeLog</h1><ul>
@@ -419,7 +423,7 @@ The introduction of Constructivism.
 </ul>
 
             </div>
-            <hr>
+            <hr/>
 
             
             <style>
@@ -519,7 +523,7 @@ The introduction of Constructivism.
                         <img src="/medias/reward/wechat.png" class="reward-img" alt="微信打赏二维码">
                     </div>
                     <div id="alipay">
-                        <img src="/medias/reward/alipay.png" class="reward-img" alt="支付宝打赏二维码">
+                        <img src="/medias/reward/alipay.jpg" class="reward-img" alt="支付宝打赏二维码">
                     </div>
                 </div>
             </div>
@@ -552,7 +556,9 @@ The introduction of Constructivism.
 
             <div class="reprint">
                 <p>
-                    <span class="reprint-tip">转载请注明: </span>
+                    <span class="reprint-tip">
+                        <i class="fa fa-exclamation-circle"></i>&nbsp;&nbsp;转载请注明:
+                    </span>
                     <a href="http://www.ikoala.app" class="b-link-green">iKoala</a>
                     <i class="fa fa-angle-right fa-lg fa-fw text-color"></i>
                     <a href="/2018/07/29/015-lrn-soc-prs-xue-xi-zhe-hui-shi-er-zhi-si-jian-gou-zhu-yi-20180729/" class="b-link-green">015_Lrn_Soc_Prs_学习这回事儿之四（建构主义）</a>
@@ -602,7 +608,8 @@ The introduction of Constructivism.
     <div class="row article-row">
         
         <div class="article col s12 m6" data-aos="fade-up">
-            <div class="article-badge left-badge text-color">上一篇</div>
+            <div class="article-badge left-badge text-color">
+                <i class="fa fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
                 <a href="/2018/08/04/016-lrn-soc-prs-xue-xi-zhe-hui-shi-er-zhi-wu-ren-ben-zhu-yi-20180804/">
                     <div class="card-image">
@@ -678,7 +685,9 @@ D</div>
         
         
         <div class="article col s12 m6" data-aos="fade-up">
-            <div class="article-badge right-badge text-color">下一篇</div>
+            <div class="article-badge right-badge text-color">
+                下一篇&nbsp;<i class="fa fa-chevron-right"></i>
+            </div>
             <div class="card">
                 <a href="/2018/07/22/014-lrn-soc-prs-xue-xi-zhe-hui-shi-er-zhi-san-ren-zhi-zhu-yi-20180722/">
                     <div class="card-image">
@@ -794,10 +803,8 @@ my soul
     </div>
     <div class="col l3 hide-on-med-and-down">
         <div class="toc-widget">
-            <div class="toc-title">目录</div>
-            <div id="toc-content">
-
-            </div>
+            <div class="toc-title"><i class="fa fa-list-alt"></i>&nbsp;&nbsp;目录</div>
+            <div id="toc-content"></div>
         </div>
     </div>
 </div>
@@ -808,7 +815,9 @@ my soul
         tocbot.init({
             tocSelector: '#toc-content',
             contentSelector: '#articleContent',
-            headingSelector: 'h1, h2, h3, h4'
+            headingsOffset: -($(window).height() * 0.4 - 45),
+            // headingsOffset: -205,
+            headingSelector: 'h2, h3, h4'
         });
 
         // modify the toc link href to support Chinese.
@@ -820,7 +829,7 @@ my soul
 
         // modify the heading title id to support Chinese.
         i = 0;
-        $('#articleContent').children('h1, h2, h3, h4').each(function () {
+        $('#articleContent').children('h2, h3, h4').each(function () {
             $(this).attr('id', tocHeading + (++i));
         });
 
@@ -851,15 +860,26 @@ my soul
             <a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank">hexo-theme-matery</a>主题搭建.
 
             
+                &nbsp;<i class="fa fa-area-chart"></i>&nbsp;站点总字数:&nbsp;
+                <span class="white-color">48.3k</span>
+            
+
+            
 			
                 <br>
+                
                 <span id="busuanzi_container_site_pv">
-                    本站总访问量 <span id="busuanzi_value_site_pv" style="color: #fff;"></span> 次,&nbsp;
+                    <i class="fa fa-heart-o"></i>
+                    本站总访问量 <span id="busuanzi_value_site_pv" class="white-color"></span>
                 </span>
-				<span id="busuanzi_container_site_uv">
-                    访客数 <span id="busuanzi_value_site_uv" style="color: #fff;"></span> 人.
+                
+                
+                <span id="busuanzi_container_site_uv">
+                    <i class="fa fa-users"></i>
+                    次,&nbsp;访客数 <span id="busuanzi_value_site_uv" class="white-color"></span> 人.
                 </span>
-			
+                
+            
         </div>
         <div class="col s12 m4 l4 social-link social-statis"><a href="mailto:robin.hoo2019@ikoala.app" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
     <i class="fa fa-envelope-open"></i>
@@ -882,8 +902,9 @@ my soul
 <div id="searchModal" class="modal">
     <div class="modal-content">
         <div class="search-header">
-            <span class="title">搜索</span>
-            <input type="search" id="searchInput" name="s" placeholder="请输入搜索的关键字" class="search-input" autofocus>
+            <span class="title"><i class="fa fa-search"></i>&nbsp;&nbsp;搜索</span>
+            <input type="search" id="searchInput" name="s" placeholder="请输入搜索的关键字"
+                   class="search-input" autofocus="">
         </div>
         <div id="searchResult"></div>
     </div>

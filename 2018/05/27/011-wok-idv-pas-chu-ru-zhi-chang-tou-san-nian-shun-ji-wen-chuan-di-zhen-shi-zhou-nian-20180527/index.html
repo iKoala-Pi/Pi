@@ -1,9 +1,8 @@
 <!DOCTYPE HTML>
 <html lang="zh-CN">
-<head>
-    
 
-<head><meta name="generator" content="Hexo 3.8.0">
+
+<head><meta name="generator" content="Hexo 3.9.0">
     <meta charset="utf-8">
     <meta name="keywords" content="011_Wok_Idv_Pas_初入职场头三年（顺祭汶川地震十周年）, 观世界 做自己 博观约取 厚积薄发">
     <meta name="description" content="
@@ -32,11 +31,13 @@ The first 3 years in workplace.
     <link rel="stylesheet" type="text/css" href="/libs/lightGallery/css/lightgallery.min.css">
     <link rel="stylesheet" type="text/css" href="/css/matery.css">
     <link rel="stylesheet" type="text/css" href="/css/my.css">
+    <style type="text/css">
+        
+    </style>
 
     <script src="/libs/jquery/jquery-2.2.0.min.js"></script>
 <link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"></head>
 
-</head>
 
 <body>
 
@@ -113,7 +114,7 @@ The first 3 years in workplace.
     
     <li>
         <a id="toggleSearch" class="waves-effect waves-light">
-            <i id="searchIcon" class="mdi-action-search"></i>
+            <i id="searchIcon" class="mdi-action-search" title="搜索"></i>
         </a>
     </li>
 
@@ -239,38 +240,17 @@ The first 3 years in workplace.
     
     <link rel="stylesheet" href="/libs/tocbot/tocbot.css">
 <style>
-    #articleContent h1,
-    #articleContent h2,
-    #articleContent h3,
-    #articleContent h4,
-    #articleContent h5,
-    #articleContent h6 {
-        padding-top: 76px;
-        margin-top: -76px;
-    }
-
-    #articleContent h1 {
-        line-height: 3.5rem;
-    }
-
-    #articleContent h2 {
-        line-height: 3.2rem;
-    }
-
-    #articleContent h3 {
-        line-height: 2.8rem;
-    }
-
-    #articleContent h4 {
-        line-height: 2.5rem;
-    }
-
-    #articleContent h5 {
-        line-height: 2.2rem;
-    }
-
-    #articleContent h6 {
-        line-height: 1.9rem;
+    #articleContent h1::before,
+    #articleContent h2::before,
+    #articleContent h3::before,
+    #articleContent h4::before,
+    #articleContent h5::before,
+    #articleContent h6::before {
+        display: block;
+        content: " ";
+        height: 100px;
+        margin-top: -100px;
+        visibility: hidden;
     }
 
     #articleContent :focus {
@@ -332,69 +312,93 @@ The first 3 years in workplace.
 <div id="artDetail">
     <div class="card">
         <div class="card-content article-info">
-            
-            <div class="article-tag">
-                
-                <a href="/tags/职场/" target="_blank">
-                    <span class="chip bg-color">职场</span>
-                </a>
-                
-                <a href="/tags/汶川地震/" target="_blank">
-                    <span class="chip bg-color">汶川地震</span>
-                </a>
-                
-                <a href="/tags/5-12/" target="_blank">
-                    <span class="chip bg-color">5.12</span>
-                </a>
-                
-                <a href="/tags/十年祭/" target="_blank">
-                    <span class="chip bg-color">十年祭</span>
-                </a>
-                
-                <a href="/tags/小酒馆/" target="_blank">
-                    <span class="chip bg-color">小酒馆</span>
-                </a>
-                
-                <a href="/tags/踩坑/" target="_blank">
-                    <span class="chip bg-color">踩坑</span>
-                </a>
-                
-                <a href="/tags/岗位能力开发/" target="_blank">
-                    <span class="chip bg-color">岗位能力开发</span>
-                </a>
-                
+            <div class="row tag-cate">
+                <div class="col s7">
+                    
+                    <div class="article-tag">
+                        
+                            <a href="/tags/职场/" target="_blank">
+                                <span class="chip bg-color">职场</span>
+                            </a>
+                        
+                            <a href="/tags/汶川地震/" target="_blank">
+                                <span class="chip bg-color">汶川地震</span>
+                            </a>
+                        
+                            <a href="/tags/5-12/" target="_blank">
+                                <span class="chip bg-color">5.12</span>
+                            </a>
+                        
+                            <a href="/tags/十年祭/" target="_blank">
+                                <span class="chip bg-color">十年祭</span>
+                            </a>
+                        
+                            <a href="/tags/小酒馆/" target="_blank">
+                                <span class="chip bg-color">小酒馆</span>
+                            </a>
+                        
+                            <a href="/tags/踩坑/" target="_blank">
+                                <span class="chip bg-color">踩坑</span>
+                            </a>
+                        
+                            <a href="/tags/岗位能力开发/" target="_blank">
+                                <span class="chip bg-color">岗位能力开发</span>
+                            </a>
+                        
+                    </div>
+                    
+                </div>
+                <div class="col s5 right-align">
+                    
+                    <div class="post-cate">
+                        <i class="fa fa-bookmark fa-fw icon-category"></i>
+                        
+                            <a href="/categories/胡宾-Robin/" class="post-category" target="_blank">
+                                胡宾 Robin
+                            </a>
+                        
+                    </div>
+                    
+                </div>
             </div>
-            
-            <div class="post-info">
-                
-                <span class="post-cate">
-                <!--<span class="post-cate" style="margin-right: 0px">-->
-                    <i class="fa fa-bookmark fa-fw icon-category"></i>
-                    
-                    <a href="/categories/胡宾-Robin/" class="post-category" target="_blank">
-                        胡宾 Robin
-                    </a>
-                    
-                </span>
-                
 
-                <span class="post-date">
-                    <i class="fa fa-clock-o fa-fw"></i>2018-05-27
-                </span>
+            <div class="post-info">
+                <div class="post-date info-break-policy">
+                    <i class="fa fa-calendar-minus-o fa-fw"></i>发布日期:&nbsp;&nbsp;
+                    2018-05-27
+                </div>
+
+                
+                    
+                    <div class="info-break-policy">
+                        <i class="fa fa-file-word-o fa-fw"></i>文章字数:&nbsp;&nbsp;
+                        3.6k
+                    </div>
+                    
+
+                    
+                    <div class="info-break-policy">
+                        <i class="fa fa-clock-o fa-fw"></i>阅读时长:&nbsp;&nbsp;
+                        12 分
+                    </div>
+                    
+                
 				
 				
-                    <span id="busuanzi_container_page_pv" class="post-read">
-                    <i class="fa fa-eye fa-fw"></i>阅读 <span id="busuanzi_value_page_pv"></span>
+                    <div id="busuanzi_container_page_pv" class="info-break-policy">
+                        <i class="fa fa-eye fa-fw"></i>阅读次数:&nbsp;&nbsp;
+                        <span id="busuanzi_value_page_pv"></span>
+                    </div>
 				
-            </span></div>
+            </div>
         </div>
-        <hr>
+        <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
                 <blockquote>
 <p><em>The first 3 years in workplace.</em></p>
 </blockquote>
-<p><img src="https://res.cloudinary.com/ikoala/image/upload/v1548662073/BlogPic_Cldi_KOLA/5.12-2008_earthquake_memo.jpg" alt=""></p>
+<p><img src="https://res.cloudinary.com/ikoala/image/upload/v1548662073/BlogPic_Cldi_KOLA/5.12-2008_earthquake_memo.jpg" alt></p>
 <hr>
 <p>[TOC]</p>
 <h1 id="2008-5-12-2018-5-12-整十年"><a href="#2008-5-12-2018-5-12-整十年" class="headerlink" title="2008.5.12-2018.5.12 整十年"></a>2008.5.12-2018.5.12 整十年</h1><p>十年前暨2008年，是我进入职场的第三年，相信全国人民回忆这一年还能记起两件事：汶川大地震与北京奥运会。</p>
@@ -404,12 +408,12 @@ The first 3 years in workplace.
 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=4377969&auto=0&height=66"></iframe>
 
 <h2 id="2018-5-12-我的纪念"><a href="#2018-5-12-我的纪念" class="headerlink" title="2018.5.12 我的纪念"></a>2018.5.12 我的纪念</h2><p>2018.5.12那天我正好在成都，我以一种特殊的方式来纪念！<br>一切在没有特别预先计划的情况下，穿越十年故地重游！<br><strong>图：2018.5.12 14点28分在成都地铁1号线</strong></p>
-<p><img src="https://res.cloudinary.com/ikoala/image/upload/v1548662202/BlogPic_Cldi_KOLA/5.12-2018_metro_Chengdu_mot.jpg" alt=""></p>
+<p><img src="https://res.cloudinary.com/ikoala/image/upload/v1548662202/BlogPic_Cldi_KOLA/5.12-2018_metro_Chengdu_mot.jpg" alt></p>
 <h3 id="To：那个特殊日子"><a href="#To：那个特殊日子" class="headerlink" title="To：那个特殊日子"></a>To：那个特殊日子</h3><p>十年前的5.12我记忆犹新，恍如昨日，突如其来的灾难，让我虽未在灾区，但感同身受（很多同事在成都），全国一心救灾，现在想起来还有掉泪的冲动，再加上成都是我奋斗过的地方，我负责的设备BSC317覆盖了成都武侯区比较核心区域的手机信号网络，工作场景历历在目！<br><strong>图：BSC317下辖手机信号覆盖区</strong></p>
-<p><img src="https://res.cloudinary.com/ikoala/image/upload/v1548662223/BlogPic_Cldi_KOLA/BSC317_wuhou_Chengdu_location.jpg" alt=""></p>
-<h3 id="To：那群热血青年"><a href="#To：那群热血青年" class="headerlink" title="To：那群热血青年"></a>To：那群热血青年</h3><p>2008年前后，正是国家开启3G网络建设大潮的阶段，我们刚毕业的一群小伙伴正好在成都参与一个大型通信建设项目，熬夜、割接、灾后重建项目、半夜撸串儿、冰啤酒、20°空调屋构成了记忆的线索，中通一局的同事们，你们可安好？我替大家故地重游了：<br><strong>图：曾经的宿舍地-江南苑还是老样子</strong><br><img src="https://res.cloudinary.com/ikoala/image/upload/v1548662374/BlogPic_Cldi_KOLA/jiangnanyuan_Chengdu_location.jpg" alt=""></p>
-<h3 id="To：那个不羁灵魂"><a href="#To：那个不羁灵魂" class="headerlink" title="To：那个不羁灵魂"></a>To：那个不羁灵魂</h3><p>十年前赶上国家建设3G网络大潮，在成都的项目经验直接促使我后来能够常驻欧洲工作；如今又赶上国家进行新高考改革，大力建设教育信息化，我作为方案咨询师来成都参加教育装备展，换了个身份，别有一番滋味，所以我还特意去看了玉林西路上十几年未变的小酒馆、飘香火锅。谁知道下一个十年会发生什么呢？<br><strong>图1：十几年来不接受预约，不增加营业面积的飘香火锅</strong><br><img src="https://res.cloudinary.com/ikoala/image/upload/v1548662949/BlogPic_Cldi_KOLA/piaoxiang-hotpot_Chengdu_food.jpg" alt=""><br><strong>图2：十几年来屹立成都不倒的小酒馆</strong><br><img src="https://res.cloudinary.com/ikoala/image/upload/v1548662246/BlogPic_Cldi_KOLA/little-bar_Chengdu_leisure.jpg" alt=""></p>
-<h1 id="踩坑式成长的代价与反思"><a href="#踩坑式成长的代价与反思" class="headerlink" title="踩坑式成长的代价与反思"></a>踩坑式成长的代价与反思</h1><p>祭完5.12，说说我的职场头三年经历的那些事儿<br><img src="https://res.cloudinary.com/ikoala/image/upload/v1548662216/BlogPic_Cldi_KOLA/next-step_cliff_career.jpg" alt=""><br>首先，工作不满三年，我已经跳槽一次，刚毕业经同学介绍进入一家微型公司，4位创始人都是技术大拿，是国企电子所背景，所以公司也是有很浓的国企氛围，日子过得不紧不慢，做的产品也具有先进性（微波信号放大与传输），可是这种按部就班的方式，一眼能看到几年后样子的工作，我内心是不甘心的，于是我在犯了一次工作上的小失误后，运用一项并不是很“光彩”的技能辞职了。这项技能现在看来也有正向的意义：用各方能接受的理由，最大程度不伤害已建立的关系，全身而退。<br>具体操作方法：当时我内心真正的想法是：这份工作没“钱途”，于是我跟家里说，微波辐射大，干的时间久了对身体伤害大（事实上基本能落实）甚至影响生育力，挣钱也不多；跟公司说家里父母身体不好（仅是身体有小恙），需要照顾一段时间，先请假一段时间（趁机找其他工作），回来后再跟公司说家人还是需要照顾，怕耽误工作进度，因此要辞职；跟介绍我进公司的同学实话实说，想攒首付买房娶老婆，家里无法支援，以目前的状况不知何时能攒够。<br>如此一套流程走完，我顺利的在此待了8个月后辞职了。令我意外的是，公司领导说我可以离职照顾家人，但会为我保留职位，可随时回来（还是有点小感动，尽管不知道领导这么说的具体原因）。</p>
+<p><img src="https://res.cloudinary.com/ikoala/image/upload/v1548662223/BlogPic_Cldi_KOLA/BSC317_wuhou_Chengdu_location.jpg" alt></p>
+<h3 id="To：那群热血青年"><a href="#To：那群热血青年" class="headerlink" title="To：那群热血青年"></a>To：那群热血青年</h3><p>2008年前后，正是国家开启3G网络建设大潮的阶段，我们刚毕业的一群小伙伴正好在成都参与一个大型通信建设项目，熬夜、割接、灾后重建项目、半夜撸串儿、冰啤酒、20°空调屋构成了记忆的线索，中通一局的同事们，你们可安好？我替大家故地重游了：<br><strong>图：曾经的宿舍地-江南苑还是老样子</strong><br><img src="https://res.cloudinary.com/ikoala/image/upload/v1548662374/BlogPic_Cldi_KOLA/jiangnanyuan_Chengdu_location.jpg" alt></p>
+<h3 id="To：那个不羁灵魂"><a href="#To：那个不羁灵魂" class="headerlink" title="To：那个不羁灵魂"></a>To：那个不羁灵魂</h3><p>十年前赶上国家建设3G网络大潮，在成都的项目经验直接促使我后来能够常驻欧洲工作；如今又赶上国家进行新高考改革，大力建设教育信息化，我作为方案咨询师来成都参加教育装备展，换了个身份，别有一番滋味，所以我还特意去看了玉林西路上十几年未变的小酒馆、飘香火锅。谁知道下一个十年会发生什么呢？<br><strong>图1：十几年来不接受预约，不增加营业面积的飘香火锅</strong><br><img src="https://res.cloudinary.com/ikoala/image/upload/v1548662949/BlogPic_Cldi_KOLA/piaoxiang-hotpot_Chengdu_food.jpg" alt><br><strong>图2：十几年来屹立成都不倒的小酒馆</strong><br><img src="https://res.cloudinary.com/ikoala/image/upload/v1548662246/BlogPic_Cldi_KOLA/little-bar_Chengdu_leisure.jpg" alt></p>
+<h1 id="踩坑式成长的代价与反思"><a href="#踩坑式成长的代价与反思" class="headerlink" title="踩坑式成长的代价与反思"></a>踩坑式成长的代价与反思</h1><p>祭完5.12，说说我的职场头三年经历的那些事儿<br><img src="https://res.cloudinary.com/ikoala/image/upload/v1548662216/BlogPic_Cldi_KOLA/next-step_cliff_career.jpg" alt><br>首先，工作不满三年，我已经跳槽一次，刚毕业经同学介绍进入一家微型公司，4位创始人都是技术大拿，是国企电子所背景，所以公司也是有很浓的国企氛围，日子过得不紧不慢，做的产品也具有先进性（微波信号放大与传输），可是这种按部就班的方式，一眼能看到几年后样子的工作，我内心是不甘心的，于是我在犯了一次工作上的小失误后，运用一项并不是很“光彩”的技能辞职了。这项技能现在看来也有正向的意义：用各方能接受的理由，最大程度不伤害已建立的关系，全身而退。<br>具体操作方法：当时我内心真正的想法是：这份工作没“钱途”，于是我跟家里说，微波辐射大，干的时间久了对身体伤害大（事实上基本能落实）甚至影响生育力，挣钱也不多；跟公司说家里父母身体不好（仅是身体有小恙），需要照顾一段时间，先请假一段时间（趁机找其他工作），回来后再跟公司说家人还是需要照顾，怕耽误工作进度，因此要辞职；跟介绍我进公司的同学实话实说，想攒首付买房娶老婆，家里无法支援，以目前的状况不知何时能攒够。<br>如此一套流程走完，我顺利的在此待了8个月后辞职了。令我意外的是，公司领导说我可以离职照顾家人，但会为我保留职位，可随时回来（还是有点小感动，尽管不知道领导这么说的具体原因）。</p>
 <h2 id="成长路径要不要换个方式"><a href="#成长路径要不要换个方式" class="headerlink" title="成长路径要不要换个方式"></a>成长路径要不要换个方式</h2><p>接下来这段经历，我觉得对初入职场头三年来说，很有借鉴意义！<em>以电信行业，工程师岗位为例</em></p>
 <h3 id="坚实的入职培训"><a href="#坚实的入职培训" class="headerlink" title="坚实的入职培训"></a>坚实的入职培训</h3><p>我的第二份工作是电信行业，无线工程师岗位，所在公司专门承包国内某电信设备厂商的工程（目前该厂商已是世界500强，行业Top1了，我称它为H公司，读者应该可以猜到是哪家），承包下来后向电信运营商（移动、联通）交付。<br>刚一入职，公司派一批新人到H公司指定地点进行培训：</p>
 <ul>
@@ -448,7 +452,7 @@ The first 3 years in workplace.
 <li>步骤2：明确了业务场景后，就可以依据场景分解出所需的知识、技能、态度（后续专门辟文谈）<br>这部分在《初入职场怎么混？》这篇中有所介绍，。</li>
 <li>步骤3：通过模拟或实操，综合训练能力<br>能够达到业务场景的目标，可以通过速度与质量这两个指标衡量（也是定岗位级别的参考指标）。</li>
 </ul>
-<h2 id="岗位能力开发"><a href="#岗位能力开发" class="headerlink" title="岗位能力开发"></a>岗位能力开发</h2><p>1工具：业务场景式岗位能力开发表<br>用Excel或其它工具通过每次的模拟或实操不断打磨更新，下面我以一线解决方案咨询师为例（IT行业），简要说明：<br><img src="https://res.cloudinary.com/ikoala/image/upload/v1548662211/BlogPic_Cldi_KOLA/job-competency-development_tool_career.jpg" alt=""></p>
+<h2 id="岗位能力开发"><a href="#岗位能力开发" class="headerlink" title="岗位能力开发"></a>岗位能力开发</h2><p>1工具：业务场景式岗位能力开发表<br>用Excel或其它工具通过每次的模拟或实操不断打磨更新，下面我以一线解决方案咨询师为例（IT行业），简要说明：<br><img src="https://res.cloudinary.com/ikoala/image/upload/v1548662211/BlogPic_Cldi_KOLA/job-competency-development_tool_career.jpg" alt></p>
 <h1 id="本篇总结"><a href="#本篇总结" class="headerlink" title="本篇总结"></a>本篇总结</h1><ol>
 <li>以我的方式纪念汶川地震十周年</li>
 <li>职场头三年踩坑式成长的代价</li>
@@ -462,7 +466,7 @@ The first 3 years in workplace.
 </ul>
 
             </div>
-            <hr>
+            <hr/>
 
             
             <style>
@@ -562,7 +566,7 @@ The first 3 years in workplace.
                         <img src="/medias/reward/wechat.png" class="reward-img" alt="微信打赏二维码">
                     </div>
                     <div id="alipay">
-                        <img src="/medias/reward/alipay.png" class="reward-img" alt="支付宝打赏二维码">
+                        <img src="/medias/reward/alipay.jpg" class="reward-img" alt="支付宝打赏二维码">
                     </div>
                 </div>
             </div>
@@ -595,7 +599,9 @@ The first 3 years in workplace.
 
             <div class="reprint">
                 <p>
-                    <span class="reprint-tip">转载请注明: </span>
+                    <span class="reprint-tip">
+                        <i class="fa fa-exclamation-circle"></i>&nbsp;&nbsp;转载请注明:
+                    </span>
                     <a href="http://www.ikoala.app" class="b-link-green">iKoala</a>
                     <i class="fa fa-angle-right fa-lg fa-fw text-color"></i>
                     <a href="/2018/05/27/011-wok-idv-pas-chu-ru-zhi-chang-tou-san-nian-shun-ji-wen-chuan-di-zhen-shi-zhou-nian-20180527/" class="b-link-green">011_Wok_Idv_Pas_初入职场头三年（顺祭汶川地震十周年）</a>
@@ -645,7 +651,8 @@ The first 3 years in workplace.
     <div class="row article-row">
         
         <div class="article col s12 m6" data-aos="fade-up">
-            <div class="article-badge left-badge text-color">上一篇</div>
+            <div class="article-badge left-badge text-color">
+                <i class="fa fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
                 <a href="/2018/06/30/012-wok-soc-prs-wo-men-shuo-de-xin-gao-kao-dao-di-dai-lai-liao-shi-me-20180630/">
                     <div class="card-image">
@@ -713,7 +720,9 @@ The first 3 years in workplace.
         
         
         <div class="article col s12 m6" data-aos="fade-up">
-            <div class="article-badge right-badge text-color">下一篇</div>
+            <div class="article-badge right-badge text-color">
+                下一篇&nbsp;<i class="fa fa-chevron-right"></i>
+            </div>
             <div class="card">
                 <a href="/2018/05/01/010-men-idv-prs-wo-suo-zhao-dao-yi-yong-gou-yong-de-sheng-ya-luo-pan-20180501/">
                     <div class="card-image">
@@ -817,10 +826,8 @@ You need a career compass!
     </div>
     <div class="col l3 hide-on-med-and-down">
         <div class="toc-widget">
-            <div class="toc-title">目录</div>
-            <div id="toc-content">
-
-            </div>
+            <div class="toc-title"><i class="fa fa-list-alt"></i>&nbsp;&nbsp;目录</div>
+            <div id="toc-content"></div>
         </div>
     </div>
 </div>
@@ -831,7 +838,9 @@ You need a career compass!
         tocbot.init({
             tocSelector: '#toc-content',
             contentSelector: '#articleContent',
-            headingSelector: 'h1, h2, h3, h4'
+            headingsOffset: -($(window).height() * 0.4 - 45),
+            // headingsOffset: -205,
+            headingSelector: 'h2, h3, h4'
         });
 
         // modify the toc link href to support Chinese.
@@ -843,7 +852,7 @@ You need a career compass!
 
         // modify the heading title id to support Chinese.
         i = 0;
-        $('#articleContent').children('h1, h2, h3, h4').each(function () {
+        $('#articleContent').children('h2, h3, h4').each(function () {
             $(this).attr('id', tocHeading + (++i));
         });
 
@@ -874,15 +883,26 @@ You need a career compass!
             <a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank">hexo-theme-matery</a>主题搭建.
 
             
+                &nbsp;<i class="fa fa-area-chart"></i>&nbsp;站点总字数:&nbsp;
+                <span class="white-color">48.3k</span>
+            
+
+            
 			
                 <br>
+                
                 <span id="busuanzi_container_site_pv">
-                    本站总访问量 <span id="busuanzi_value_site_pv" style="color: #fff;"></span> 次,&nbsp;
+                    <i class="fa fa-heart-o"></i>
+                    本站总访问量 <span id="busuanzi_value_site_pv" class="white-color"></span>
                 </span>
-				<span id="busuanzi_container_site_uv">
-                    访客数 <span id="busuanzi_value_site_uv" style="color: #fff;"></span> 人.
+                
+                
+                <span id="busuanzi_container_site_uv">
+                    <i class="fa fa-users"></i>
+                    次,&nbsp;访客数 <span id="busuanzi_value_site_uv" class="white-color"></span> 人.
                 </span>
-			
+                
+            
         </div>
         <div class="col s12 m4 l4 social-link social-statis"><a href="mailto:robin.hoo2019@ikoala.app" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
     <i class="fa fa-envelope-open"></i>
@@ -905,8 +925,9 @@ You need a career compass!
 <div id="searchModal" class="modal">
     <div class="modal-content">
         <div class="search-header">
-            <span class="title">搜索</span>
-            <input type="search" id="searchInput" name="s" placeholder="请输入搜索的关键字" class="search-input" autofocus>
+            <span class="title"><i class="fa fa-search"></i>&nbsp;&nbsp;搜索</span>
+            <input type="search" id="searchInput" name="s" placeholder="请输入搜索的关键字"
+                   class="search-input" autofocus="">
         </div>
         <div id="searchResult"></div>
     </div>

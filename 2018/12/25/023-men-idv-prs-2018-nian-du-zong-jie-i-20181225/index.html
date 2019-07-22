@@ -1,9 +1,8 @@
 <!DOCTYPE HTML>
 <html lang="zh-CN">
-<head>
-    
 
-<head><meta name="generator" content="Hexo 3.8.0">
+
+<head><meta name="generator" content="Hexo 3.9.0">
     <meta charset="utf-8">
     <meta name="keywords" content="023_Men_Idv_Prs_2018 年度总结 I, 观世界 做自己 博观约取 厚积薄发">
     <meta name="description" content="
@@ -32,11 +31,13 @@ The annual summary I of 2018
     <link rel="stylesheet" type="text/css" href="/libs/lightGallery/css/lightgallery.min.css">
     <link rel="stylesheet" type="text/css" href="/css/matery.css">
     <link rel="stylesheet" type="text/css" href="/css/my.css">
+    <style type="text/css">
+        
+    </style>
 
     <script src="/libs/jquery/jquery-2.2.0.min.js"></script>
 <link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"></head>
 
-</head>
 
 <body>
 
@@ -113,7 +114,7 @@ The annual summary I of 2018
     
     <li>
         <a id="toggleSearch" class="waves-effect waves-light">
-            <i id="searchIcon" class="mdi-action-search"></i>
+            <i id="searchIcon" class="mdi-action-search" title="搜索"></i>
         </a>
     </li>
 
@@ -239,38 +240,17 @@ The annual summary I of 2018
     
     <link rel="stylesheet" href="/libs/tocbot/tocbot.css">
 <style>
-    #articleContent h1,
-    #articleContent h2,
-    #articleContent h3,
-    #articleContent h4,
-    #articleContent h5,
-    #articleContent h6 {
-        padding-top: 76px;
-        margin-top: -76px;
-    }
-
-    #articleContent h1 {
-        line-height: 3.5rem;
-    }
-
-    #articleContent h2 {
-        line-height: 3.2rem;
-    }
-
-    #articleContent h3 {
-        line-height: 2.8rem;
-    }
-
-    #articleContent h4 {
-        line-height: 2.5rem;
-    }
-
-    #articleContent h5 {
-        line-height: 2.2rem;
-    }
-
-    #articleContent h6 {
-        line-height: 1.9rem;
+    #articleContent h1::before,
+    #articleContent h2::before,
+    #articleContent h3::before,
+    #articleContent h4::before,
+    #articleContent h5::before,
+    #articleContent h6::before {
+        display: block;
+        content: " ";
+        height: 100px;
+        margin-top: -100px;
+        visibility: hidden;
     }
 
     #articleContent :focus {
@@ -332,61 +312,85 @@ The annual summary I of 2018
 <div id="artDetail">
     <div class="card">
         <div class="card-content article-info">
-            
-            <div class="article-tag">
-                
-                <a href="/tags/2018年终总结/" target="_blank">
-                    <span class="chip bg-color">2018年终总结</span>
-                </a>
-                
-                <a href="/tags/岗位核心业务场景/" target="_blank">
-                    <span class="chip bg-color">岗位核心业务场景</span>
-                </a>
-                
-                <a href="/tags/个人数字资源库/" target="_blank">
-                    <span class="chip bg-color">个人数字资源库</span>
-                </a>
-                
-                <a href="/tags/概念图/" target="_blank">
-                    <span class="chip bg-color">概念图</span>
-                </a>
-                
-                <a href="/tags/心智图-脑图-思维导图/" target="_blank">
-                    <span class="chip bg-color">心智图 脑图 思维导图</span>
-                </a>
-                
+            <div class="row tag-cate">
+                <div class="col s7">
+                    
+                    <div class="article-tag">
+                        
+                            <a href="/tags/2018年终总结/" target="_blank">
+                                <span class="chip bg-color">2018年终总结</span>
+                            </a>
+                        
+                            <a href="/tags/岗位核心业务场景/" target="_blank">
+                                <span class="chip bg-color">岗位核心业务场景</span>
+                            </a>
+                        
+                            <a href="/tags/个人数字资源库/" target="_blank">
+                                <span class="chip bg-color">个人数字资源库</span>
+                            </a>
+                        
+                            <a href="/tags/概念图/" target="_blank">
+                                <span class="chip bg-color">概念图</span>
+                            </a>
+                        
+                            <a href="/tags/心智图-脑图-思维导图/" target="_blank">
+                                <span class="chip bg-color">心智图 脑图 思维导图</span>
+                            </a>
+                        
+                    </div>
+                    
+                </div>
+                <div class="col s5 right-align">
+                    
+                    <div class="post-cate">
+                        <i class="fa fa-bookmark fa-fw icon-category"></i>
+                        
+                            <a href="/categories/胡宾-Robin/" class="post-category" target="_blank">
+                                胡宾 Robin
+                            </a>
+                        
+                    </div>
+                    
+                </div>
             </div>
-            
-            <div class="post-info">
-                
-                <span class="post-cate">
-                <!--<span class="post-cate" style="margin-right: 0px">-->
-                    <i class="fa fa-bookmark fa-fw icon-category"></i>
-                    
-                    <a href="/categories/胡宾-Robin/" class="post-category" target="_blank">
-                        胡宾 Robin
-                    </a>
-                    
-                </span>
-                
 
-                <span class="post-date">
-                    <i class="fa fa-clock-o fa-fw"></i>2018-12-25
-                </span>
+            <div class="post-info">
+                <div class="post-date info-break-policy">
+                    <i class="fa fa-calendar-minus-o fa-fw"></i>发布日期:&nbsp;&nbsp;
+                    2018-12-25
+                </div>
+
+                
+                    
+                    <div class="info-break-policy">
+                        <i class="fa fa-file-word-o fa-fw"></i>文章字数:&nbsp;&nbsp;
+                        1.9k
+                    </div>
+                    
+
+                    
+                    <div class="info-break-policy">
+                        <i class="fa fa-clock-o fa-fw"></i>阅读时长:&nbsp;&nbsp;
+                        6 分
+                    </div>
+                    
+                
 				
 				
-                    <span id="busuanzi_container_page_pv" class="post-read">
-                    <i class="fa fa-eye fa-fw"></i>阅读 <span id="busuanzi_value_page_pv"></span>
+                    <div id="busuanzi_container_page_pv" class="info-break-policy">
+                        <i class="fa fa-eye fa-fw"></i>阅读次数:&nbsp;&nbsp;
+                        <span id="busuanzi_value_page_pv"></span>
+                    </div>
 				
-            </span></div>
+            </div>
         </div>
-        <hr>
+        <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
                 <blockquote>
 <p><em>The annual summary I of 2018</em></p>
 </blockquote>
-<p><img src="https://res.cloudinary.com/ikoala/image/upload/v1548663326/BlogPic_Cldi_KOLA/percent_notebook_business.jpg" alt=""></p>
+<p><img src="https://res.cloudinary.com/ikoala/image/upload/v1548663326/BlogPic_Cldi_KOLA/percent_notebook_business.jpg" alt></p>
 <hr>
 <p>[TOC]</p>
 <h1 id="年底总结季"><a href="#年底总结季" class="headerlink" title="年底总结季"></a>年底总结季</h1><p>很快又到年底了，相信职场人必做的一件事就是年终总结了，有什么得失，有什么规划都是值得总结的。我准备从四个方面进行总结，分为两篇进行。</p>
@@ -402,8 +406,8 @@ The annual summary I of 2018
 <h2 id="进入核心业务"><a href="#进入核心业务" class="headerlink" title="进入核心业务"></a>进入核心业务</h2><p>在3 个月的试用期内，就接手了北京区域的核心业务区，通常企业社招都是希望尽快独挡一面的。过程中，顺便就把在上一家公司中没训练的技能也练出来了。</p>
 <h2 id="梳理岗位核心业务场景"><a href="#梳理岗位核心业务场景" class="headerlink" title="梳理岗位核心业务场景"></a>梳理岗位核心业务场景</h2><p>在熟悉了当前公司的业务后，马上就着手梳理了 6 个核心的岗位业务能力开发表，然后就对部门新人进行训练，能看到不错的效果。</p>
 <h2 id="意外目标-打造个人数字资源库"><a href="#意外目标-打造个人数字资源库" class="headerlink" title="意外目标-打造个人数字资源库"></a>意外目标-打造个人数字资源库</h2><ul>
-<li>头疼的问题<br>某天工作要在<code>Macbook</code>中搜索一个文档，虽说有自带的 <code>Spotlight</code>这样的利器，通过索引电脑中的文件能搜索到含有搜索<strong>关键字</strong>的相关文件集中展示出来， 还是感觉不方便：到底哪里出现了搜索的关键字，还要<strong>一一打开文件</strong>再次搜关键字才能定位，如下：<br><img src="https://res.cloudinary.com/ikoala/image/upload/v1548663337/BlogPic_Cldi_KOLA/spotlight-search_sample_macOS.png" alt=""></li>
-<li>解决方案<br>再看看下面的效果：搜索到的关键字，直接高亮，在预览窗也<strong>直接高亮</strong>，<strong>不用打开文件</strong>本身！<br><img src="https://res.cloudinary.com/ikoala/image/upload/v1548663331/BlogPic_Cldi_KOLA/search_sample_devonthink_ptl.png" alt=""><br>从效果看，二者解决问题不在一个量级上，后者就是<code>macOS</code>平台独有的、鼎鼎大名的一款 PIM（Personal Information Management） 工具软件-<code>Devonthink</code>实现的。<br>我利用它也打造了自己的<strong>数字资源库</strong>，把自己多年还未散失的工作文档资料全部放进去，用时搜索即可，甚是方便；在没有出现更强大工具前，会一直使用它。<br><img src="https://res.cloudinary.com/ikoala/image/upload/v1548663341/BlogPic_Cldi_KOLA/devonthink_logo_ptl.png" alt=""><br>[Devonthink 官网] (<a href="https://www.devontechnologies.com/" target="_blank" rel="noopener">https://www.devontechnologies.com/</a>)</li>
+<li>头疼的问题<br>某天工作要在<code>Macbook</code>中搜索一个文档，虽说有自带的 <code>Spotlight</code>这样的利器，通过索引电脑中的文件能搜索到含有搜索<strong>关键字</strong>的相关文件集中展示出来， 还是感觉不方便：到底哪里出现了搜索的关键字，还要<strong>一一打开文件</strong>再次搜关键字才能定位，如下：<br><img src="https://res.cloudinary.com/ikoala/image/upload/v1548663337/BlogPic_Cldi_KOLA/spotlight-search_sample_macOS.png" alt></li>
+<li>解决方案<br>再看看下面的效果：搜索到的关键字，直接高亮，在预览窗也<strong>直接高亮</strong>，<strong>不用打开文件</strong>本身！<br><img src="https://res.cloudinary.com/ikoala/image/upload/v1548663331/BlogPic_Cldi_KOLA/search_sample_devonthink_ptl.png" alt><br>从效果看，二者解决问题不在一个量级上，后者就是<code>macOS</code>平台独有的、鼎鼎大名的一款 PIM（Personal Information Management） 工具软件-<code>Devonthink</code>实现的。<br>我利用它也打造了自己的<strong>数字资源库</strong>，把自己多年还未散失的工作文档资料全部放进去，用时搜索即可，甚是方便；在没有出现更强大工具前，会一直使用它。<br><img src="https://res.cloudinary.com/ikoala/image/upload/v1548663341/BlogPic_Cldi_KOLA/devonthink_logo_ptl.png" alt><br>[Devonthink 官网] (<a href="https://www.devontechnologies.com/" target="_blank" rel="noopener">https://www.devontechnologies.com/</a>)</li>
 </ul>
 <h1 id="学习方面"><a href="#学习方面" class="headerlink" title="学习方面"></a>学习方面</h1><h2 id="拿证书"><a href="#拿证书" class="headerlink" title="拿证书"></a>拿证书</h2><ul>
 <li>商业分析师证书<br>在 2016 年学习了产品经理方面的知识后，意识到商业分析方面的知识需要补充，于是拿证书症发作，考虑到已有 PMP 的基础，于是就选择了美国项目管理协会 <a href="https://www.pmi.org/" target="_blank" rel="noopener">PMI</a>这两年在国内推出的 <code>PBA</code> 证书，其知识框架重点在分析市场需求方面的知识。<br>因为我意识到：随着社会的发展，市场需求朝着越来越细化的方向发展，这也是每个人的个性化需求被尊重的体现，及早储备相关知识体系总没坏处。</li>
@@ -414,9 +418,9 @@ The annual summary I of 2018
 <li>再扩展一点<br>十年后（即 2028年左右），差不多是国内最晚进入新高考改革的那届高中生大学毕业了，那时的企业岗位能否满足很早就有生涯/职业发展意识个性化的毕业生，能满足自然是好事。<br>不满足怎么办？毕业生也无非是：凑合就业、继续求学、待业、自由职业这么几条出路，除了待业，其他几条出路会爆发出较强的个性化生涯规划需求。<br>因此抓住这个趋势，现在也为时不晚。</li>
 </ul>
 <h2 id="认知拓展"><a href="#认知拓展" class="headerlink" title="认知拓展"></a>认知拓展</h2><ul>
-<li>概念图<br>今年在学习一个网络课程时，最大的收获莫过于学到了对我来说是一个新的事务：<strong>概念图</strong>（Concept Map）。<br>先看它是如何定义的：呈现概念间关系的图解。是美国康内尔大学的<em>约瑟夫·D·诺瓦克</em>基于<em>奥苏贝尔</em>的同化理论构建的一种教学技术。<br>注：这里说的<strong>概念图</strong>不是指，超前设计的那种类似新车型的概念图（原型图）。<br>用软件呈现出来是这样的：<br><img src="https://res.cloudinary.com/ikoala/image/upload/v1548663328/BlogPic_Cldi_KOLA/concept-map_sample_ptl.png" alt=""></li>
+<li>概念图<br>今年在学习一个网络课程时，最大的收获莫过于学到了对我来说是一个新的事务：<strong>概念图</strong>（Concept Map）。<br>先看它是如何定义的：呈现概念间关系的图解。是美国康内尔大学的<em>约瑟夫·D·诺瓦克</em>基于<em>奥苏贝尔</em>的同化理论构建的一种教学技术。<br>注：这里说的<strong>概念图</strong>不是指，超前设计的那种类似新车型的概念图（原型图）。<br>用软件呈现出来是这样的：<br><img src="https://res.cloudinary.com/ikoala/image/upload/v1548663328/BlogPic_Cldi_KOLA/concept-map_sample_ptl.png" alt></li>
 </ul>
-<p>看起来是不是有点像思维导图（也叫心智图/脑图-Mind Map）？<br>下面这张才是思维导图：<br><img src="https://res.cloudinary.com/ikoala/image/upload/v1548663329/BlogPic_Cldi_KOLA/mind-map_sample_ptl.png" alt=""><br>其实二者使用场景不同：<br>概念图更适合用来进行<strong>客观概念</strong>的关系进行图形化呈现，在教育教学中使用较多；<br>思维导图更适合用来对人们<strong>内心主观</strong>的想法进行发散与可视化，知名度与使用场合更为广泛。<br>再往深入的挖掘，你可能会发现，概念图就与<strong>语义网络</strong>，<strong>人工智能</strong>有了关联。</p>
+<p>看起来是不是有点像思维导图（也叫心智图/脑图-Mind Map）？<br>下面这张才是思维导图：<br><img src="https://res.cloudinary.com/ikoala/image/upload/v1548663329/BlogPic_Cldi_KOLA/mind-map_sample_ptl.png" alt><br>其实二者使用场景不同：<br>概念图更适合用来进行<strong>客观概念</strong>的关系进行图形化呈现，在教育教学中使用较多；<br>思维导图更适合用来对人们<strong>内心主观</strong>的想法进行发散与可视化，知名度与使用场合更为广泛。<br>再往深入的挖掘，你可能会发现，概念图就与<strong>语义网络</strong>，<strong>人工智能</strong>有了关联。</p>
 <blockquote>
 <p>而正是这种经由一个概念切入，会一连串带出其他未知概念，产生了一种主动探索的乐趣!<br>如果不是刻意停止，会沉迷其中无法自拔！</p>
 </blockquote>
@@ -431,7 +435,7 @@ The annual summary I of 2018
 </ul>
 
             </div>
-            <hr>
+            <hr/>
 
             
             <style>
@@ -531,7 +535,7 @@ The annual summary I of 2018
                         <img src="/medias/reward/wechat.png" class="reward-img" alt="微信打赏二维码">
                     </div>
                     <div id="alipay">
-                        <img src="/medias/reward/alipay.png" class="reward-img" alt="支付宝打赏二维码">
+                        <img src="/medias/reward/alipay.jpg" class="reward-img" alt="支付宝打赏二维码">
                     </div>
                 </div>
             </div>
@@ -564,7 +568,9 @@ The annual summary I of 2018
 
             <div class="reprint">
                 <p>
-                    <span class="reprint-tip">转载请注明: </span>
+                    <span class="reprint-tip">
+                        <i class="fa fa-exclamation-circle"></i>&nbsp;&nbsp;转载请注明:
+                    </span>
                     <a href="http://www.ikoala.app" class="b-link-green">iKoala</a>
                     <i class="fa fa-angle-right fa-lg fa-fw text-color"></i>
                     <a href="/2018/12/25/023-men-idv-prs-2018-nian-du-zong-jie-i-20181225/" class="b-link-green">023_Men_Idv_Prs_2018 年度总结 I</a>
@@ -614,7 +620,8 @@ The annual summary I of 2018
     <div class="row article-row">
         
         <div class="article col s12 m6" data-aos="fade-up">
-            <div class="article-badge left-badge text-color">上一篇</div>
+            <div class="article-badge left-badge text-color">
+                <i class="fa fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
                 <a href="/2018/12/31/024-men-idv-prs-2018-nian-du-zong-jie-ii-20181231/">
                     <div class="card-image">
@@ -683,7 +690,9 @@ The annual summary II of 2018
         
         
         <div class="article col s12 m6" data-aos="fade-up">
-            <div class="article-badge right-badge text-color">下一篇</div>
+            <div class="article-badge right-badge text-color">
+                下一篇&nbsp;<i class="fa fa-chevron-right"></i>
+            </div>
             <div class="card">
                 <a href="/2018/11/30/022-men-idv-fut-tai-tou-kan-qu-shi-yu-di-tou-kan-zi-ji-20181130/">
                     <div class="card-image">
@@ -790,10 +799,8 @@ The annual summary II of 2018
     </div>
     <div class="col l3 hide-on-med-and-down">
         <div class="toc-widget">
-            <div class="toc-title">目录</div>
-            <div id="toc-content">
-
-            </div>
+            <div class="toc-title"><i class="fa fa-list-alt"></i>&nbsp;&nbsp;目录</div>
+            <div id="toc-content"></div>
         </div>
     </div>
 </div>
@@ -804,7 +811,9 @@ The annual summary II of 2018
         tocbot.init({
             tocSelector: '#toc-content',
             contentSelector: '#articleContent',
-            headingSelector: 'h1, h2, h3, h4'
+            headingsOffset: -($(window).height() * 0.4 - 45),
+            // headingsOffset: -205,
+            headingSelector: 'h2, h3, h4'
         });
 
         // modify the toc link href to support Chinese.
@@ -816,7 +825,7 @@ The annual summary II of 2018
 
         // modify the heading title id to support Chinese.
         i = 0;
-        $('#articleContent').children('h1, h2, h3, h4').each(function () {
+        $('#articleContent').children('h2, h3, h4').each(function () {
             $(this).attr('id', tocHeading + (++i));
         });
 
@@ -847,15 +856,26 @@ The annual summary II of 2018
             <a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank">hexo-theme-matery</a>主题搭建.
 
             
+                &nbsp;<i class="fa fa-area-chart"></i>&nbsp;站点总字数:&nbsp;
+                <span class="white-color">48.3k</span>
+            
+
+            
 			
                 <br>
+                
                 <span id="busuanzi_container_site_pv">
-                    本站总访问量 <span id="busuanzi_value_site_pv" style="color: #fff;"></span> 次,&nbsp;
+                    <i class="fa fa-heart-o"></i>
+                    本站总访问量 <span id="busuanzi_value_site_pv" class="white-color"></span>
                 </span>
-				<span id="busuanzi_container_site_uv">
-                    访客数 <span id="busuanzi_value_site_uv" style="color: #fff;"></span> 人.
+                
+                
+                <span id="busuanzi_container_site_uv">
+                    <i class="fa fa-users"></i>
+                    次,&nbsp;访客数 <span id="busuanzi_value_site_uv" class="white-color"></span> 人.
                 </span>
-			
+                
+            
         </div>
         <div class="col s12 m4 l4 social-link social-statis"><a href="mailto:robin.hoo2019@ikoala.app" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
     <i class="fa fa-envelope-open"></i>
@@ -878,8 +898,9 @@ The annual summary II of 2018
 <div id="searchModal" class="modal">
     <div class="modal-content">
         <div class="search-header">
-            <span class="title">搜索</span>
-            <input type="search" id="searchInput" name="s" placeholder="请输入搜索的关键字" class="search-input" autofocus>
+            <span class="title"><i class="fa fa-search"></i>&nbsp;&nbsp;搜索</span>
+            <input type="search" id="searchInput" name="s" placeholder="请输入搜索的关键字"
+                   class="search-input" autofocus="">
         </div>
         <div id="searchResult"></div>
     </div>

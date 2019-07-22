@@ -1,9 +1,8 @@
 <!DOCTYPE HTML>
 <html lang="zh-CN">
-<head>
-    
 
-<head><meta name="generator" content="Hexo 3.8.0">
+
+<head><meta name="generator" content="Hexo 3.9.0">
     <meta charset="utf-8">
     <meta name="keywords" content="观世界 做自己 博观约取 厚积薄发">
     <meta name="description" content="iKoala">
@@ -24,11 +23,13 @@
     <link rel="stylesheet" type="text/css" href="/libs/lightGallery/css/lightgallery.min.css">
     <link rel="stylesheet" type="text/css" href="/css/matery.css">
     <link rel="stylesheet" type="text/css" href="/css/my.css">
+    <style type="text/css">
+        
+    </style>
 
     <script src="/libs/jquery/jquery-2.2.0.min.js"></script>
 <link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"></head>
 
-</head>
 
 <body>
 
@@ -105,7 +106,7 @@
     
     <li>
         <a id="toggleSearch" class="waves-effect waves-light">
-            <i id="searchIcon" class="mdi-action-search"></i>
+            <i id="searchIcon" class="mdi-action-search" title="搜索"></i>
         </a>
     </li>
 
@@ -263,23 +264,110 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
 <main class="content">
 
     
-    <div class="container notice">
-        <div class="card">
-            <div class="card-content">
-                <i class="fa fa-volume-up fa-lg fa-fw text-color"></i>Explore The World! To Be Yourself!
+    <div class="index-card">
+        <div class="container ">
+            <div class="card">
+                <div class="card-content">
+                    
+                        <div class="dream">
+    
+    <div class="title center-align">
+        <i class="fa fa-lightbulb-o"></i>&nbsp;&nbsp;Slogan
+    </div>
+    
+    <div class="row">
+        <div class="col l8 offset-l2 m10 offset-m1 s10 offset-s1 center-align text">
+            Explore The World! To Be Yourself!
+        </div>
+    </div>
+</div>
+                    
+
+                    
+                        
+
+<link rel="stylesheet" href="/libs/aplayer/APlayer.min.css">
+<div class="music-player">
+    
+    <div class="title center-align">
+        <i class="fa fa-music"></i>&nbsp;&nbsp;唤醒耳朵
+    </div>
+    
+    <div class="row">
+        <div class="col l8 offset-l2 m10 offset-m1 s12">
+            <div id="aplayer" class="music"></div>
+        </div>
+    </div>
+</div>
+
+<script src="/libs/aplayer/APlayer.min.js"></script>
+<script>
+$(function () {
+    new APlayer({
+        container: document.getElementById('aplayer'),
+        fixed: 'true' === 'true',
+        autoplay: 'false' === 'true',
+        theme: '#42b983',
+        loop: 'all',
+        order: 'list',
+        preload: 'auto',
+        volume: Number('0.7'),
+        listFolded: 'false' === 'true',
+        listMaxHeight: '',
+        audio: JSON.parse('[{"name":"Exodus","artist":"中国国家交响乐团","url":"https://music.163.com/song?id=396811&userid=350578650","cover":"http://xxx.com/music-cover1.png"},{"name":"Take me hand","artist":"DAISHI DANCE,Cecile Corbel","url":"/medias/music/music2.mp3","cover":"/medias/music/cover2.png"},{"name":"Shape of You","artist":"J.Fla","url":"http://xxx.com/music3.mp3","cover":"http://xxx.com/music-cover3.png"}]')
+    });
+});
+</script>
+                    
+
+                    
+                        <link rel="stylesheet" href="/libs/dplayer/DPlayer.min.css">
+<div class="video-player">
+    
+    <div class="title center-align">
+        <i class="fa fa-video-camera"></i>&nbsp;&nbsp;精彩视频
+    </div>
+    
+    <div class="row">
+        <div class="col l8 offset-l2 m10 offset-m1 s12">
+            <div id="dplayer" class="dplayer-video"
+                    ></div>
+        </div>
+    </div>
+</div>
+
+<script src="/libs/dplayer/DPlayer.min.js"></script>
+<script>
+    $(function () {
+        new DPlayer({
+            container: document.getElementById('dplayer'),
+            autoplay: 'false' === 'true',
+            theme: '#42b983',
+            loop: 'false' === 'true',
+            lang: 'zh-CN' === 'zh-CN' ? 'zh-cn' : 'en',
+            preload: 'auto',
+            volume: Number('0.7'),
+            video: {
+                url: '',
+                pic: '',
+                thumbnails: ''
+            }
+        });
+    });
+</script>
+                    
+
+                    <div id="recommend-sections" class="recommend">
+                        
+
+
+
+                    </div>
+                </div>
             </div>
         </div>
     </div>
     
-
-    <div id="recommend-sections">
-    
-    
-
-
-
-    
-    </div>
 
     
 
@@ -300,11 +388,15 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
 
                     <div class="card-content article-content">
                         <div class="summary">
+                            
+                                
 The difference between school learning and vocational learning
 
 
 
-[TO</div>
+[TO
+                            
+                        </div>
                         <div class="publish-info">
                             <span class="publish-date">
                                 <i class="fa fa-clock-o fa-fw icon-date"></i>2019-02-28
@@ -363,7 +455,7 @@ The difference between school learning and vocational learning
                     <a href="/2019/01/31/025-wok-soc-prs-han-dong-you-lai-liao-20190131/">
                         <div class="card-image">
                             
-                            <img src="https://res.cloudinary.com/ikoala/image/upload/v1548949454/BlogPic_Cldi_KOLA/lay-off_job.png" class="responsive-img" alt="025_Wok_Soc_Prs_" 寒冬"又来了?"="">
+                            <img src="https://res.cloudinary.com/ikoala/image/upload/v1548949454/BlogPic_Cldi_KOLA/lay-off_job.png" class="responsive-img" alt="025_Wok_Soc_Prs_"寒冬"又来了?">
                             
                             <span class="card-title">025_Wok_Soc_Prs_"寒冬"又来了?</span>
                         </div>
@@ -371,12 +463,16 @@ The difference between school learning and vocational learning
 
                     <div class="card-content article-content">
                         <div class="summary">
+                            
+                                
 The “winter” came back?
 
 
 
 [TOC]
-寒冬来了从2018年下半年开始，各行业的“寒意”开始释放，消息灵通的互联</div>
+寒冬来了从2018年下半年开始，各行业的“寒意”开始释放，消息灵通的互联
+                            
+                        </div>
                         <div class="publish-info">
                             <span class="publish-date">
                                 <i class="fa fa-clock-o fa-fw icon-date"></i>2019-01-31
@@ -439,6 +535,8 @@ The “winter” came back?
 
                     <div class="card-content article-content">
                         <div class="summary">
+                            
+                                
 The annual summary II of 2018
 
 
@@ -446,7 +544,9 @@ The annual summary II of 2018
 [TOC]
 承接上篇，本篇就来说说剩余的两个方面。
 
- 生生不息，循环往</div>
+ 生生不息，循环往
+                            
+                        </div>
                         <div class="publish-info">
                             <span class="publish-date">
                                 <i class="fa fa-clock-o fa-fw icon-date"></i>2018-12-31
@@ -505,12 +605,16 @@ The annual summary II of 2018
 
                     <div class="card-content article-content">
                         <div class="summary">
+                            
+                                
 The annual summary I of 2018
 
 
 
 [TOC]
-年底总结季很快又到年底了，相信职场人必做的一件事就是年终总结了</div>
+年底总结季很快又到年底了，相信职场人必做的一件事就是年终总结了
+                            
+                        </div>
                         <div class="publish-info">
                             <span class="publish-date">
                                 <i class="fa fa-clock-o fa-fw icon-date"></i>2018-12-25
@@ -569,12 +673,16 @@ The annual summary I of 2018
 
                     <div class="card-content article-content">
                         <div class="summary">
+                            
+                                
  Not only look up at the sky but also see your inner being!
 
 
 
 [TOC]
-</div>
+
+                            
+                        </div>
                         <div class="publish-info">
                             <span class="publish-date">
                                 <i class="fa fa-clock-o fa-fw icon-date"></i>2018-11-30
@@ -633,12 +741,16 @@ The annual summary I of 2018
 
                     <div class="card-content article-content">
                         <div class="summary">
+                            
+                                
  Try to find yourself!
 
 
 
 [TOC]
-偶遇人类曾经始祖 LUCY去年年底（2017），因公出差去了趟非洲，也是我</div>
+偶遇人类曾经始祖 LUCY去年年底（2017），因公出差去了趟非洲，也是我
+                            
+                        </div>
                         <div class="publish-info">
                             <span class="publish-date">
                                 <i class="fa fa-clock-o fa-fw icon-date"></i>2018-11-11
@@ -701,12 +813,16 @@ The annual summary I of 2018
 
                     <div class="card-content article-content">
                         <div class="summary">
+                            
+                                
 What should you think  when u r 30?
 
 
 
 [TOC]
-离职的伙伴十一假期过后，工作中经常联系的几位产品</div>
+离职的伙伴十一假期过后，工作中经常联系的几位产品
+                            
+                        </div>
                         <div class="publish-info">
                             <span class="publish-date">
                                 <i class="fa fa-clock-o fa-fw icon-date"></i>2018-10-29
@@ -765,12 +881,16 @@ What should you think  when u r 30?
 
                     <div class="card-content article-content">
                         <div class="summary">
+                            
+                                
 What do you do in your leisure time? II
 
 
 
 [TOC]
-近况过去的9月是行业里的忙季，除了吃饭，</div>
+近况过去的9月是行业里的忙季，除了吃饭，
+                            
+                        </div>
                         <div class="publish-info">
                             <span class="publish-date">
                                 <i class="fa fa-clock-o fa-fw icon-date"></i>2018-10-07
@@ -853,12 +973,16 @@ What do you do in your leisure time? II
 
                     <div class="card-content article-content">
                         <div class="summary">
+                            
+                                
 What do you do in your leisure time?
 
 
 
 [TOC]
-定义闲暇这里定义，除了工作、加班、正常休息以外</div>
+定义闲暇这里定义，除了工作、加班、正常休息以外
+                            
+                        </div>
                         <div class="publish-info">
                             <span class="publish-date">
                                 <i class="fa fa-clock-o fa-fw icon-date"></i>2018-09-09
@@ -921,12 +1045,16 @@ What do you do in your leisure time?
 
                     <div class="card-content article-content">
                         <div class="summary">
+                            
+                                
 Make your mental flow in bit torrent!
 
 
 
 [TOC]
-身边的现象不知你有没有发现这样一种现象，自智</div>
+身边的现象不知你有没有发现这样一种现象，自智
+                            
+                        </div>
                         <div class="publish-info">
                             <span class="publish-date">
                                 <i class="fa fa-clock-o fa-fw icon-date"></i>2018-08-18
@@ -993,12 +1121,16 @@ Make your mental flow in bit torrent!
 
                     <div class="card-content article-content">
                         <div class="summary">
+                            
+                                
 The introduction of Humanism.
 
 
 
 [TOC]
-信息时代的底层焦虑 经常有人开玩笑，没有WiFi与电池，简直</div>
+信息时代的底层焦虑 经常有人开玩笑，没有WiFi与电池，简直
+                            
+                        </div>
                         <div class="publish-info">
                             <span class="publish-date">
                                 <i class="fa fa-clock-o fa-fw icon-date"></i>2018-08-04
@@ -1065,12 +1197,16 @@ The introduction of Humanism.
 
                     <div class="card-content article-content">
                         <div class="summary">
+                            
+                                
 The introduction of Constructivism.
 
 
 
 [TOC]
-鱼牛童话提到建构主义，一则欧洲童话经常被引用。说</div>
+鱼牛童话提到建构主义，一则欧洲童话经常被引用。说
+                            
+                        </div>
                         <div class="publish-info">
                             <span class="publish-date">
                                 <i class="fa fa-clock-o fa-fw icon-date"></i>2018-07-29
@@ -1140,7 +1276,8 @@ The introduction of Constructivism.
         </div>
         <div class="col s6 m4 l4">
             
-            <a href="/page/2/" class="right btn-floating btn-large waves-effect waves-light bg-color">
+            <a href="/page/2/"
+               class="right btn-floating btn-large waves-effect waves-light bg-color">
                 <i class="fa fa-angle-right"></i>
             </a>
             
@@ -1158,15 +1295,26 @@ The introduction of Constructivism.
             <a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank">hexo-theme-matery</a>主题搭建.
 
             
+                &nbsp;<i class="fa fa-area-chart"></i>&nbsp;站点总字数:&nbsp;
+                <span class="white-color">48.3k</span>
+            
+
+            
 			
                 <br>
+                
                 <span id="busuanzi_container_site_pv">
-                    本站总访问量 <span id="busuanzi_value_site_pv" style="color: #fff;"></span> 次,&nbsp;
+                    <i class="fa fa-heart-o"></i>
+                    本站总访问量 <span id="busuanzi_value_site_pv" class="white-color"></span>
                 </span>
-				<span id="busuanzi_container_site_uv">
-                    访客数 <span id="busuanzi_value_site_uv" style="color: #fff;"></span> 人.
+                
+                
+                <span id="busuanzi_container_site_uv">
+                    <i class="fa fa-users"></i>
+                    次,&nbsp;访客数 <span id="busuanzi_value_site_uv" class="white-color"></span> 人.
                 </span>
-			
+                
+            
         </div>
         <div class="col s12 m4 l4 social-link social-statis"><a href="mailto:robin.hoo2019@ikoala.app" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
     <i class="fa fa-envelope-open"></i>
@@ -1189,8 +1337,9 @@ The introduction of Constructivism.
 <div id="searchModal" class="modal">
     <div class="modal-content">
         <div class="search-header">
-            <span class="title">搜索</span>
-            <input type="search" id="searchInput" name="s" placeholder="请输入搜索的关键字" class="search-input" autofocus>
+            <span class="title"><i class="fa fa-search"></i>&nbsp;&nbsp;搜索</span>
+            <input type="search" id="searchInput" name="s" placeholder="请输入搜索的关键字"
+                   class="search-input" autofocus="">
         </div>
         <div id="searchResult"></div>
     </div>

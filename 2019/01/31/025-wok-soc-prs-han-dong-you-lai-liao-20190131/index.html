@@ -1,9 +1,8 @@
 <!DOCTYPE HTML>
 <html lang="zh-CN">
-<head>
-    
 
-<head><meta name="generator" content="Hexo 3.8.0">
+
+<head><meta name="generator" content="Hexo 3.9.0">
     <meta charset="utf-8">
     <meta name="keywords" content="025_Wok_Soc_Prs_&#34;寒冬&#34;又来了?, 观世界 做自己 博观约取 厚积薄发">
     <meta name="description" content="
@@ -30,11 +29,13 @@ The “winter” came back?
     <link rel="stylesheet" type="text/css" href="/libs/lightGallery/css/lightgallery.min.css">
     <link rel="stylesheet" type="text/css" href="/css/matery.css">
     <link rel="stylesheet" type="text/css" href="/css/my.css">
+    <style type="text/css">
+        
+    </style>
 
     <script src="/libs/jquery/jquery-2.2.0.min.js"></script>
 <link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"></head>
 
-</head>
 
 <body>
 
@@ -111,7 +112,7 @@ The “winter” came back?
     
     <li>
         <a id="toggleSearch" class="waves-effect waves-light">
-            <i id="searchIcon" class="mdi-action-search"></i>
+            <i id="searchIcon" class="mdi-action-search" title="搜索"></i>
         </a>
     </li>
 
@@ -237,38 +238,17 @@ The “winter” came back?
     
     <link rel="stylesheet" href="/libs/tocbot/tocbot.css">
 <style>
-    #articleContent h1,
-    #articleContent h2,
-    #articleContent h3,
-    #articleContent h4,
-    #articleContent h5,
-    #articleContent h6 {
-        padding-top: 76px;
-        margin-top: -76px;
-    }
-
-    #articleContent h1 {
-        line-height: 3.5rem;
-    }
-
-    #articleContent h2 {
-        line-height: 3.2rem;
-    }
-
-    #articleContent h3 {
-        line-height: 2.8rem;
-    }
-
-    #articleContent h4 {
-        line-height: 2.5rem;
-    }
-
-    #articleContent h5 {
-        line-height: 2.2rem;
-    }
-
-    #articleContent h6 {
-        line-height: 1.9rem;
+    #articleContent h1::before,
+    #articleContent h2::before,
+    #articleContent h3::before,
+    #articleContent h4::before,
+    #articleContent h5::before,
+    #articleContent h6::before {
+        display: block;
+        content: " ";
+        height: 100px;
+        margin-top: -100px;
+        visibility: hidden;
     }
 
     #articleContent :focus {
@@ -330,65 +310,89 @@ The “winter” came back?
 <div id="artDetail">
     <div class="card">
         <div class="card-content article-info">
-            
-            <div class="article-tag">
-                
-                <a href="/tags/职场/" target="_blank">
-                    <span class="chip bg-color">职场</span>
-                </a>
-                
-                <a href="/tags/经济寒冬/" target="_blank">
-                    <span class="chip bg-color">经济寒冬</span>
-                </a>
-                
-                <a href="/tags/年终奖/" target="_blank">
-                    <span class="chip bg-color">年终奖</span>
-                </a>
-                
-                <a href="/tags/年会/" target="_blank">
-                    <span class="chip bg-color">年会</span>
-                </a>
-                
-                <a href="/tags/品牌打造/" target="_blank">
-                    <span class="chip bg-color">品牌打造</span>
-                </a>
-                
-                <a href="/tags/考拉派/" target="_blank">
-                    <span class="chip bg-color">考拉派</span>
-                </a>
-                
+            <div class="row tag-cate">
+                <div class="col s7">
+                    
+                    <div class="article-tag">
+                        
+                            <a href="/tags/职场/" target="_blank">
+                                <span class="chip bg-color">职场</span>
+                            </a>
+                        
+                            <a href="/tags/经济寒冬/" target="_blank">
+                                <span class="chip bg-color">经济寒冬</span>
+                            </a>
+                        
+                            <a href="/tags/年终奖/" target="_blank">
+                                <span class="chip bg-color">年终奖</span>
+                            </a>
+                        
+                            <a href="/tags/年会/" target="_blank">
+                                <span class="chip bg-color">年会</span>
+                            </a>
+                        
+                            <a href="/tags/品牌打造/" target="_blank">
+                                <span class="chip bg-color">品牌打造</span>
+                            </a>
+                        
+                            <a href="/tags/考拉派/" target="_blank">
+                                <span class="chip bg-color">考拉派</span>
+                            </a>
+                        
+                    </div>
+                    
+                </div>
+                <div class="col s5 right-align">
+                    
+                    <div class="post-cate">
+                        <i class="fa fa-bookmark fa-fw icon-category"></i>
+                        
+                            <a href="/categories/胡宾-Robin/" class="post-category" target="_blank">
+                                胡宾 Robin
+                            </a>
+                        
+                    </div>
+                    
+                </div>
             </div>
-            
-            <div class="post-info">
-                
-                <span class="post-cate">
-                <!--<span class="post-cate" style="margin-right: 0px">-->
-                    <i class="fa fa-bookmark fa-fw icon-category"></i>
-                    
-                    <a href="/categories/胡宾-Robin/" class="post-category" target="_blank">
-                        胡宾 Robin
-                    </a>
-                    
-                </span>
-                
 
-                <span class="post-date">
-                    <i class="fa fa-clock-o fa-fw"></i>2019-01-31
-                </span>
+            <div class="post-info">
+                <div class="post-date info-break-policy">
+                    <i class="fa fa-calendar-minus-o fa-fw"></i>发布日期:&nbsp;&nbsp;
+                    2019-01-31
+                </div>
+
+                
+                    
+                    <div class="info-break-policy">
+                        <i class="fa fa-file-word-o fa-fw"></i>文章字数:&nbsp;&nbsp;
+                        752
+                    </div>
+                    
+
+                    
+                    <div class="info-break-policy">
+                        <i class="fa fa-clock-o fa-fw"></i>阅读时长:&nbsp;&nbsp;
+                        2 分
+                    </div>
+                    
+                
 				
 				
-                    <span id="busuanzi_container_page_pv" class="post-read">
-                    <i class="fa fa-eye fa-fw"></i>阅读 <span id="busuanzi_value_page_pv"></span>
+                    <div id="busuanzi_container_page_pv" class="info-break-policy">
+                        <i class="fa fa-eye fa-fw"></i>阅读次数:&nbsp;&nbsp;
+                        <span id="busuanzi_value_page_pv"></span>
+                    </div>
 				
-            </span></div>
+            </div>
         </div>
-        <hr>
+        <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
                 <blockquote>
 <p><em>The “winter” came back?</em></p>
 </blockquote>
-<p><img src="https://res.cloudinary.com/ikoala/image/upload/v1548949454/BlogPic_Cldi_KOLA/lay-off_job.png" alt=""></p>
+<p><img src="https://res.cloudinary.com/ikoala/image/upload/v1548949454/BlogPic_Cldi_KOLA/lay-off_job.png" alt></p>
 <hr>
 <p>[TOC]</p>
 <h1 id="寒冬来了"><a href="#寒冬来了" class="headerlink" title="寒冬来了"></a>寒冬来了</h1><p>从2018年下半年开始，各行业的“寒意”开始释放，消息灵通的互联网行业更是领衔，关闭社招渠道、提高校招门槛儿，到年根儿更是祭出大招儿—年会奖品“寒酸”、年终奖无影儿，工作时间“996”等，让人倍感“寒意”。<br>在网络上搜索<strong>寒冬</strong>，却发现这几年几乎年年是寒冬，并无新鲜，只能说今年感受更深了。</p>
@@ -399,15 +403,15 @@ The “winter” came back?
 <h2 id="确认了寒冬，那该怎么办呢？"><a href="#确认了寒冬，那该怎么办呢？" class="headerlink" title="确认了寒冬，那该怎么办呢？"></a>确认了寒冬，那该怎么办呢？</h2><ul>
 <li>冬眠派<br>总体是走节流的路子，削减支出，不辞职、不生孩子、不离婚等等，有观点认为，这是反应过度了。</li>
 </ul>
-<p><img src="https://res.cloudinary.com/ikoala/image/upload/v1548949451/BlogPic_Cldi_KOLA/bear_cat_hibernation_animal.jpg" alt=""></p>
+<p><img src="https://res.cloudinary.com/ikoala/image/upload/v1548949451/BlogPic_Cldi_KOLA/bear_cat_hibernation_animal.jpg" alt></p>
 <ul>
 <li>鼓气派<br>从历史规律，宏观层面分析<em>冬天来了，春天还远吗？</em>这倒是一种积极的态度，是可取的。</li>
 </ul>
-<p><img src="https://res.cloudinary.com/ikoala/image/upload/v1548953565/BlogPic_Cldi_KOLA/We-Can-Do-It_poster_life.jpg" alt=""></p>
+<p><img src="https://res.cloudinary.com/ikoala/image/upload/v1548953565/BlogPic_Cldi_KOLA/We-Can-Do-It_poster_life.jpg" alt></p>
 <h2 id="我比较认同的方式"><a href="#我比较认同的方式" class="headerlink" title="我比较认同的方式"></a>我比较认同的方式</h2><p>有一种是冷静分析，提出长周期可落地的对策，我认为越是所谓寒冬，越是要深入盘点自己的境况，不妨假设：<em>不在当前的公司，不在当前的岗位，还能依靠什么获得收入</em>。</p>
 <p>可能最终发现还是要<strong>专注一个领域，长周期积累</strong>，按着打造<strong>自己的品牌</strong>去发展，到一定程度，找合适的方式推出，产生持续收益，用这种方式对抗周期性的经济波动，这个方法看上去不“聪明”，却能逐步减少对某些环境的依赖度（有时候所在环境让人产生错觉，误认为自己能力很强），相应的自由度也会大些。</p>
 <h1 id="我的前期行动"><a href="#我的前期行动" class="headerlink" title="我的前期行动"></a>我的前期行动</h1><p>之前利用业余时间折腾一些东西，在裸服务器上，以<code>Linux</code>、<code>Nginx</code>、<code>MySQL</code>、<code>php</code>（即LEMP Stack环境）为基础把博客、私有云等搭建起来，后来觉得名字、域名不够简洁，又重新切换到新域名，过程中还摸排了比较优质的服务提供商，竟然初步形成了打造一个小小品牌支撑环境的一整套解决方案。</p>
-<p><img src="https://res.cloudinary.com/ikoala/image/upload/v1548954541/BlogPic_Cldi_KOLA/LEMP-Stack_server_IT.jpg" alt=""></p>
+<p><img src="https://res.cloudinary.com/ikoala/image/upload/v1548954541/BlogPic_Cldi_KOLA/LEMP-Stack_server_IT.jpg" alt></p>
 <h2 id="当前进展"><a href="#当前进展" class="headerlink" title="当前进展"></a>当前进展</h2><p>春节前就能把所有博文重新发布出来，启用了新的博客模版，视觉效果上了一层楼。</p>
 <ul>
 <li>Logo没有动，还是那只有萌宠感的考拉</li>
@@ -423,7 +427,7 @@ The “winter” came back?
 </ul>
 
             </div>
-            <hr>
+            <hr/>
 
             
             <style>
@@ -523,7 +527,7 @@ The “winter” came back?
                         <img src="/medias/reward/wechat.png" class="reward-img" alt="微信打赏二维码">
                     </div>
                     <div id="alipay">
-                        <img src="/medias/reward/alipay.png" class="reward-img" alt="支付宝打赏二维码">
+                        <img src="/medias/reward/alipay.jpg" class="reward-img" alt="支付宝打赏二维码">
                     </div>
                 </div>
             </div>
@@ -556,7 +560,9 @@ The “winter” came back?
 
             <div class="reprint">
                 <p>
-                    <span class="reprint-tip">转载请注明: </span>
+                    <span class="reprint-tip">
+                        <i class="fa fa-exclamation-circle"></i>&nbsp;&nbsp;转载请注明:
+                    </span>
                     <a href="http://www.ikoala.app" class="b-link-green">iKoala</a>
                     <i class="fa fa-angle-right fa-lg fa-fw text-color"></i>
                     <a href="/2019/01/31/025-wok-soc-prs-han-dong-you-lai-liao-20190131/" class="b-link-green">025_Wok_Soc_Prs_&#34;寒冬&#34;又来了?</a>
@@ -606,7 +612,8 @@ The “winter” came back?
     <div class="row article-row">
         
         <div class="article col s12 m6" data-aos="fade-up">
-            <div class="article-badge left-badge text-color">上一篇</div>
+            <div class="article-badge left-badge text-color">
+                <i class="fa fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
                 <a href="/2019/02/28/026-lrn-soc-prs-du-shi-xue-xi-zen-me-jiu-bu-yi-yang-liao-yi-20190228/">
                     <div class="card-image">
@@ -678,7 +685,9 @@ The difference between school learning and vocational learning
         
         
         <div class="article col s12 m6" data-aos="fade-up">
-            <div class="article-badge right-badge text-color">下一篇</div>
+            <div class="article-badge right-badge text-color">
+                下一篇&nbsp;<i class="fa fa-chevron-right"></i>
+            </div>
             <div class="card">
                 <a href="/2018/12/31/024-men-idv-prs-2018-nian-du-zong-jie-ii-20181231/">
                     <div class="card-image">
@@ -790,10 +799,8 @@ The annual summary II of 2018
     </div>
     <div class="col l3 hide-on-med-and-down">
         <div class="toc-widget">
-            <div class="toc-title">目录</div>
-            <div id="toc-content">
-
-            </div>
+            <div class="toc-title"><i class="fa fa-list-alt"></i>&nbsp;&nbsp;目录</div>
+            <div id="toc-content"></div>
         </div>
     </div>
 </div>
@@ -804,7 +811,9 @@ The annual summary II of 2018
         tocbot.init({
             tocSelector: '#toc-content',
             contentSelector: '#articleContent',
-            headingSelector: 'h1, h2, h3, h4'
+            headingsOffset: -($(window).height() * 0.4 - 45),
+            // headingsOffset: -205,
+            headingSelector: 'h2, h3, h4'
         });
 
         // modify the toc link href to support Chinese.
@@ -816,7 +825,7 @@ The annual summary II of 2018
 
         // modify the heading title id to support Chinese.
         i = 0;
-        $('#articleContent').children('h1, h2, h3, h4').each(function () {
+        $('#articleContent').children('h2, h3, h4').each(function () {
             $(this).attr('id', tocHeading + (++i));
         });
 
@@ -847,15 +856,26 @@ The annual summary II of 2018
             <a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank">hexo-theme-matery</a>主题搭建.
 
             
+                &nbsp;<i class="fa fa-area-chart"></i>&nbsp;站点总字数:&nbsp;
+                <span class="white-color">48.3k</span>
+            
+
+            
 			
                 <br>
+                
                 <span id="busuanzi_container_site_pv">
-                    本站总访问量 <span id="busuanzi_value_site_pv" style="color: #fff;"></span> 次,&nbsp;
+                    <i class="fa fa-heart-o"></i>
+                    本站总访问量 <span id="busuanzi_value_site_pv" class="white-color"></span>
                 </span>
-				<span id="busuanzi_container_site_uv">
-                    访客数 <span id="busuanzi_value_site_uv" style="color: #fff;"></span> 人.
+                
+                
+                <span id="busuanzi_container_site_uv">
+                    <i class="fa fa-users"></i>
+                    次,&nbsp;访客数 <span id="busuanzi_value_site_uv" class="white-color"></span> 人.
                 </span>
-			
+                
+            
         </div>
         <div class="col s12 m4 l4 social-link social-statis"><a href="mailto:robin.hoo2019@ikoala.app" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
     <i class="fa fa-envelope-open"></i>
@@ -878,8 +898,9 @@ The annual summary II of 2018
 <div id="searchModal" class="modal">
     <div class="modal-content">
         <div class="search-header">
-            <span class="title">搜索</span>
-            <input type="search" id="searchInput" name="s" placeholder="请输入搜索的关键字" class="search-input" autofocus>
+            <span class="title"><i class="fa fa-search"></i>&nbsp;&nbsp;搜索</span>
+            <input type="search" id="searchInput" name="s" placeholder="请输入搜索的关键字"
+                   class="search-input" autofocus="">
         </div>
         <div id="searchResult"></div>
     </div>

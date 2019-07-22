@@ -1,9 +1,8 @@
 <!DOCTYPE HTML>
 <html lang="zh-CN">
-<head>
-    
 
-<head><meta name="generator" content="Hexo 3.8.0">
+
+<head><meta name="generator" content="Hexo 3.9.0">
     <meta charset="utf-8">
     <meta name="keywords" content="005_Men_Soc_Fut_他们还有梦想吗？, 观世界 做自己 博观约取 厚积薄发">
     <meta name="description" content="
@@ -30,11 +29,13 @@ Do they still have dream？
     <link rel="stylesheet" type="text/css" href="/libs/lightGallery/css/lightgallery.min.css">
     <link rel="stylesheet" type="text/css" href="/css/matery.css">
     <link rel="stylesheet" type="text/css" href="/css/my.css">
+    <style type="text/css">
+        
+    </style>
 
     <script src="/libs/jquery/jquery-2.2.0.min.js"></script>
 <link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"></head>
 
-</head>
 
 <body>
 
@@ -111,7 +112,7 @@ Do they still have dream？
     
     <li>
         <a id="toggleSearch" class="waves-effect waves-light">
-            <i id="searchIcon" class="mdi-action-search"></i>
+            <i id="searchIcon" class="mdi-action-search" title="搜索"></i>
         </a>
     </li>
 
@@ -237,38 +238,17 @@ Do they still have dream？
     
     <link rel="stylesheet" href="/libs/tocbot/tocbot.css">
 <style>
-    #articleContent h1,
-    #articleContent h2,
-    #articleContent h3,
-    #articleContent h4,
-    #articleContent h5,
-    #articleContent h6 {
-        padding-top: 76px;
-        margin-top: -76px;
-    }
-
-    #articleContent h1 {
-        line-height: 3.5rem;
-    }
-
-    #articleContent h2 {
-        line-height: 3.2rem;
-    }
-
-    #articleContent h3 {
-        line-height: 2.8rem;
-    }
-
-    #articleContent h4 {
-        line-height: 2.5rem;
-    }
-
-    #articleContent h5 {
-        line-height: 2.2rem;
-    }
-
-    #articleContent h6 {
-        line-height: 1.9rem;
+    #articleContent h1::before,
+    #articleContent h2::before,
+    #articleContent h3::before,
+    #articleContent h4::before,
+    #articleContent h5::before,
+    #articleContent h6::before {
+        display: block;
+        content: " ";
+        height: 100px;
+        margin-top: -100px;
+        visibility: hidden;
     }
 
     #articleContent :focus {
@@ -330,77 +310,101 @@ Do they still have dream？
 <div id="artDetail">
     <div class="card">
         <div class="card-content article-info">
-            
-            <div class="article-tag">
-                
-                <a href="/tags/追逐梦想/" target="_blank">
-                    <span class="chip bg-color">追逐梦想</span>
-                </a>
-                
-                <a href="/tags/阿米尔·汗/" target="_blank">
-                    <span class="chip bg-color">阿米尔·汗</span>
-                </a>
-                
-                <a href="/tags/《神秘巨星》/" target="_blank">
-                    <span class="chip bg-color">《神秘巨星》</span>
-                </a>
-                
-                <a href="/tags/《摔跤吧！爸爸》/" target="_blank">
-                    <span class="chip bg-color">《摔跤吧！爸爸》</span>
-                </a>
-                
-                <a href="/tags/《芳华》/" target="_blank">
-                    <span class="chip bg-color">《芳华》</span>
-                </a>
-                
-                <a href="/tags/天赋-优势/" target="_blank">
-                    <span class="chip bg-color">天赋 优势</span>
-                </a>
-                
-                <a href="/tags/知识付费/" target="_blank">
-                    <span class="chip bg-color">知识付费</span>
-                </a>
-                
-                <a href="/tags/智商税/" target="_blank">
-                    <span class="chip bg-color">智商税</span>
-                </a>
-                
-                <a href="/tags/笃定力量/" target="_blank">
-                    <span class="chip bg-color">笃定力量</span>
-                </a>
-                
+            <div class="row tag-cate">
+                <div class="col s7">
+                    
+                    <div class="article-tag">
+                        
+                            <a href="/tags/追逐梦想/" target="_blank">
+                                <span class="chip bg-color">追逐梦想</span>
+                            </a>
+                        
+                            <a href="/tags/阿米尔·汗/" target="_blank">
+                                <span class="chip bg-color">阿米尔·汗</span>
+                            </a>
+                        
+                            <a href="/tags/《神秘巨星》/" target="_blank">
+                                <span class="chip bg-color">《神秘巨星》</span>
+                            </a>
+                        
+                            <a href="/tags/《摔跤吧！爸爸》/" target="_blank">
+                                <span class="chip bg-color">《摔跤吧！爸爸》</span>
+                            </a>
+                        
+                            <a href="/tags/《芳华》/" target="_blank">
+                                <span class="chip bg-color">《芳华》</span>
+                            </a>
+                        
+                            <a href="/tags/天赋-优势/" target="_blank">
+                                <span class="chip bg-color">天赋 优势</span>
+                            </a>
+                        
+                            <a href="/tags/知识付费/" target="_blank">
+                                <span class="chip bg-color">知识付费</span>
+                            </a>
+                        
+                            <a href="/tags/智商税/" target="_blank">
+                                <span class="chip bg-color">智商税</span>
+                            </a>
+                        
+                            <a href="/tags/笃定力量/" target="_blank">
+                                <span class="chip bg-color">笃定力量</span>
+                            </a>
+                        
+                    </div>
+                    
+                </div>
+                <div class="col s5 right-align">
+                    
+                    <div class="post-cate">
+                        <i class="fa fa-bookmark fa-fw icon-category"></i>
+                        
+                            <a href="/categories/胡宾-Robin/" class="post-category" target="_blank">
+                                胡宾 Robin
+                            </a>
+                        
+                    </div>
+                    
+                </div>
             </div>
-            
-            <div class="post-info">
-                
-                <span class="post-cate">
-                <!--<span class="post-cate" style="margin-right: 0px">-->
-                    <i class="fa fa-bookmark fa-fw icon-category"></i>
-                    
-                    <a href="/categories/胡宾-Robin/" class="post-category" target="_blank">
-                        胡宾 Robin
-                    </a>
-                    
-                </span>
-                
 
-                <span class="post-date">
-                    <i class="fa fa-clock-o fa-fw"></i>2018-02-07
-                </span>
+            <div class="post-info">
+                <div class="post-date info-break-policy">
+                    <i class="fa fa-calendar-minus-o fa-fw"></i>发布日期:&nbsp;&nbsp;
+                    2018-02-07
+                </div>
+
+                
+                    
+                    <div class="info-break-policy">
+                        <i class="fa fa-file-word-o fa-fw"></i>文章字数:&nbsp;&nbsp;
+                        1.8k
+                    </div>
+                    
+
+                    
+                    <div class="info-break-policy">
+                        <i class="fa fa-clock-o fa-fw"></i>阅读时长:&nbsp;&nbsp;
+                        6 分
+                    </div>
+                    
+                
 				
 				
-                    <span id="busuanzi_container_page_pv" class="post-read">
-                    <i class="fa fa-eye fa-fw"></i>阅读 <span id="busuanzi_value_page_pv"></span>
+                    <div id="busuanzi_container_page_pv" class="info-break-policy">
+                        <i class="fa fa-eye fa-fw"></i>阅读次数:&nbsp;&nbsp;
+                        <span id="busuanzi_value_page_pv"></span>
+                    </div>
 				
-            </span></div>
+            </div>
         </div>
-        <hr>
+        <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
                 <blockquote>
 <p><em>Do they still have dream？</em></p>
 </blockquote>
-<p><img src="https://res.cloudinary.com/ikoala/image/upload/v1548661766/BlogPic_Cldi_KOLA/things_happen_career.jpg" alt="">    </p>
+<p><img src="https://res.cloudinary.com/ikoala/image/upload/v1548661766/BlogPic_Cldi_KOLA/things_happen_career.jpg" alt>    </p>
 <hr>
 <p>[TOC]</p>
 <h1 id="去影院看电影"><a href="#去影院看电影" class="headerlink" title="去影院看电影"></a>去影院看电影</h1><p>我自己有一个保持了5年的习惯：基本每周去影院看一部电影，也不完全是只看热门大片，最想看的是那些有深度的，那些只靠场面宏大，特效很炫的我基本提不起兴趣了，当然有没有深度这个仅是自己内心的一个衡量。    </p>
@@ -410,7 +414,7 @@ Do they still have dream？
 </blockquote>
 <p><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=38592976&auto=0&height=66"></iframe></p>
 <h2 id="逝去的芳华"><a href="#逝去的芳华" class="headerlink" title="逝去的芳华"></a>逝去的芳华</h2><p>2017年末的一天去看<em>冯小刚</em>的电影《芳华》，当时我的座位，右侧坐了一对五六十岁的老夫妇， 左侧坐了一对应该是偏90后的一对情侣，这种情况在之前从未出现过，这里并不是要说冯氏电影的强大号召力，而是我突然感觉到：好像一转身，昨日还是少年，今日已走完人生的三轮（一轮=12年）。    是时候要写点什么来纪念自己已逝的青春了（有人说这是变老的典型表现：梦想磨没了，只剩回忆了），但我认为更多的是感悟吧，不管成功与否，写出来至少对自己是有意义的，假如别人看了能有所启发，那就更有价值了！</p>
-<p><img src="https://res.cloudinary.com/ikoala/image/upload/v1548661792/BlogPic_Cldi_KOLA/youth_Feng_xiao_gang_film.jpg" alt=""><br>其实在2016年，学一个产品经理的课程时，就曾规划过一次，当时是在知乎上把课程中的练习作业当成文章发出来，但没有坚持下来，可能是愿力不够强，也可能是内容上并不是内心真正想写的。</p>
+<p><img src="https://res.cloudinary.com/ikoala/image/upload/v1548661792/BlogPic_Cldi_KOLA/youth_Feng_xiao_gang_film.jpg" alt><br>其实在2016年，学一个产品经理的课程时，就曾规划过一次，当时是在知乎上把课程中的练习作业当成文章发出来，但没有坚持下来，可能是愿力不够强，也可能是内容上并不是内心真正想写的。</p>
 <h1 id="发现天赋-发展优势-青春无悔"><a href="#发现天赋-发展优势-青春无悔" class="headerlink" title="发现天赋 发展优势 青春无悔"></a>发现天赋 发展优势 青春无悔</h1><p>青春、梦想、感悟是我开这个公众号的三大促进因素！这其中暗含了另外一个能将三者贯穿起来的东西，就是：<strong>天赋</strong>，越早发现你的天赋，在天赋的主方向上去发展出优势，构建自己的职业生涯，让青春流逝的更有价值，才能更大几率达成人生目标与梦想。<br>注：有天赋，也必须要努力！</p>
 <h2 id="探索触动恐惧-尝试会有成本"><a href="#探索触动恐惧-尝试会有成本" class="headerlink" title="探索触动恐惧 尝试会有成本"></a>探索触动恐惧 尝试会有成本</h2><p>这对家境一般甚至较差的普通人来说更为重要，因为家境殷实甚至是富二代，官二代的可能有更多的资源与机会去尝试不同的方向（这里不是嫌贫爱富心理），而普通人则机会成本较大，不能去轻易尝试，因为这样做，通常代价比较大，很可能发现了自己的天赋，但由于各种因素导致无法去发掘与发挥了，就会产生焦虑，然后很有可能就把自己未了的梦想寄托在下一代身上，形成了恶性循环（你的梦想并不一定是下一代的梦想，他们也不一定具备完成你梦想的天赋）。也可能有人终其一生可能都不知道自己的天赋所在！</p>
 <h2 id="从上大学说起"><a href="#从上大学说起" class="headerlink" title="从上大学说起"></a>从上大学说起</h2><p><strong>每个人都有某方面的天赋，所谓天生我材必有用！</strong>，可以尝试从考大学的决策说起，之前的文章也提到过，由于工作需要带过实习生、职场新人，我与他们初次见面一般会问这几个问题：</p>
@@ -420,7 +424,7 @@ Do they still have dream？
 <li>喜欢这个专业吗？</li>
 <li>当初什么原因选这个专业？</li>
 </ol>
-<p><img src="https://res.cloudinary.com/ikoala/image/upload/v1548661759/BlogPic_Cldi_KOLA/gaokao_application_edu.jpg" alt=""></p>
+<p><img src="https://res.cloudinary.com/ikoala/image/upload/v1548661759/BlogPic_Cldi_KOLA/gaokao_application_edu.jpg" alt></p>
 <p>最后一个问题的回答最有意思，一般会有这几种类型（比例为粗略估计）：    </p>
 <ol>
 <li>我父母/老师/亲戚帮我选的—40%    </li>
@@ -433,7 +437,7 @@ Do they still have dream？
 <h2 id="20-年的停滞"><a href="#20-年的停滞" class="headerlink" title="20 年的停滞"></a>20 年的停滞</h2><p>于是我得出一个基本推论：将近20年来（2001-2017），随着科技进步，社会发展，经济的增长，普通大众的择业科学性并没有随之提升，基本保持在一个没变的水准上。<br>几十年来经济发展如此迅猛，而代表科学最高成就的诺贝尔奖与我国几乎无缘，不知道与这个有没有关系。</p>
 <h1 id="重新思考"><a href="#重新思考" class="headerlink" title="重新思考"></a>重新思考</h1><p>假如在人生早期，能发现某方面有一定天赋，在高中之前多偏重培养一下，大学选专业时，考虑社会发展趋势结合个人天赋优势，这样可能会缓解，选专业时迷茫，毕业时迷茫，工作几年还是迷茫，还导致随波逐流的参加各种考证班、学习班。</p>
 <p>时下火爆的知识付费现象，近期又出现反知识经济的声音-说是知识付费仅是交了智商税，仅是满足了一种获得感，生活、工作依旧。<br>我认为实际是一种长期积累焦虑的集中爆发（从上学-选专业-毕业找工作-换工作-考证-换工作），原因是没有找到让内心笃定的那种力量（这里探讨的不是信仰层面），没有持续的去积累，很容易被干扰。</p>
-<h2 id="大胆预测"><a href="#大胆预测" class="headerlink" title="大胆预测"></a>大胆预测</h2><p>我大胆预测：社会、科技越发达，越依靠个人天赋优势的发挥，后天教育只是让天赋更好发挥的雕刻性手段。<br><img src="https://res.cloudinary.com/ikoala/image/upload/v1548661765/BlogPic_Cldi_KOLA/support_grow_edu.jpg" alt=""></p>
+<h2 id="大胆预测"><a href="#大胆预测" class="headerlink" title="大胆预测"></a>大胆预测</h2><p>我大胆预测：社会、科技越发达，越依靠个人天赋优势的发挥，后天教育只是让天赋更好发挥的雕刻性手段。<br><img src="https://res.cloudinary.com/ikoala/image/upload/v1548661765/BlogPic_Cldi_KOLA/support_grow_edu.jpg" alt></p>
 <p>如何找到那种探明了天赋优势而笃定的力量呢，下次探讨。</p>
 <h1 id="本篇总结"><a href="#本篇总结" class="headerlink" title="本篇总结"></a>本篇总结</h1><ul>
 <li>开通本公众号的缘由：青春-梦想-人生三轮后的感悟</li>
@@ -448,7 +452,7 @@ Do they still have dream？
 </ul>
 
             </div>
-            <hr>
+            <hr/>
 
             
             <style>
@@ -548,7 +552,7 @@ Do they still have dream？
                         <img src="/medias/reward/wechat.png" class="reward-img" alt="微信打赏二维码">
                     </div>
                     <div id="alipay">
-                        <img src="/medias/reward/alipay.png" class="reward-img" alt="支付宝打赏二维码">
+                        <img src="/medias/reward/alipay.jpg" class="reward-img" alt="支付宝打赏二维码">
                     </div>
                 </div>
             </div>
@@ -581,7 +585,9 @@ Do they still have dream？
 
             <div class="reprint">
                 <p>
-                    <span class="reprint-tip">转载请注明: </span>
+                    <span class="reprint-tip">
+                        <i class="fa fa-exclamation-circle"></i>&nbsp;&nbsp;转载请注明:
+                    </span>
                     <a href="http://www.ikoala.app" class="b-link-green">iKoala</a>
                     <i class="fa fa-angle-right fa-lg fa-fw text-color"></i>
                     <a href="/2018/02/07/005-men-soc-fut-ta-men-huan-you-meng-xiang-ma-20180207/" class="b-link-green">005_Men_Soc_Fut_他们还有梦想吗？</a>
@@ -631,7 +637,8 @@ Do they still have dream？
     <div class="row article-row">
         
         <div class="article col s12 m6" data-aos="fade-up">
-            <div class="article-badge left-badge text-color">上一篇</div>
+            <div class="article-badge left-badge text-color">
+                <i class="fa fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
                 <a href="/2018/02/18/006-wok-idv-pas-chu-ru-zhi-chang-zen-me-hun-20180218/">
                     <div class="card-image">
@@ -693,7 +700,9 @@ How do newcomers in the workplace do ?
         
         
         <div class="article col s12 m6" data-aos="fade-up">
-            <div class="article-badge right-badge text-color">下一篇</div>
+            <div class="article-badge right-badge text-color">
+                下一篇&nbsp;<i class="fa fa-chevron-right"></i>
+            </div>
             <div class="card">
                 <a href="/2018/02/01/004-lif-soc-prs-sheng-huo-shi-zui-hao-de-lao-shi-20180201/">
                     <div class="card-image">
@@ -812,10 +821,8 @@ Life is the best tutor!
     </div>
     <div class="col l3 hide-on-med-and-down">
         <div class="toc-widget">
-            <div class="toc-title">目录</div>
-            <div id="toc-content">
-
-            </div>
+            <div class="toc-title"><i class="fa fa-list-alt"></i>&nbsp;&nbsp;目录</div>
+            <div id="toc-content"></div>
         </div>
     </div>
 </div>
@@ -826,7 +833,9 @@ Life is the best tutor!
         tocbot.init({
             tocSelector: '#toc-content',
             contentSelector: '#articleContent',
-            headingSelector: 'h1, h2, h3, h4'
+            headingsOffset: -($(window).height() * 0.4 - 45),
+            // headingsOffset: -205,
+            headingSelector: 'h2, h3, h4'
         });
 
         // modify the toc link href to support Chinese.
@@ -838,7 +847,7 @@ Life is the best tutor!
 
         // modify the heading title id to support Chinese.
         i = 0;
-        $('#articleContent').children('h1, h2, h3, h4').each(function () {
+        $('#articleContent').children('h2, h3, h4').each(function () {
             $(this).attr('id', tocHeading + (++i));
         });
 
@@ -869,15 +878,26 @@ Life is the best tutor!
             <a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank">hexo-theme-matery</a>主题搭建.
 
             
+                &nbsp;<i class="fa fa-area-chart"></i>&nbsp;站点总字数:&nbsp;
+                <span class="white-color">48.3k</span>
+            
+
+            
 			
                 <br>
+                
                 <span id="busuanzi_container_site_pv">
-                    本站总访问量 <span id="busuanzi_value_site_pv" style="color: #fff;"></span> 次,&nbsp;
+                    <i class="fa fa-heart-o"></i>
+                    本站总访问量 <span id="busuanzi_value_site_pv" class="white-color"></span>
                 </span>
-				<span id="busuanzi_container_site_uv">
-                    访客数 <span id="busuanzi_value_site_uv" style="color: #fff;"></span> 人.
+                
+                
+                <span id="busuanzi_container_site_uv">
+                    <i class="fa fa-users"></i>
+                    次,&nbsp;访客数 <span id="busuanzi_value_site_uv" class="white-color"></span> 人.
                 </span>
-			
+                
+            
         </div>
         <div class="col s12 m4 l4 social-link social-statis"><a href="mailto:robin.hoo2019@ikoala.app" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
     <i class="fa fa-envelope-open"></i>
@@ -900,8 +920,9 @@ Life is the best tutor!
 <div id="searchModal" class="modal">
     <div class="modal-content">
         <div class="search-header">
-            <span class="title">搜索</span>
-            <input type="search" id="searchInput" name="s" placeholder="请输入搜索的关键字" class="search-input" autofocus>
+            <span class="title"><i class="fa fa-search"></i>&nbsp;&nbsp;搜索</span>
+            <input type="search" id="searchInput" name="s" placeholder="请输入搜索的关键字"
+                   class="search-input" autofocus="">
         </div>
         <div id="searchResult"></div>
     </div>

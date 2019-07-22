@@ -1,9 +1,8 @@
 <!DOCTYPE HTML>
 <html lang="zh-CN">
-<head>
-    
 
-<head><meta name="generator" content="Hexo 3.8.0">
+
+<head><meta name="generator" content="Hexo 3.9.0">
     <meta charset="utf-8">
     <meta name="keywords" content="008_Men_Idv_Prs_中途小憩, 观世界 做自己 博观约取 厚积薄发">
     <meta name="description" content="
@@ -33,11 +32,13 @@ Stop for a moment.
     <link rel="stylesheet" type="text/css" href="/libs/lightGallery/css/lightgallery.min.css">
     <link rel="stylesheet" type="text/css" href="/css/matery.css">
     <link rel="stylesheet" type="text/css" href="/css/my.css">
+    <style type="text/css">
+        
+    </style>
 
     <script src="/libs/jquery/jquery-2.2.0.min.js"></script>
 <link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"></head>
 
-</head>
 
 <body>
 
@@ -114,7 +115,7 @@ Stop for a moment.
     
     <li>
         <a id="toggleSearch" class="waves-effect waves-light">
-            <i id="searchIcon" class="mdi-action-search"></i>
+            <i id="searchIcon" class="mdi-action-search" title="搜索"></i>
         </a>
     </li>
 
@@ -240,38 +241,17 @@ Stop for a moment.
     
     <link rel="stylesheet" href="/libs/tocbot/tocbot.css">
 <style>
-    #articleContent h1,
-    #articleContent h2,
-    #articleContent h3,
-    #articleContent h4,
-    #articleContent h5,
-    #articleContent h6 {
-        padding-top: 76px;
-        margin-top: -76px;
-    }
-
-    #articleContent h1 {
-        line-height: 3.5rem;
-    }
-
-    #articleContent h2 {
-        line-height: 3.2rem;
-    }
-
-    #articleContent h3 {
-        line-height: 2.8rem;
-    }
-
-    #articleContent h4 {
-        line-height: 2.5rem;
-    }
-
-    #articleContent h5 {
-        line-height: 2.2rem;
-    }
-
-    #articleContent h6 {
-        line-height: 1.9rem;
+    #articleContent h1::before,
+    #articleContent h2::before,
+    #articleContent h3::before,
+    #articleContent h4::before,
+    #articleContent h5::before,
+    #articleContent h6::before {
+        display: block;
+        content: " ";
+        height: 100px;
+        margin-top: -100px;
+        visibility: hidden;
     }
 
     #articleContent :focus {
@@ -333,57 +313,81 @@ Stop for a moment.
 <div id="artDetail">
     <div class="card">
         <div class="card-content article-info">
-            
-            <div class="article-tag">
-                
-                <a href="/tags/调整/" target="_blank">
-                    <span class="chip bg-color">调整</span>
-                </a>
-                
-                <a href="/tags/初心/" target="_blank">
-                    <span class="chip bg-color">初心</span>
-                </a>
-                
-                <a href="/tags/风格/" target="_blank">
-                    <span class="chip bg-color">风格</span>
-                </a>
-                
-                <a href="/tags/知识体系/" target="_blank">
-                    <span class="chip bg-color">知识体系</span>
-                </a>
-                
+            <div class="row tag-cate">
+                <div class="col s7">
+                    
+                    <div class="article-tag">
+                        
+                            <a href="/tags/调整/" target="_blank">
+                                <span class="chip bg-color">调整</span>
+                            </a>
+                        
+                            <a href="/tags/初心/" target="_blank">
+                                <span class="chip bg-color">初心</span>
+                            </a>
+                        
+                            <a href="/tags/风格/" target="_blank">
+                                <span class="chip bg-color">风格</span>
+                            </a>
+                        
+                            <a href="/tags/知识体系/" target="_blank">
+                                <span class="chip bg-color">知识体系</span>
+                            </a>
+                        
+                    </div>
+                    
+                </div>
+                <div class="col s5 right-align">
+                    
+                    <div class="post-cate">
+                        <i class="fa fa-bookmark fa-fw icon-category"></i>
+                        
+                            <a href="/categories/胡宾-Robin/" class="post-category" target="_blank">
+                                胡宾 Robin
+                            </a>
+                        
+                    </div>
+                    
+                </div>
             </div>
-            
-            <div class="post-info">
-                
-                <span class="post-cate">
-                <!--<span class="post-cate" style="margin-right: 0px">-->
-                    <i class="fa fa-bookmark fa-fw icon-category"></i>
-                    
-                    <a href="/categories/胡宾-Robin/" class="post-category" target="_blank">
-                        胡宾 Robin
-                    </a>
-                    
-                </span>
-                
 
-                <span class="post-date">
-                    <i class="fa fa-clock-o fa-fw"></i>2018-04-06
-                </span>
+            <div class="post-info">
+                <div class="post-date info-break-policy">
+                    <i class="fa fa-calendar-minus-o fa-fw"></i>发布日期:&nbsp;&nbsp;
+                    2018-04-06
+                </div>
+
+                
+                    
+                    <div class="info-break-policy">
+                        <i class="fa fa-file-word-o fa-fw"></i>文章字数:&nbsp;&nbsp;
+                        864
+                    </div>
+                    
+
+                    
+                    <div class="info-break-policy">
+                        <i class="fa fa-clock-o fa-fw"></i>阅读时长:&nbsp;&nbsp;
+                        2 分
+                    </div>
+                    
+                
 				
 				
-                    <span id="busuanzi_container_page_pv" class="post-read">
-                    <i class="fa fa-eye fa-fw"></i>阅读 <span id="busuanzi_value_page_pv"></span>
+                    <div id="busuanzi_container_page_pv" class="info-break-policy">
+                        <i class="fa fa-eye fa-fw"></i>阅读次数:&nbsp;&nbsp;
+                        <span id="busuanzi_value_page_pv"></span>
+                    </div>
 				
-            </span></div>
+            </div>
         </div>
-        <hr>
+        <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
                 <blockquote>
 <p><em>Stop for a moment.</em></p>
 </blockquote>
-<p><img src="https://res.cloudinary.com/ikoala/image/upload/v1548661764/BlogPic_Cldi_KOLA/rest_cucumber_office_fun.jpg" alt="">    </p>
+<p><img src="https://res.cloudinary.com/ikoala/image/upload/v1548661764/BlogPic_Cldi_KOLA/rest_cucumber_office_fun.jpg" alt>    </p>
 <hr>
 <p>[TOC]</p>
 <h1 id="致歉"><a href="#致歉" class="headerlink" title="致歉"></a>致歉</h1><p>起笔伊始，首先是我打破了在公众号开篇文中的承诺（每月4篇文章），原因是：</p>
@@ -391,25 +395,25 @@ Stop for a moment.
 <li>我高估了自己的“产能”</li>
 <li>有些更重要的事情会占用更多的精力，比如2018年3月底要考一个商业分析师的证（从年前就开始准备），这中间还换了份工作，不过这些并不能抵消打破的承诺</li>
 </ol>
-<p>在此向读者道歉，这也使我意识到：需要调整节奏，从构思、写作、配图、排版，均需花不少的心思，那么一个月出产2-3篇文章是较为合适的，对于数量与质量无法兼顾时，我选择质量优先。<br><img src="https://res.cloudinary.com/ikoala/image/upload/v1548661764/BlogPic_Cldi_KOLA/sorry_cartoon_life.jpg" alt=""></p>
+<p>在此向读者道歉，这也使我意识到：需要调整节奏，从构思、写作、配图、排版，均需花不少的心思，那么一个月出产2-3篇文章是较为合适的，对于数量与质量无法兼顾时，我选择质量优先。<br><img src="https://res.cloudinary.com/ikoala/image/upload/v1548661764/BlogPic_Cldi_KOLA/sorry_cartoon_life.jpg" alt></p>
 <blockquote>
 <p>用一首曲子来弥补一下心灵的创伤：</p>
 </blockquote>
 <p><a href="http://music.163.com/#/m/song?id=29947420" target="_blank" rel="noopener">Fade</a></p>
-<h1 id="回到初心"><a href="#回到初心" class="headerlink" title="回到初心"></a>回到初心</h1><p>在公众号开篇写得比较概括，也趁着这篇具体化一些东西，我自己的背景是学通信工程的，毕业后一直做电信工程交付，后来跨界进入企业培训领域（算是创业），彼时正值而立之年，一方面有困惑、有迷茫、有焦虑，不清晰自己到底该往哪个方向发展（老话说的男要选对行）；另一方面接触到了通常来说在中大型企业中只有作到中高层时，才有可能接触到的培训课程，中间经历起起伏伏，促进了自己进行深度思考，也因此看到了不一样的风景。<br><img src="https://res.cloudinary.com/ikoala/image/upload/v1549008657/BlogPic_Cldi_KOLA/original-mind_meaning.jpg" alt=""></p>
+<h1 id="回到初心"><a href="#回到初心" class="headerlink" title="回到初心"></a>回到初心</h1><p>在公众号开篇写得比较概括，也趁着这篇具体化一些东西，我自己的背景是学通信工程的，毕业后一直做电信工程交付，后来跨界进入企业培训领域（算是创业），彼时正值而立之年，一方面有困惑、有迷茫、有焦虑，不清晰自己到底该往哪个方向发展（老话说的男要选对行）；另一方面接触到了通常来说在中大型企业中只有作到中高层时，才有可能接触到的培训课程，中间经历起起伏伏，促进了自己进行深度思考，也因此看到了不一样的风景。<br><img src="https://res.cloudinary.com/ikoala/image/upload/v1549008657/BlogPic_Cldi_KOLA/original-mind_meaning.jpg" alt></p>
 <h2 id="想回答的问题"><a href="#想回答的问题" class="headerlink" title="想回答的问题"></a>想回答的问题</h2><p>所以通过公众号的形式，我想把这几年寻找答案的过程分享出来，这些分享以回答下面几个问题为主线：    </p>
 <ol>
 <li>提到个人发展方向时（主要指职业方向），真正的问题是什么？</li>
 <li>在海量信息时代，如何长久的保持学习内驱力，既不被淹没，也不会懈怠？</li>
 <li>在达成目标过程中，如何选取适合自己的方式方法？</li>
 </ol>
-<h2 id="我有我风格"><a href="#我有我风格" class="headerlink" title="我有我风格"></a>我有我风格</h2><p>单纯将这些问题的回答写成干货文、套路文我觉得不太有意思，还是以话题、故事的形式，融入自己这些年学过、实践过的东西，偏重于职场成长类吧，大体上分为工作、学习、生活、兴趣四个类别进行连载分享，每篇既可独立成章，也与其他篇有一定程度关联；我能保证的是知识体系的来源是可靠的、权威的，而感悟是我自己的。<br><img src="https://res.cloudinary.com/ikoala/image/upload/v1548661765/BlogPic_Cldi_KOLA/story-wine_style_life.jpg" alt=""></p>
+<h2 id="我有我风格"><a href="#我有我风格" class="headerlink" title="我有我风格"></a>我有我风格</h2><p>单纯将这些问题的回答写成干货文、套路文我觉得不太有意思，还是以话题、故事的形式，融入自己这些年学过、实践过的东西，偏重于职场成长类吧，大体上分为工作、学习、生活、兴趣四个类别进行连载分享，每篇既可独立成章，也与其他篇有一定程度关联；我能保证的是知识体系的来源是可靠的、权威的，而感悟是我自己的。<br><img src="https://res.cloudinary.com/ikoala/image/upload/v1548661765/BlogPic_Cldi_KOLA/story-wine_style_life.jpg" alt></p>
 <h3 id="所用知识体系"><a href="#所用知识体系" class="headerlink" title="所用知识体系"></a>所用知识体系</h3><p>目前所用到的知识体系有（后续随着学习会扩充）：</p>
 <ul>
 <li>偏硬的：项目管理、商业分析（美国项目管理协会-PMI）、产品管理（美国产品开发管理协会-PDMA）、网络基本技术等；</li>
 <li>偏软的：世界级的领导力系统（简单有效、易上手）、教练技术（自我认知、探索）、生涯发展等。    </li>
 </ul>
-<p>希望通过分享的文字，展现跨界理工男自我探索、寻求发展方向的真实历程，其中哪怕仅有一个观点、一个方法对读者有启发，也是我莫大的鼓励；同时也希望能认识志同道合的盆友们，一同前行。<br><img src="https://res.cloudinary.com/ikoala/image/upload/v1548661764/BlogPic_Cldi_KOLA/together_pupils_edu.jpg" alt=""></p>
+<p>希望通过分享的文字，展现跨界理工男自我探索、寻求发展方向的真实历程，其中哪怕仅有一个观点、一个方法对读者有启发，也是我莫大的鼓励；同时也希望能认识志同道合的盆友们，一同前行。<br><img src="https://res.cloudinary.com/ikoala/image/upload/v1548661764/BlogPic_Cldi_KOLA/together_pupils_edu.jpg" alt></p>
 <p><strong>一个人或许走得快，一群人能走得远！</strong></p>
 <hr>
 <h1 id="ChangeLog"><a href="#ChangeLog" class="headerlink" title="ChangeLog"></a>ChangeLog</h1><ul>
@@ -418,7 +422,7 @@ Stop for a moment.
 </ul>
 
             </div>
-            <hr>
+            <hr/>
 
             
             <style>
@@ -518,7 +522,7 @@ Stop for a moment.
                         <img src="/medias/reward/wechat.png" class="reward-img" alt="微信打赏二维码">
                     </div>
                     <div id="alipay">
-                        <img src="/medias/reward/alipay.png" class="reward-img" alt="支付宝打赏二维码">
+                        <img src="/medias/reward/alipay.jpg" class="reward-img" alt="支付宝打赏二维码">
                     </div>
                 </div>
             </div>
@@ -551,7 +555,9 @@ Stop for a moment.
 
             <div class="reprint">
                 <p>
-                    <span class="reprint-tip">转载请注明: </span>
+                    <span class="reprint-tip">
+                        <i class="fa fa-exclamation-circle"></i>&nbsp;&nbsp;转载请注明:
+                    </span>
                     <a href="http://www.ikoala.app" class="b-link-green">iKoala</a>
                     <i class="fa fa-angle-right fa-lg fa-fw text-color"></i>
                     <a href="/2018/04/06/008-men-idv-prs-zhong-tu-xiao-qi-20180406/" class="b-link-green">008_Men_Idv_Prs_中途小憩</a>
@@ -601,7 +607,8 @@ Stop for a moment.
     <div class="row article-row">
         
         <div class="article col s12 m6" data-aos="fade-up">
-            <div class="article-badge left-badge text-color">上一篇</div>
+            <div class="article-badge left-badge text-color">
+                <i class="fa fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
                 <a href="/2018/04/15/009-men-idv-prs-zhi-ceng-jing-mi-mang-bu-an-de-zi-ji-20180415/">
                     <div class="card-image">
@@ -661,7 +668,9 @@ To the one who was once confused.
         
         
         <div class="article col s12 m6" data-aos="fade-up">
-            <div class="article-badge right-badge text-color">下一篇</div>
+            <div class="article-badge right-badge text-color">
+                下一篇&nbsp;<i class="fa fa-chevron-right"></i>
+            </div>
             <div class="card">
                 <a href="/2018/03/05/007-lrn-idv-prs-xue-xi-zhe-hui-shi-er-zhi-yi-da-bei-jing-20180305/">
                     <div class="card-image">
@@ -776,10 +785,8 @@ To talk about the learning I
     </div>
     <div class="col l3 hide-on-med-and-down">
         <div class="toc-widget">
-            <div class="toc-title">目录</div>
-            <div id="toc-content">
-
-            </div>
+            <div class="toc-title"><i class="fa fa-list-alt"></i>&nbsp;&nbsp;目录</div>
+            <div id="toc-content"></div>
         </div>
     </div>
 </div>
@@ -790,7 +797,9 @@ To talk about the learning I
         tocbot.init({
             tocSelector: '#toc-content',
             contentSelector: '#articleContent',
-            headingSelector: 'h1, h2, h3, h4'
+            headingsOffset: -($(window).height() * 0.4 - 45),
+            // headingsOffset: -205,
+            headingSelector: 'h2, h3, h4'
         });
 
         // modify the toc link href to support Chinese.
@@ -802,7 +811,7 @@ To talk about the learning I
 
         // modify the heading title id to support Chinese.
         i = 0;
-        $('#articleContent').children('h1, h2, h3, h4').each(function () {
+        $('#articleContent').children('h2, h3, h4').each(function () {
             $(this).attr('id', tocHeading + (++i));
         });
 
@@ -833,15 +842,26 @@ To talk about the learning I
             <a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank">hexo-theme-matery</a>主题搭建.
 
             
+                &nbsp;<i class="fa fa-area-chart"></i>&nbsp;站点总字数:&nbsp;
+                <span class="white-color">48.3k</span>
+            
+
+            
 			
                 <br>
+                
                 <span id="busuanzi_container_site_pv">
-                    本站总访问量 <span id="busuanzi_value_site_pv" style="color: #fff;"></span> 次,&nbsp;
+                    <i class="fa fa-heart-o"></i>
+                    本站总访问量 <span id="busuanzi_value_site_pv" class="white-color"></span>
                 </span>
-				<span id="busuanzi_container_site_uv">
-                    访客数 <span id="busuanzi_value_site_uv" style="color: #fff;"></span> 人.
+                
+                
+                <span id="busuanzi_container_site_uv">
+                    <i class="fa fa-users"></i>
+                    次,&nbsp;访客数 <span id="busuanzi_value_site_uv" class="white-color"></span> 人.
                 </span>
-			
+                
+            
         </div>
         <div class="col s12 m4 l4 social-link social-statis"><a href="mailto:robin.hoo2019@ikoala.app" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
     <i class="fa fa-envelope-open"></i>
@@ -864,8 +884,9 @@ To talk about the learning I
 <div id="searchModal" class="modal">
     <div class="modal-content">
         <div class="search-header">
-            <span class="title">搜索</span>
-            <input type="search" id="searchInput" name="s" placeholder="请输入搜索的关键字" class="search-input" autofocus>
+            <span class="title"><i class="fa fa-search"></i>&nbsp;&nbsp;搜索</span>
+            <input type="search" id="searchInput" name="s" placeholder="请输入搜索的关键字"
+                   class="search-input" autofocus="">
         </div>
         <div id="searchResult"></div>
     </div>
