@@ -277,7 +277,7 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
     
     <div class="row">
         <div class="col l8 offset-l2 m10 offset-m1 s10 offset-s1 center-align text">
-            Explore The World! To Be Yourself!
+            Explore the world To be yourself
         </div>
     </div>
 </div>
@@ -305,7 +305,7 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
 $(function () {
     new APlayer({
         container: document.getElementById('aplayer'),
-        fixed: 'true' === 'true',
+        fixed: 'false' === 'true',
         autoplay: 'false' === 'true',
         theme: '#42b983',
         loop: 'all',
@@ -314,7 +314,7 @@ $(function () {
         volume: Number('0.7'),
         listFolded: 'false' === 'true',
         listMaxHeight: '',
-        audio: JSON.parse('[{"name":"Exodus","artist":"中国国家交响乐团","url":"https://music.163.com/song?id=396811&userid=350578650","cover":"http://xxx.com/music-cover1.png"},{"name":"Take me hand","artist":"DAISHI DANCE,Cecile Corbel","url":"/medias/music/music2.mp3","cover":"/medias/music/cover2.png"},{"name":"Shape of You","artist":"J.Fla","url":"http://xxx.com/music3.mp3","cover":"http://xxx.com/music-cover3.png"}]')
+        audio: JSON.parse('[{"name":"Exodus","artist":"中国国家交响乐团","url":"http://music.163.com/song/media/outer/url?id=396811.mp3","cover":"http://xxx.com/music-cover1.png"},{"name":"Faded","artist":"Alan Walker","url":"https://music.163.com/song/media/outer/url?id=36990267.mp3","cover":"/medias/music/cover2.png"},{"name":"For The Love Of A Princess","artist":"James Horner","url":"https://music.163.com/song/media/outer/url?id=26828878.mp3","cover":"http://xxx.com/music-cover3.png"}]')
     });
 });
 </script>
@@ -331,7 +331,7 @@ $(function () {
     <div class="row">
         <div class="col l8 offset-l2 m10 offset-m1 s12">
             <div id="dplayer" class="dplayer-video"
-                    ></div>
+                     style="height: 200px;"></div>
         </div>
     </div>
 </div>
